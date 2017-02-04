@@ -27,6 +27,7 @@ s=stem(f,p,'LineWidth',line_width);
 set(s, 'Marker', 'none');
 grid on;
 grid minor;
+xlim([-50 50])
 ylim([0 100])
 set(gca,'fontsize',axis_font_size);
 title('DFT Spectra, f=20, N=100, Fs=1000, K=100','FontSize',title_font_size);
@@ -66,6 +67,7 @@ s=stem(f,p,'LineWidth',line_width);
 set(s, 'Marker', 'none');
 grid on;
 grid minor;
+xlim([-50 50])
 ylim([0 100])
 set(gca,'fontsize',axis_font_size);
 title('DFT Spectra, f=20, N=100, Fs=1000, K=1000','FontSize',title_font_size);
@@ -103,6 +105,7 @@ s=stem(f,p,'LineWidth',line_width);
 set(s, 'Marker', 'none');
 grid on;
 grid minor;
+xlim([-50 50])
 ylim([0 100])
 set(gca,'fontsize',axis_font_size);
 title('DFT Spectra, f=24, N=100, Fs=1000, K=100','FontSize',title_font_size);
@@ -118,6 +121,8 @@ if(exist('save','var'))
 end
 %% DTFT, f=24, N=100, Fs=1000, K=1000
 
+%length of dft
+K=2^16;
 % length of sequence
 N=100;
 % sampling frequence
@@ -129,29 +134,49 @@ x=0:1/Fs:(N-1)/Fs;
 % generate sine wave
 y=sin(2*pi*f*x);
 % zero pad the sequence
-y=[y zeros(1,900)];
+y=[y zeros(1,K-N)];
 % calculate power spectrum 
 p=abs(fftshift(fft(y)));
 % frequency resolution
-df=Fs/(N*10);
+df=Fs/K;
 % generate frequency vector
 f=-Fs/2:df:Fs/2-df;
 
 figure(4);
-s=stem(f,p,'LineWidth',line_width);
+s=plot(f,p,'LineWidth',line_width);
 set(s, 'Marker', 'none');
 grid on;
 grid minor;
+xlim([-50 50])
 ylim([0 100])
 set(gca,'fontsize',axis_font_size);
-title('DFT Spectra, f=24, N=100, Fs=1000, K=1000','FontSize',title_font_size);
+title('DFT Spectra, f=24, N=100, Fs=1000, K=2^{16}','FontSize',title_font_size);
 xlabel('Frequency (Hz)', 'FontSize', x_axis_font_size);
 ylabel('Magnitude', 'FontSize', y_axis_font_size);
+
+% to super impose circles to show the points that were sampled
+% frequency of sine wave
+f=24;
+% generate x-axis
+x2=0:1/Fs:(N-1)/Fs;
+% generate sine wave
+y2=sin(2*pi*f*x2);
+% calculate power spectrum 
+p=abs(fftshift(fft(y2)));
+% frequency resolution
+df=Fs/N;
+% generate frequency vector
+f=-Fs/2:df:Fs/2-df;
+
+hold on;
+plot(f,p,'o','LineWidth',2,'MarkerSize', 15);
+
+
 h=gcf;
 set(h,'PaperPositionMode','auto');         
 set(h,'PaperOrientation','landscape');
 set(h,'PaperUnits','centimeters');
 set(h,'Position',[50 50 1000 1000]);
 if(exist('save','var'))
-    print('/Users/pranavmalhotra/ASPMI/report/images/part1/dft_spectra_f_24_n_100_Fs_1000_k_1000','-depsc')
+    print('/Users/pranavmalhotra/ASPMI/report/images/part1/dft_spectra_f_24_n_100_Fs_1000_k_2_to_16','-depsc')
 end

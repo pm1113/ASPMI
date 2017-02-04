@@ -1,4 +1,4 @@
-\documentclass{report}
+\documentclass{article}
 \usepackage{geometry}
 \usepackage{graphicx}
 \graphicspath{{images/}}
@@ -10,8 +10,15 @@
 }
 \date{30th January 2017}
 
+\geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+ 
 \includeonly{tex/part1}
-
+ 
 \begin{document}
 
 \include{tex/title}
