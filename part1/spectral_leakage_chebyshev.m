@@ -24,7 +24,7 @@ for i=1:length(a2)
     x=periodogram_signal(N,f0,var,alpha,a1,a2(i),phi_1,phi_2);
 
     % window the signal
-    x=x.*blackman(N)';
+    x=x.*chebwin(N)';
 
     % length of fft
     K=2048;
@@ -32,7 +32,7 @@ for i=1:length(a2)
     fs=-1:2/K:1-1/K;
     
     subplot(2,2,i);
-    plot(fs,pow2db(xf.^2./K));
+    plot(fs,pow2db(xf.^2./(N*2*pi)),'LineWidth',line_width);
     grid on;
     grid minor;
     axis([0.2 0.6 -140 20])
@@ -55,15 +55,11 @@ subplot(2,2,4);
 title('a_2=0.1, \alpha=12','FontSize',title_font_size);
 xlabel('Normalised Frequency', 'FontSize', x_axis_font_size);
 ylabel('Power/Frequency', 'FontSize', y_axis_font_size);
+run('/Users/pranavmalhotra/ASPMI/utility_functions/scale_graph.m');
+grid on;
+grid minor;
+graph_saving('/Users/pranavmalhotra/ASPMI/report/images/part1/periodogram_leakage_chebwin_part_1');
 
-h=gcf;
-set(h,'PaperPositionMode','auto');         
-set(h,'PaperOrientation','landscape');
-set(h,'PaperUnits','centimeters');
-set(h,'Position',[50 50 1000 1000]);
-if(exist('save','var'))
-    print('/Users/pranavmalhotra/ASPMI/report/images/part1/periodogram_leakage_chebwin_part_1','-depsc');
-end
 %% Amplitude Threshold Chebyshev Window, Part 2
 
 N=256;
@@ -86,7 +82,7 @@ for i=1:length(a2)
     x=periodogram_signal(N,f0,var,alpha,a1,a2(i),phi_1,phi_2);
 
     % window the signal
-    x=x.*blackman(N)';
+    x=x.*chebwin(N)';
     
     % length of fft
     K=2048;
@@ -94,7 +90,7 @@ for i=1:length(a2)
     fs=-1:2/K:1-1/K;
     
     subplot(2,2,i);
-    plot(fs,pow2db(xf.^2./K));
+    plot(fs,pow2db(xf.^2./(N*2*pi)),'LineWidth',line_width);
     grid on;
     grid minor;
     axis([0.2 0.6 -140 20])
@@ -117,12 +113,7 @@ subplot(2,2,4);
 title('a_2=0.001, \alpha=12','FontSize',title_font_size);
 xlabel('Normalised Frequency', 'FontSize', x_axis_font_size);
 ylabel('Power/Frequency', 'FontSize', y_axis_font_size);
-
-h=gcf;
-set(h,'PaperPositionMode','auto');         
-set(h,'PaperOrientation','landscape');
-set(h,'PaperUnits','centimeters');
-set(h,'Position',[50 50 1000 1000]);
-if(exist('save','var'))
-    print('/Users/pranavmalhotra/ASPMI/report/images/part1/periodogram_leakage_chebwin_part_2','-depsc');
-end
+run('/Users/pranavmalhotra/ASPMI/utility_functions/scale_graph.m');
+grid on;
+grid minor;
+graph_saving('/Users/pranavmalhotra/ASPMI/report/images/part1/periodogram_leakage_chebwin_part_2');

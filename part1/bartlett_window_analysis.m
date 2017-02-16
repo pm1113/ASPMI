@@ -5,7 +5,7 @@ run('/Users/pranavmalhotra/ASPMI/utility_functions/pre_plotting_variables_checke
 
 %% Generating Barlett Window For N=128, linear scales
 
-N=128;
+N=256;
 K=2048;
 bw=bartlett(N);
 bwf=abs(fftshift(fft([bw' zeros(1,K-N)])));
@@ -18,25 +18,17 @@ fs=-1:2/K:1-1/K;
 y=ones(1,length(fs))./sqrt(2);
 
 figure(1)
-% hold on;
-plot(fs,bwf);
-% plot(fs,y);
-% hold off;
-grid on;
-grid minor;
+plot(fs,bwf,'LineWidth',line_width);
+hold on;
+plot(fs,y,'LineWidth',line_width);
+hold off;
 axis([-1/4 1/4 0 1])
 set(gca,'fontsize',axis_font_size);
-title('Magnitude Spectrum of Bartlett Window, N=128','FontSize',title_font_size);
+title('Bartlett Window, Linear, N=128','FontSize',title_font_size);
 xlabel('Normalised Frequency (x \pi rad/sample)', 'FontSize', x_axis_font_size);
 ylabel('Magnitude', 'FontSize', y_axis_font_size);
-h=gcf;
-set(h,'PaperPositionMode','auto');         
-set(h,'PaperOrientation','landscape');
-set(h,'PaperUnits','centimeters');
-set(h,'Position',[50 50 1000 1000]);
-% if(exist('save','var'))
-%     print('/Users/pranavmalhotra/ASPMI/report/images/part1/bartlett_window_N_128_linear','-depsc');
-% end
+run('/Users/pranavmalhotra/ASPMI/utility_functions/scale_graph.m');
+graph_saving('/Users/pranavmalhotra/ASPMI/report/images/part1/bartlett_window_N_128_linear');
 
 %% Generating Barlett Window For N=128, dB scales
 
@@ -53,25 +45,17 @@ fs=-1:2/K:1-1/K;
 y=ones(1,length(fs))./sqrt(2);
 
 figure(2)
-% hold on;
-plot(fs,mag2db(bwf));
-% plot(fs,mag2db(y));
-% hold off;
-grid on;
-grid minor;
+plot(fs,mag2db(bwf),'LineWidth',line_width);
+hold on;
+plot(fs,mag2db(y),'LineWidth',line_width);
+hold off;
 axis([-1/2 1/2 -100 10])
 set(gca,'fontsize',axis_font_size);
-title('Magnitude Spectrum of Bartlett Window, N=128','FontSize',title_font_size);
+title('Bartlett Window, Log, N=128','FontSize',title_font_size);
 xlabel('Normalised Frequency (x \pi rad/sample)', 'FontSize', x_axis_font_size);
 ylabel('Magnitude (dB)', 'FontSize', y_axis_font_size);
-h=gcf;
-set(h,'PaperPositionMode','auto');         
-set(h,'PaperOrientation','landscape');
-set(h,'PaperUnits','centimeters');
-set(h,'Position',[50 50 1000 1000]);
-% if(exist('save','var'))
-%     print('/Users/pranavmalhotra/ASPMI/report/images/part1/bartlett_window_N_128_dB','-depsc');
-% end
+run('/Users/pranavmalhotra/ASPMI/utility_functions/scale_graph.m');
+graph_saving('/Users/pranavmalhotra/ASPMI/report/images/part1/bartlett_window_N_128_dB');
 
 %% Generating Barlett Window For N=512, linear scales
 
@@ -88,25 +72,17 @@ fs=-1:2/K:1-1/K;
 y=ones(1,length(fs))./sqrt(2);
 
 figure(3)
-% hold on;
-plot(fs,bwf);
-% plot(fs,y);
-% hold off;
-grid on;
-grid minor;
+plot(fs,bwf,'LineWidth',line_width);
+hold on;
+plot(fs,y,'LineWidth',line_width);
+hold off;
 axis([-1/4 1/4 0 1])
 set(gca,'fontsize',axis_font_size);
-title('Magnitude Spectrum of Bartlett Window, N=512','FontSize',title_font_size);
+title('Bartlett Window, Linear, N=512','FontSize',title_font_size);
 xlabel('Normalised Frequency (x \pi rad/sample)', 'FontSize', x_axis_font_size);
 ylabel('Magnitude', 'FontSize', y_axis_font_size);
-h=gcf;
-set(h,'PaperPositionMode','auto');         
-set(h,'PaperOrientation','landscape');
-set(h,'PaperUnits','centimeters');
-set(h,'Position',[50 50 1000 1000]);
-% if(exist('save','var'))
-%     print('/Users/pranavmalhotra/ASPMI/report/images/part1/bartlett_window_N_512_linear','-depsc');
-% end
+run('/Users/pranavmalhotra/ASPMI/utility_functions/scale_graph.m');
+graph_saving('/Users/pranavmalhotra/ASPMI/report/images/part1/bartlett_window_N_512_linear');
 
 %% Generating Barlett Window For N=512, dB scales
 
@@ -123,25 +99,14 @@ fs=-1:2/K:1-1/K;
 y=ones(1,length(fs))./sqrt(2);
 
 figure(4)
-% hold on;
-plot(fs,mag2db(bwf));
-% plot(fs,mag2db(y));
-% hold off;
-grid on;
-grid minor;
+plot(fs,mag2db(bwf),'LineWidth',line_width);
+hold on;
+plot(fs,mag2db(y),'LineWidth',line_width);
+hold off;
 axis([-1/2 1/2 -100 10])
 set(gca,'fontsize',axis_font_size);
-title('Magnitude Spectrum of Bartlett Window, N=512','FontSize',title_font_size);
+title('Bartlett Window, Log, N=512','FontSize',title_font_size);
 xlabel('Normalised Frequency (x \pi rad/sample)', 'FontSize', x_axis_font_size);
 ylabel('Magnitude (dB)', 'FontSize', y_axis_font_size);
-h=gcf;
-set(h,'PaperPositionMode','auto');         
-set(h,'PaperOrientation','landscape');
-set(h,'PaperUnits','centimeters');
-set(h,'Position',[50 50 1000 1000]);
-% if(exist('save','var'))
-%     print('/Users/pranavmalhotra/ASPMI/report/images/part1/bartlett_window_N_512_dB','-depsc');
-% end
-
-
-
+run('/Users/pranavmalhotra/ASPMI/utility_functions/scale_graph.m');
+graph_saving('/Users/pranavmalhotra/ASPMI/report/images/part1/bartlett_window_N_512_dB');

@@ -14,49 +14,35 @@ x=acf_x(M,L);
 % get psd of x
 p=fftshift(fft(x));
 % frequency resolution
-df=1;
+df=2*pi/L;
 % generate frequency vector
-f=-L/2:df:L/2-df;
+f=-pi:df:pi-df;
 
 % real component of FFT
 figure(1);
 s=stem(f,real(p),'LineWidth',line_width);
 set(s, 'Marker', 'none');
-grid on;
-grid minor;
-ylim([-10 15])
+ylim([-10 15]);
+xlim([-pi pi]);
 set(gca,'fontsize',axis_font_size);
-title('Real Component of DTFT','FontSize',title_font_size);
-xlabel('Frequency (Hz)', 'FontSize', x_axis_font_size);
+title('Real Component of DFT','FontSize',title_font_size);
+xlabel('Frequency (rad/s)', 'FontSize', x_axis_font_size);
 ylabel('Magnitude', 'FontSize', y_axis_font_size);
-h=gcf;
-set(h,'PaperPositionMode','auto');         
-set(h,'PaperOrientation','landscape');
-set(h,'PaperUnits','centimeters');
-set(h,'Position',[50 50 1000 1000]);
-if(exist('save','var'))
-    print('/Users/pranavmalhotra/ASPMI/report/images/part1/dft_spectra_acf_x_real','-depsc')
-end
+run('/Users/pranavmalhotra/ASPMI/utility_functions/scale_graph.m');
+% graph_saving('/Users/pranavmalhotra/ASPMI/report/images/part1/dft_spectra_acf_x_real');
 
 %%
 % imaginary component of fft
 figure(2);
 s=stem(f,imag(p),'LineWidth',line_width);
+xlim([-pi pi]);
 set(s, 'Marker', 'none');
-grid on;
-grid minor;
 set(gca,'fontsize',axis_font_size);
-title('Imaginary Component of DTFT','FontSize',title_font_size);
-xlabel('Frequency (Hz)', 'FontSize', x_axis_font_size);
+title('Imaginary Component of DFT','FontSize',title_font_size);
+xlabel('Frequency (rad/s)', 'FontSize', x_axis_font_size);
 ylabel('Magnitude', 'FontSize', y_axis_font_size);
-h=gcf;
-set(h,'PaperPositionMode','auto');         
-set(h,'PaperOrientation','landscape');
-set(h,'PaperUnits','centimeters');
-set(h,'Position',[50 50 1000 1000]);
-if(exist('save','var'))
-    print('/Users/pranavmalhotra/ASPMI/report/images/part1/dft_spectra_acf_x_imag','-depsc')
-end
+run('/Users/pranavmalhotra/ASPMI/utility_functions/scale_graph.m')
+% graph_saving('/Users/pranavmalhotra/ASPMI/report/images/part1/dft_spectra_acf_x_imag');
 
 %% Imaginary Removed from PSD using real
 
@@ -69,87 +55,61 @@ z=acf_z(M,L);
 % get psd of x
 p=fftshift(fft(z));
 % frequency resolution
-df=1;
+df=2*pi/L;
 % generate frequency vector
-f=-L/2:df:L/2-df;
+f=-pi:df:pi-df;
 
 % real component of FFT
 figure(3);
 s=stem(f,real(p),'LineWidth',line_width);
 set(s, 'Marker', 'none');
-grid on;
-grid minor;
 ylim([-10 15])
+xlim([-pi pi]);
 set(gca,'fontsize',axis_font_size);
-title('Real Component of DTFT','FontSize',title_font_size);
-xlabel('Frequency (Hz)', 'FontSize', x_axis_font_size);
+title('Real Component of DFT','FontSize',title_font_size);
+xlabel('Frequency (rad/s)', 'FontSize', x_axis_font_size);
 ylabel('Magnitude', 'FontSize', y_axis_font_size);
-h=gcf;
-set(h,'PaperPositionMode','auto');         
-set(h,'PaperOrientation','landscape');
-set(h,'PaperUnits','centimeters');
-set(h,'Position',[50 50 1000 1000]);
-if(exist('save','var'))
-    print('/Users/pranavmalhotra/ASPMI/report/images/part1/dft_spectra_acf_z_real','-depsc')
-end
+run('/Users/pranavmalhotra/ASPMI/utility_functions/scale_graph.m')
+% graph_saving('/Users/pranavmalhotra/ASPMI/report/images/part1/dft_spectra_acf_z_real');
 
 %%
 % imaginary component of fft
 figure(4);
 s=stem(f,imag(p),'LineWidth',line_width);
 set(s, 'Marker', 'none');
-grid on;
-grid minor;
 ylim([-10 15])
+xlim([-pi pi]);
 set(gca,'fontsize',axis_font_size);
-title('Imaginary Component of DTFT','FontSize',title_font_size);
-xlabel('Frequency (Hz)', 'FontSize', x_axis_font_size);
+title('Imaginary Component of DFT','FontSize',title_font_size);
+xlabel('Frequency (rad/s)', 'FontSize', x_axis_font_size);
 ylabel('Magnitude', 'FontSize', y_axis_font_size);
-h=gcf;
-set(h,'PaperPositionMode','auto');         
-set(h,'PaperOrientation','landscape');
-set(h,'PaperUnits','centimeters');
-set(h,'Position',[50 50 1000 1000]);
-if(exist('save','var'))
-    print('/Users/pranavmalhotra/ASPMI/report/images/part1/dft_spectra_acf_z_imag','-depsc')
-end
+run('/Users/pranavmalhotra/ASPMI/utility_functions/scale_graph.m')
+% graph_saving('/Users/pranavmalhotra/ASPMI/report/images/part1/dft_spectra_acf_z_imag');
+
 %%
 % Asymmetrical ACF, Imaginary Component Excluded from psd
 figure(5);
 s=stem(f,abs(real(p)),'LineWidth',line_width);
 set(s, 'Marker', 'none');
-grid on;
-grid minor;
 ylim([0 15])
+xlim([-pi pi]);
 set(gca,'fontsize',axis_font_size);
-title('PSD with Imaginary Component Excluded','FontSize',title_font_size);
-xlabel('Frequency (Hz)', 'FontSize', x_axis_font_size);
+title('PSD without Imaginary Component','FontSize',title_font_size);
+xlabel('Frequency (rad/s)', 'FontSize', x_axis_font_size);
 ylabel('Magnitude', 'FontSize', y_axis_font_size);
-h=gcf;
-set(h,'PaperPositionMode','auto');         
-set(h,'PaperOrientation','landscape');
-set(h,'PaperUnits','centimeters');
-set(h,'Position',[50 50 1000 1000]);
-if(exist('save','var'))
-    print('/Users/pranavmalhotra/ASPMI/report/images/part1/acf_z_psd_without_imag','-depsc')
-end
+run('/Users/pranavmalhotra/ASPMI/utility_functions/scale_graph.m')
+% graph_saving('/Users/pranavmalhotra/ASPMI/report/images/part1/acf_z_psd_without_imag');
+
 %%
 % Asymmetrical ACF, Imaginary Component Included from psd
 figure(6);
 s=stem(f,abs(p),'LineWidth',line_width);
 set(s, 'Marker', 'none');
-grid on;
-grid minor;
 ylim([0 15])
+xlim([-pi pi]);
 set(gca,'fontsize',axis_font_size);
-title(' PSD with Imaginary Component Included','FontSize',title_font_size);
-xlabel('Frequency (Hz)', 'FontSize', x_axis_font_size);
+title(' PSD with Imaginary Component','FontSize',title_font_size);
+xlabel('Frequency (rad/s)', 'FontSize', x_axis_font_size);
 ylabel('Magnitude', 'FontSize', y_axis_font_size);
-h=gcf;
-set(h,'PaperPositionMode','auto');         
-set(h,'PaperOrientation','landscape');
-set(h,'PaperUnits','centimeters');
-set(h,'Position',[50 50 1000 1000]);
-if(exist('save','var'))
-    print('/Users/pranavmalhotra/ASPMI/report/images/part1/acf_z_psd_with_imag','-depsc')
-end
+run('/Users/pranavmalhotra/ASPMI/utility_functions/scale_graph.m')
+graph_saving('/Users/pranavmalhotra/ASPMI/report/images/part1/acf_z_psd_with_imag');

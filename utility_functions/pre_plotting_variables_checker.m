@@ -1,8 +1,8 @@
 if(~exist('line_width','var'))
-    line_width=1;
+    line_width=2;
 end
 if(~exist('title_font_size','var'))
-    title_font_size=30;
+    title_font_size=45;
 end
 if(~exist('axis_font_size','var'))
     axis_font_size=20;
@@ -12,4 +12,7 @@ if(~exist('x_axis_font_size','var'))
 end
 if(~exist('y_axis_font_size','var'))
     y_axis_font_size=25;
+end
+if(~exist('marker_size','var'))
+    marker_size=15;
 end
