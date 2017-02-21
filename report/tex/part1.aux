@@ -2,11 +2,12 @@
 \@writefile{toc}{\contentsline {section}{\numberline {1}Spectrum Estimation}{2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Discrete Fourier Transform Basics}{2}}
 \newlabel{sec:dft_basics}{{1.1}{2}}
-\newlabel{fig:ideal_and_theoretical_spectra_f_20}{{1.1}{2}}
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Ideal magnitude spectrum and Theoretical Continuous DTFT of 20 Hz sine wave}}{2}}
-\newlabel{fig:dft_spectra_f_20}{{1.1}{2}}
+\newlabel{fig:ideal_and_theoretical_spectra_f_20}{{1}{2}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces 100 and 100 Point DFT Spectra of 20 Hz Sine Wave}}{2}}
+\newlabel{fig:dft_spectra_f_20}{{2}{2}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces DFT Spectra Illustrating the Effects of Incoherent Sampling}}{3}}
+\newlabel{fig:incoherent_sampling}{{3}{3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Properties of Power Spectral Density (PSD)}{3}}
 \newlabel{eq:psd_expectation}{{1}{3}}
 \newlabel{eq:psd_dtft_acf}{{2}{3}}
@@ -14,25 +15,29 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Comparing the magnitudes of the Real and Imaginary Components of $P(\omega _k)$}}{4}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Magnitudes of the Real and Imaginary Components are of the Same Order of Magnitude}}{4}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Erroneous Spectral Values because Imaginary and Real Components are Same Order of Magnitude}}{5}}
+\newlabel{fig:correct_psd_using_abs}{{7}{5}}
 \@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Formule for vectors $\textbf  {w}$ and $\textbf  {n}$}}{5}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Resolution and Leakage of Periodogram-based Methods}{5}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Bartlett Window with Linear and Log Scales for $N=128$ and $N=512$}}{5}}
 \newlabel{fig:bartlett_window_log_linear}{{8}{5}}
 \citation{hayes2009statistical}
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Empirical Relationship between Normalized 3 dB width of Mainlobe for Bartlett Window and the Length of the Window}}{6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Empirical Relationship between Sidelobe Peak for Bartlett Window and the Length of the Window}}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Empirical Relationship between 3 dB width of Mainlobe for Bartlett Window and Window Length}}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Empirical Relationship between Sidelobe Peak for Bartlett Window and Window Length}}{6}}
 \newlabel{eq:periodogram_res_general_form}{{3}{6}}
 \@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Periodogram of Signal $x(n)$ for Different Values of $\alpha $}}{6}}
 \@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Periodogram of Signal $x(n)$, Windowed using a Hamming Window, for Different Values of $\alpha $}}{7}}
 \@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Identification of Sinusoids using Rectangular Window}}{7}}
+\newlabel{fig:bartlett_leakage}{{13}{7}}
 \@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Power Spectral Density of the Bartlett Window at $f=\frac  {4}{N}$ and $f=\frac  {12}{N}$}}{7}}
 \@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Identification of Sinusoids using Chebyshev Window}}{8}}
 \@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Blackman-Tukey Method for Identification of Two Sinusoidal Tones}}{8}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.4}Periodogram-based Methods Applied to Real-World Data}{8}}
 \@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Standard Periodogram, with and without Preprocessing, for Sunspot Time Series}}{9}}
-\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Standard Periodogram and Welch Periodogram with Hamming Window for EEG samples Obtained from POz Location on the Scalp}}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Standard Periodogram and Bartlett Periodogram with Hamming Window for EEG samples Obtained from POz Location on the Scalp}}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Bartlett Periodogram with Hamming Window averaged over 1 s intervals}}{10}}
+\newlabel{fig:bartlett_1_sec}{{19}{10}}
 \@setckpt{tex/part1}{
-\setcounter{page}{10}
+\setcounter{page}{11}
 \setcounter{equation}{3}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
@@ -46,7 +51,7 @@
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{18}
+\setcounter{figure}{19}
 \setcounter{table}{1}
 \setcounter{float@type}{4}
 \setcounter{parentequation}{0}
