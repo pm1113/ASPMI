@@ -4,12 +4,13 @@ The top-level auxiliary file: aspmi.aux
 A level-1 auxiliary file: tex/title.aux
 A level-1 auxiliary file: tex/contentspage.aux
 A level-1 auxiliary file: tex/part1.aux
+A level-1 auxiliary file: tex/part2.aux
 A level-1 auxiliary file: tex/bibliography.aux
 The style file: unsrt.bst
 Database file #1: asp_bib.bib
 You've used 1 entry,
             1791 wiz_defined-function locations,
-            454 strings with 3688 characters,
+            455 strings with 3701 characters,
 and the built_in function-call counts, 166 in all, are:
 = -- 12
 > -- 4
