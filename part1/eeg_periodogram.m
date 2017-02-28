@@ -66,7 +66,7 @@ run('../utility_functions/scale_graph.m');
 % graph_saving('../report/images/part1/POz_welch_periodogram');
 
 
-%% Welch Periodogram only 1 second
+%% Bartlett Periodogram only 1 second
 
 load('../data/EEG_Data/EEG_Data/EEG_Data_Assignment1.mat');
 
