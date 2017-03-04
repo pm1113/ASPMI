@@ -51,5 +51,5 @@ plot(x_axis, pow2db(mean(error_mu_1.^2,2)),'LineWidth',line_width);
 hold on;
 plot(x_axis, pow2db(mean(error_mu_5.^2,2)),'LineWidth',line_width);
 hold off;
-pranav_plot('Squared Prediction Error, 100 Trial', 'n', 'Squared Prediction Error (dB)', {'Mean of 100 Realisations, \mu=0.01','Mean of 100 Realisations, \mu=0.05'}, [0 1000 -10 0], 1);
+pranav_plot('Squared Prediction Error, 100 Trials', 'n', 'Squared Prediction Error (dB)', {'Mean of 100 Realisations, \mu=0.01','Mean of 100 Realisations, \mu=0.05'}, [0 1000 -10 0], 1);
 % graph_saving('../report/images/part3/ar_lms_mu_100_realisation');

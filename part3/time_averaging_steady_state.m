@@ -39,7 +39,7 @@ error_mu_1_mean=mean(error_mu_1.^2,2);
 error_mu_5_mean=mean(error_mu_5.^2,2);
 
 % index to calculate steady state from
-start=300;
+start=700;
 
 % generate x-axis for plotting
 x_axis=start:N;
