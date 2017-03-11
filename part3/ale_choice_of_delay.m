@@ -63,5 +63,5 @@ plot(delays,mpse_mean(:,:,2),'-o','LineWidth',line_width);
 plot(delays,mpse_mean(:,:,3),'-o','LineWidth',line_width);
 plot(delays,mpse_mean(:,:,4),'-o','LineWidth',line_width);
 hold off;
-pranav_plot('Effect of \Delta on MPSE','n','MPSE', {'M=5','M=10','M=15','M=20'}, [1 25 0.2 0.8], 1);
+pranav_plot('Effect of \Delta on MPSE','\Delta','MPSE', {'M=5','M=10','M=15','M=20'}, [1 25 0.2 0.8], 1);
 % graph_saving('../report/images/part3/delay_vs_mpse');

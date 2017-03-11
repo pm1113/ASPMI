@@ -194,9 +194,25 @@ $\gamma$ & $a_1$     & $a_2$     \\ \hline
 
 \subsection{Adaptive Step Sizes}
 
-\noindent{}a. Using the LMS algorithm, we have shown the effect that $\mu$ has on the convergence time as well as the misadjustment. Depending on the application, we can vary $\mu$ to satisfy constraints on convergence time or overshoot or steady-state error. The non-varying nature of $\mu$ makes the LMS algorithm computationally cheap. However, the flexibility the choice of $\mu$ has certain shortcomings, a major one being that certain choices if $\mu$ can cause the algorithm to diverge instead of converging. \\
+\noindent{}a. Using the LMS algorithm, we have shown the effect that $\mu$ has on the convergence time as well as the misadjustment. Depending on the application, we can select a $\mu$ to satisfy constraints on convergence time or overshoot or steady-state error. The non-varying nature of $\mu$ makes the LMS algorithm computationally cheap. However, keeping a constant $\mu$ has certain shortcomings. A major shortcoming is that certain choices $\mu$ can cause the algorithm to diverge instead of converging to a solution. \\
 
-\noindent{}The Gradient Adaptive Step Size (GASS) algorithms allow $\mu$ to be time-varying. The algorithms are generally implemented such that the steady-state learning rates approach 0, thereby ensuring stability and convergence. 
+\noindent{}The Gradient Adaptive Step Size (GASS) algorithms allow $\mu$ to be time-varying. The algorithms are generally implemented such that the steady-state learning rates approach 0, thereby ensuring stability and convergence. The adaptive nature of the step sizes gives us the flexibilty to vary $\mu$ according to the error that is incurred. The three GASS algorithms specified in the coursework all modify the step size according to the following equation:
+
+\begin{align*}
+\mu(n+1)=\mu(n) + \rho e(n) \textbf{x}^T(n)\bm{\psi}(n)
+\end{align*}
+
+\noindent{}In all algorithms the value of $\rho$ is a constant while $\phi$ is time-varying. The value of $\phi$ is altered using the following equations:
+
+\begin{align*}
+\text{Benveniste}&: \bm{\psi}(n)=[\textbf{I}-\mu(n-1)\textbf{x}(n-1)\textbf{x}^T(n-1)]\bm{\psi}(n-1) + e(n-1)\bm{x}(n-1) \\
+\text{Ang \& Farhang}&: \bm{\psi}(n)=\alpha\bm{\psi}(n-1) + e(n-1)\bm{x}(n-1), \ \ \ \ \ 0 < \alpha < 1 \\
+\text{Matthew \& Xie}&: \bm{\psi}(n)=e(n-1)\bm{x}(n-1)
+\end{align*}
+
+\noindent{}Notice that in the Benveniste algorithm, the update equation for $\bm{\psi}$ is an adaptive low-pass filter with the instantaneous gradient $e(n-1)x(n-1)$ as the input. This algorithm has the ability to deal with noise in the gradient estimate. The Ang \& Farhang algorithm modifies the Benveniste algorithm by turning the update equation for $\bm{\psi}$ from an adaptive to a non-adaptive low-pass filter. The algorithm trades computational complexity for slightly worse convergence properties. The Matthew \& Xie algorithm goes a step further and removes the low-pass filtering that the other two algorithms perform on the instantaneous gradient. This makes the algorithm even faster, however once again convergence properties are sacrificed for speed.\\
+
+\noindent{}The graphs below show the weight error curves for just 1 trial of the algorithms. It is clear that all of the GASS algorithms perform significantly better than the LMS algorithms with a constant step-size.
 
 \begin{figure}[H]
 \centering{}
@@ -204,6 +220,8 @@ $\gamma$ & $a_1$     & $a_2$     \\ \hline
 \includegraphics[width=0.32\textwidth]{part3/convergence_of_weights_db}
 \caption{Comparison of Convergence Time using Adaptive Step Sizes and Standard LMS Algorithms}
 \end{figure}
+
+\noindent{}The averaged results of a 100 trials are graphed below. The first thing to notice is that the LMS alogrithms with a fixed step-size do not converge to the correct weights. The results obtained for the GASS algorithms are exactly as expected. The Benveniste algorithm, which is computationally the most expensive, is able to converge the fastest. The next to follow is the Ang \& Farhang algorithm. Notice that although the Mattew \& Xie algorithm performs the worst amongst the GASS algorithms, it is still significantly better than the LMS algorithms without adaptive step-sizes. Notice also that all GASS algorithms do not have an offset.
 
 
 \begin{figure}[H]
@@ -214,12 +232,132 @@ $\gamma$ & $a_1$     & $a_2$     \\ \hline
 \end{figure}
 
 
+\noindent{}b. The normalised LMS (NLMS) algorithm has the following update equation:
+
+\begin{align}
+\textbf{w}(n+1) = \textbf{w}(n) + \frac{\beta}{\epsilon + ||\textbf{x}||^2} e(n)\textbf{x}(n)\label{eq:nlms_algo}
+\end{align}
+
+\noindent{}To show that the update equation in (\ref{eq:nlms_update}) based upon the \textit{a posteriori} error $e_p(n)=d(n)-\textbf{x}^T(n)\textbf{w}(n+1)$ is equivalent to the NLMS algorithm, we first multiply both sides by $\textbf{x}^T(n)$. 
+
+\begin{align}
+\textbf{w}(n+1) &= \textbf{w}(n) + \mu e_p(n)\textbf{x}(n) \label{eq:nlms_update}\\
+\textbf{x}^T(n)\textbf{w}(n+1) &= \textbf{x}^T\textbf{w}(n) + \textbf{x}^T \mu e_p(n) \textbf{x}(n) \nonumber
+\end{align}
+
+\noindent{}Next, we add $\textbf{d}(n)$ to both sides and rearrange:
+
+\begin{align}
+\textbf{d}(n)+\textbf{x}^T(n)\textbf{w}(n+1) &= \textbf{d}(n)+\textbf{x}^T\textbf{w}(n) + \textbf{x}^T \mu e_p(n) \textbf{x}(n) \nonumber\\
+\textbf{d}(n)-\textbf{x}^T\textbf{w}(n) &= \textbf{d}(n)-\textbf{x}^T(n)\textbf{w}(n+1) + \textbf{x}^T \mu e_p(n) \textbf{x}(n)\label{eq:nlms_mid_proof}
+\end{align}
+
+\noindent{}Next we substitute the \textit{a posteriori} error into (\ref{eq:nlms_mid_proof}):
+
+\begin{align}
+e(n) &= e_p(n) + \textbf{x}^T(n) \mu e_p(n) x(n) \nonumber\\
+e(n) &= e_p(n) \bigg(1+\mu ||\textbf{x}||^2\bigg) \nonumber\\
+e_p(n) &= \frac{e(n)}{1+\mu||\textbf{x}||^2} \label{eq:a_posteriori_error}
+\end{align}
+
+\noindent{}We can now substitute (\ref{eq:a_posteriori_error}) into the original update equation (\ref{eq:nlms_update}) and obtain the NLMS algorithm defined in (\ref{eq:nlms_algo}):
+
+\begin{align}
+\textbf{w}(n+1) &= \textbf{w}(n) + \mu \frac{e(n)}{1+\mu ||\textbf{\textbf{x}}||^2}\textbf{x}(n) \nonumber\\
+&= \textbf{w}(n) + \frac{1}{\frac{1}{\mu}+ ||\textbf{\textbf{x}}||^2}e(n)\textbf{x}(n) 
+\end{align}
+
+\noindent{}Thereby proving that the update equation in (\ref{eq:nlms_update}) based the \textit{a posteriori} error with $\epsilon=\frac{1}{\mu}$ and $\beta=1$ is equivalent to the NLMS algorithm defined in (\ref{eq:nlms_algo}). Since $\epsilon$ is inversely proportional to the step size $\mu$, the algorithm does not become unstable even if $||x||^2$ is extremely small.
+
 \begin{figure}[H]
 \centering{}
 \includegraphics[width=0.32\textwidth]{part3/compare_benveniste_gngd}
 \caption{Comparing Convergence Speed of GNGD and Benveniste's GASS Algorithms}
 \end{figure}
 
+\noindent{}c. From the figure above, it is clear that the Generalized Normalized Gradient Descent (GNGD) algorithm converges much faster than the Benveniste algorithm. Both algorithms are similar in the fact that they modify the learning rate in an adaptive manner. The difference lies in the fact that the GNGD algorithm modifies the learning rate in a non-linear manner. The non-linear updates provide compensation for the assumptions made in the derivation of the NLMS. The non-linear updates make the algorithm more robust and the increased stability make it effective at processing non-linear and non-stationary signals (REFERENCE MANDIC PAPER).\\
+
+\noindent{}In terms of the computational complexity of both algorithms, the GNGD algorithm also beats the Benveniste algorithm. The number of additions and multiplications for the Benveniste algorithm are presented in the Table \ref{tab:ben}. The variable $M$ represents the model order. It is clear that the algorithm scales quadratically with the model order. The computational complexity of the algorithm can be attributed to the outter product $\textbf{x}(n-1)\textbf{x}^T(n-1)$ that has to performed to update the value of $\bm{\psi}(n)$. 
+
+\begin{table}[H]
+\tabulinesep=0.9mm
+\centering
+\begin{tabu}{|c|c|c|c|}
+\hline
+Step                   			& Sub-Step & Multiplications & Additions \\ \hline
+\multirow{6}{*}{$\bm{\psi}(n)$} 	& $\textbf{x}(n-1)\textbf{x}^T(n-1)$ 													&$M^2$         		&0\\ \cline{2-4} 
+                       			& $\mu(n-1)\textbf{x}(n-1)\textbf{x}^T(n-1)$       										&$M^2$       		&0\\ \cline{2-4} 
+                       			& $I-\mu(n-1)\textbf{x}(n-1)\textbf{x}^T(n-1)$    										&0        			&$M$\\ \cline{2-4} 
+                       			& $[I-\mu(n-1)\textbf{x}(n-1)\textbf{x}^T(n-1)]\bm{\psi}(n-1)$       						&$M^2$ 				&$M^2-M$	\\ \cline{2-4} 
+                       			& $e(n-1)\textbf{x}(n-1)$       															&$M$        		&0\\ \cline{2-4} 
+                       			& $[I-\mu(n-1)\textbf{x}(n-1)\textbf{x}^T(n-1)]\bm{\psi}(n-1) + e(n-1)\textbf{x}(n-1)$  	&0          			&$M$\\ \hline 
+\multirow{4}{*}{$\mu(n+1)$} 		& $\textbf{x}^T(n)\bm{\psi}(n)$ 															&$M$         		&$M-1$\\ \cline{2-4}
+								& $\rho e(n)$       																		&0        			&$1$\\ \cline{2-4} 
+                       			& $\rho e(n) \textbf{x}^T(n)\bm{\psi}(n)$    											&$0$        			&$1$\\ \cline{2-4} 
+                       			& $\mu(n)+\rho e(n) \textbf{x}^T(n)\bm{\psi}(n)$       									&$0$ 				&$1$	\\ \hline
+\multirow{3}{*}{$\textbf{w}(n+1)$}& $\mu(n)e(n)$ 																			&$0$         		&$1$\\ \cline{2-4}
+								& $\mu e(n)\textbf{x}(n)$       															&$M$        			&$0$\\ \cline{2-4} 
+                       			& $\textbf{w}(n) + \mu e(n)\textbf{x}(n)$    											&$0$        			&$M$\\ \hline
+\multicolumn{1}{l}{}                         & \multicolumn{1}{l}{}          & \multicolumn{1}{l}{}                 & \multicolumn{1}{l}{}           \\ \hline
+\multicolumn{2}{|c|}{Total}    	&\multicolumn{1}{c|}{$\mathcal{O}(M^2)$} & \multicolumn{1}{c|}{$\mathcal{O}(M^2)$} \\ \hline  
+\end{tabu}
+\caption{Computational Complexity of the Benveniste Algorithm}
+\label{tab:ben}
+\end{table}
+
+\noindent{}Table \ref{tab:gngd} shows the computational complexity of the GNGD algorithm. It is clear that the algorithm only scales linearly with the model order. 
+
+\begin{table}[H]
+\tabulinesep=0.9mm
+\centering
+\begin{tabu}{|c|c|c|c|}
+\hline
+Step                   			& Sub-Step & Multiplications & Additions \\ \hline
+\multirow{7}{*}{$\epsilon(n+1)$}	& $\textbf{x}^T(n)\textbf{x}(n-1)$ 																			&$M$         		&$M-1$\\ \cline{2-4} 
+                       			& $e(n)e(n-1)$       																						&$1$       			&0\\ \cline{2-4} 
+                       			& $e(n)e(n-1)\textbf{x}^T(n)\textbf{x}(n-1)$    																&$1$        			&$0$\\ \cline{2-4} 
+                       			& $||\textbf{x}(n-1)||^2$       																				&$M$ 				&$M-1$	\\ \cline{2-4} 
+                       			& $(\epsilon(n-1)+||\textbf{x}(n-1)||^2)^2$       															&$1$        			&1\\ \cline{2-4} 
+                       			& $\rho\mu\frac{e(n)e(n-1)\textbf{x}^T(n)\textbf{x}(n-1)}{(\epsilon(n-1)+||\textbf{x}(n-1)||^2)^2}$  			&$3$          		&$0$\\  \cline{2-4}                      			
+                       			& $\epsilon(n)+\rho\mu\frac{e(n)e(n-1)\textbf{x}^T(n)\textbf{x}(n-1)}{(\epsilon(n-1)+||\textbf{x}(n-1)||^2)^2}$	&$0$        			&1\\ \hline 
+\multirow{5}{*}{$\textbf{w}(n+1)$}& $||\textbf{x}(n)||^2$ 																					&$M$         		&$M-1$\\ \cline{2-4} 
+                       			& $\frac{\beta}{\epsilon(n) + ||\textbf{x}(n)||^2}$       													&$1$       			&1\\ \cline{2-4} 
+                       			& $\frac{\beta}{\epsilon(n) + ||\textbf{x}(n)||^2}e(n)$    													&$1$        			&$0$\\ \cline{2-4} 
+                       			& $\frac{\beta}{\epsilon(n) + ||\textbf{x}(n)||^2}e(n)\textbf{x}(n)$       									&$M$ 				&$M-1$	\\ \cline{2-4} 
+                       			& $\textbf{w}(n)+\frac{\beta}{\epsilon(n) + ||\textbf{x}(n)||^2}e(n)\textbf{x}(n)$       						&$0$        			&$M$\\ \hline
+\multicolumn{1}{l}{}                         & \multicolumn{1}{l}{}          & \multicolumn{1}{l}{}                 & \multicolumn{1}{l}{}           \\ \hline
+\multicolumn{2}{|c|}{Total}    	&\multicolumn{1}{c|}{$\mathcal{O}(M)$} & \multicolumn{1}{c|}{$\mathcal{O}(M)$} \\ \hline 
+\end{tabu}
+\caption{Computational Complexity of the GNGD Algorithm}
+\label{tab:gngd}
+\end{table}
+
+
+\subsection{Adaptive Noise Cancellation}
+
+\noindent{}a. By choosing an appropriate value of $\Delta$, the Adaptive Line Enhancement scheme can be set up such that the noise, $\eta(n)$, in the signal, $s(n)$, and the predicted input, $u(n)$ are uncorrelated. If the noise $\eta(n)$ and the predicted input $u(n)$ are uncorrelated, the noise can be suppressed and a clean signal can be obtained. To find an optimal value of $\Delta$, we start with the mean-squared error:
+
+\begin{align*}
+\mathbb{E}\bigg\{\bigg(s(n)-\hat{x}(n)\bigg)^2\bigg\} &= \mathbb{E}\bigg\{\bigg(x(n)+\eta(n)-\hat{x}(n)\bigg)^2\bigg\} \\
+&=\mathbb{E}\{\eta^2(n)\} + \mathbb{E}\bigg\{\bigg(x(n)-\hat{x}(n)\bigg)^2\bigg\} + 2\mathbb{E}\bigg\{\eta(n)\bigg(x(n)-\hat{x}(n)\bigg)\bigg\}
+\end{align*}
+
+\noindent{}Expanding the mean-sqaured error shows that there are three terms that are contributing to the error. Ideally, we would like the mean-squared error to be exactly equal to the noise-power, however by changing the value of $\delta$, it is only possible to manipulate $2\mathbb{E}\bigg\{\eta(n)\bigg(x(n)-\hat{x}(n)\bigg)\bigg\}$. As such, $\delta$ should be chosen so as to minimise $2\mathbb{E}\bigg\{\eta(n)\bigg(x(n)-\hat{x}(n)\bigg)\bigg\}$. It is important to note that since $x(n)$ and $\eta(n)$ are uncorrelated, the minimization problem reduces to minimizing $\mathbb{E}\{\eta(n)\hat{x}(n)\}$. Since $\eta(n)=v(n) + 0.5v(n-2)$ we get:
+
+\begin{align*}
+\mathbb{E}\{\eta(n)\hat{x}(n)\} &= \mathbb{E}\bigg\{\bigg( v(n) + 0.5v(n-2)\bigg) \textbf{w}^T \textbf{u}(n)\bigg\} \\
+&= \mathbb{E}\bigg\{\bigg( v(n) + 0.5v(n-2)\bigg) \bigg(\sum_{i=0}^{M}w_{i}s(n-\Delta-i)\bigg)\bigg\} \\
+&= \mathbb{E}\bigg\{\bigg( v(n) + 0.5v(n-2)\bigg) \bigg(\sum_{i=0}^{M}w_{i}\big(x(n-\Delta-i)+\eta(n-\Delta-i)\big)\bigg)\bigg\} 
+\end{align*}
+
+\noindent{}Again using the fact that $x(n)$ and $v(n)$ are uncorrelated:
+
+\begin{align*}
+\mathbb{E}\{\eta(n)\hat{x}(n)\} &= \mathbb{E}\bigg\{\bigg( v(n) + 0.5v(n-2)\bigg) \bigg(\sum_{i=0}^{M}w_{i}\eta(n-\Delta-i)\bigg)\bigg\} \\
+&= \mathbb{E}\bigg\{\bigg( v(n) + 0.5v(n-2)\bigg) \bigg(\sum_{i=0}^{M}w_{i}\big(v(n-\Delta-i)+0.5v(n-\Delta-i-2)\big)\bigg)\bigg\}
+\end{align*}
+
+\noindent{}Thus, it is clear that for a value of $\Delta$ greater than 2, the expectation would reduce to adding the expectations of white noise samples at different time indexes, which are uncorrelated. This is also clear by observing the results presented in Figure \ref{fig:ale}. Note that the top row of the figure shows the averaged results from 100 realisations, whereas the bottom row shows the overlay of 100 realisations, along with the ideal sinewave. All the figures conclusively prove that for $\Delta>2$ the results obtained are significantly better. This is also corroborated by the large decrease in the mean-squared error from when $\Delta$ is increased from $2$ to $3$.
 
 \begin{figure}[H]
 \centering{}
@@ -232,7 +370,12 @@ $\gamma$ & $a_1$     & $a_2$     \\ \hline
 \includegraphics[width=0.24\textwidth]{part3/mpse_delay_3}
 \includegraphics[width=0.24\textwidth]{part3/mpse_delay_4}
 \caption{Determining Ideal Value for $\Delta$ to be used in the Adaptive Line Enhancement Algorithm}
+\label{fig:ale}
 \end{figure}
+
+
+\noindent{}b. The results in Figure \ref{fig:ale_delay} futher verify the results above. Choosing a value of $\Delta$ greater than $2$ causes the mean-squared error to decrease for all model-orders. Note that arbitarily increase the value of $\Delta$ is however not wise. Note that one of the terms which contributing to $\mathbb{E}\bigg\{\bigg(s(n)-\hat{x}(n)\bigg)^2\bigg\}$ is $\mathbb{E}\bigg\{\bigg(x(n)-\hat{x}(n)\bigg)^2\bigg\}$. Increasing the value of $\Delta$ will increase the delay between $x(n)$ and $\hat{x}(n)$. This effect is also visualized in Figure \ref{fig:ale_delay}. Notice that the output sine-wave is shifted relatively to the ideal input sinewave when $\Delta=25$. This shift causes $\mathbb{E}\bigg\{\bigg(x(n)-\hat{x}(n)\bigg)^2\bigg\}$ to be large, thereby increasing the mean-squared error.
+
 
 \begin{figure}[H]
 \centering{}
@@ -240,14 +383,20 @@ $\gamma$ & $a_1$     & $a_2$     \\ \hline
 \includegraphics[width=0.32\textwidth]{part3/mpse_delay_5}
 \includegraphics[width=0.32\textwidth]{part3/mpse_delay_25}
 \caption{Studying the Effects of Increasing Delay on the MPSE}
+\label{fig:ale_delay}
 \end{figure}
+
+
+\noindent{}Theoretically, a higher model-order should be able to describe the highly periodic process with greater accuracy. However, since we are deriving the solution numerically, factors such as convergence and stability should also be taken into account. Note that for high-model orders, if the mu is not correctly chosen, the mean-squared error starts to increase. It is possible to keep $\mu$ small and increase the model order however it would cause the algorithm to converge slowly. Looking at Figure \ref{fig:ale_model}, a pragmatic choice would be to set $M=6$ and set $\mu=0.005$.
 
 \begin{figure}[H]
 \centering{}
 \includegraphics[width=0.32\textwidth]{part3/model_order_mpse}
 \caption{Studying the Effects of Increasing Model Order on the MPSE}
+\label{fig:ale_model}
 \end{figure}
 
+\noindent{}c. The performance of the Adaptive Line Enhancement (ALE) algorithm and the Adaptive Noise Cancellation (ANC) algorithm are compared in the figure below. It is clear that the ANC algorithm performs significantly better, once it has converged. However, notice that for small values of $n$, the ANC algorithm incurs errors larger than the ALE algorithm
 \begin{figure}[H]
 \centering{}
 \includegraphics[width=0.32\textwidth]{part3/anc_ale_comparison}
@@ -256,12 +405,15 @@ $\gamma$ & $a_1$     & $a_2$     \\ \hline
 \caption{Comparison of ALE and ANC Configurations for Denoising Sinewave}
 \end{figure}
 
+\noindent{}d. The spectrogram below is graphed for reference. It shows the original EEG data with a very strong component at 50 Hz. The length of each segment is $4096$, with an $80\%$ overlap between segments. Also, each segment is windowed with a Hamming window. 
+
 \begin{figure}[H]
 \centering{}
 \includegraphics[width=0.32\textwidth]{part3/original_POz_spectrogram}
 \caption{Original EEG Data collected from POz Location on the Scalp with Strong Component at 50 Hz}
 \end{figure}
 
+\noindent{}The first step is to determine the value of $M$ that will remove the strong 50 Hz component. The figure below shows the effect of increasing the model order. Increasing the model order results in a filter that is more efficient at removing the noise. However, notice that certain artifacts have started to occur. With $M=25$ and $\mu=0.01$, the filter is not only removing the 50 Hz component but it is also suppressing components between 40 Hz and 60 Hz.
 
 \begin{figure}[H]
 \centering{}
@@ -271,6 +423,8 @@ $\gamma$ & $a_1$     & $a_2$     \\ \hline
 \includegraphics[width=0.24\textwidth]{part3/POz_mu_01_M_25}
 \caption{Effect of Increasing Model Order on the Spectrogram of EEG Data}
 \end{figure}
+
+\noindent{}To combat the large spread of frequencies over which the filter is acting, we vary $\mu$. The figure below shows the effects of decreasing $\mu$. Decreasing $\mu$ reduces the bias in the ANC algorithm and leads to better performance. It is clear that the filter is now acting over a much smaller range of frequencies. 
 
 \begin{figure}[H]
 \centering{}
@@ -282,10 +436,12 @@ $\gamma$ & $a_1$     & $a_2$     \\ \hline
 \end{figure}
 
 
+\noindent{}The periodogram and squared error plots corroborate the findings above. For large values of $\mu$ such as 0.025, large errors are incurred even at low frequencies. In fact, with $\mu=0.025$, the filter is suppressing the DC component to a greater extent than the component at 50 Hz. This does not occur with $\mu=0.001$.
+
 \begin{figure}[H]
 \centering{}
 \includegraphics[width=0.32\textwidth]{part3/bartlett_cleaned_Poz}
 \includegraphics[width=0.32\textwidth]{part3/squared_error_periodogram}
 \includegraphics[width=0.32\textwidth]{part3/squared_error_periodogram_bad}
-\caption{Bartlett Periodogram, averaged over 2 second intervals, and Squared Errors}
+\caption{Welch Periodogram, averaged over 2 second intervals, and Squared Errors}
 \end{figure}
