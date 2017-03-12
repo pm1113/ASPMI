@@ -1,7 +1,7 @@
 \section{Widely Linear Filtering and Adaptive Spectral Estimation}
 
 \subsection{Complex LMS andWidely Linear Modelling}
-\noindent{}a. The Complex LMS (CLMS) and Augmented Complex LMS (ACLMS) algorithms are used to identify the first order Widely Linear Moving Average, WLMA(1), process. The graphs clearly show that the CLMS algorithm is unable to capture all the degrees of freedom required to fully describe the non-circular process. In contrast, the additional weights $\textbf{g}(n)$ afford the ACLMS algorithms additional degrees of freedom to describe the process. The ACLMS is also able to exploit the second order statistics of the data by utilizing both $x(n)$ and $x^*(n)$.
+\noindent{}a. The Complex LMS (CLMS) and Augmented Complex LMS (ACLMS) algorithms are used to identify the first order Widely Linear Moving Average, WLMA(1), process. The graphs clearly show that the CLMS algorithm is unable to capture all the degrees of freedom required to fully describe the non-circular process. In contrast, the additional weights $\textbf{g}(n)$ afford the ACLMS algorithms additional degrees of freedom to fully describe the process. The ACLMS is also able to exploit the second order statistics of the data by utilizing both $x(n)$ and $x^*(n)$.
 
 \begin{figure}[H]
 \centering{}
@@ -20,7 +20,7 @@
 \label{fig:wind_circularity}
 \end{figure}
 
-\noindent{}Now, looking at the graphs above without fully understanding the definition of circularity can lead to interpreting low-wind as being the least circular. It may seem that the low-wind regime is the least circular however upon closer inspection of the axis labels, it is clear that the high-wind regime has a big offset in its mean. The red dotted lines show the average values along each axis while the yellow dotted lines show the reference to the origin. The scatter plot for the high-wind regime is not centered around the origin and thus it is not rotation invariant. In contrast, although the low-wind regime does not appear circular, and looks slightly elliptical, the fact that its centered close to the origin means that it can be closely approximated to be circular. Each of the wind regimes was tested with the CLMS and the ACLMS algorithms and the results obtained are graphed in Figure \ref{fig:wind_order}.
+\noindent{}Looking at the graphs above without fully understanding the definition of circularity can lead to interpreting low-wind as being the least circular. It may seem that the low-wind regime is the least circular however upon closer inspection of the axis labels, it is clear that the high-wind regime has a big offset in its mean. The red dotted lines show the average values along each axis while the yellow dotted lines show the reference to the origin. The scatter plot for the high-wind regime is not centered around the origin and thus it is not rotation invariant. In contrast, although the low-wind regime does not appear circular, and looks slightly elliptical, the fact that its centered close to the origin means that it can be closely approximated to be circular. Each of the wind regimes was tested with the CLMS and the ACLMS algorithms and the results obtained are graphed in Figure \ref{fig:wind_order}.
 
 \begin{figure}[H]
 \centering{}
@@ -33,7 +33,7 @@
 
 \noindent{}The results are in accordance with the circularity coefficients of each regime for small model orders. The high and medium wind regimes do not perform well when one-step prediction is done using CLMS. The algorithm is not able to capture the non-circularity in the data. The low wind regime performs equally well using both the CLMS and ACLMS algorithms.\\
 
-\noindent{}For higher model orders, the ACLMS algorithm's performance starts to degrade. This is due to the fact that overfitting starts to take place. The ACLMS algorithm has a greater number of parameters to tune as compared to the CLMS algorithm. The greater number of parameters affords the algorithm the ability to fit the training data extremely well. However, overfitting the data has the disadvantage that the filter will no longer generalize well, or in this case, predict future values well. The CLMS algorithm also clearly overfits the data since the prediction error starts to rise as the model order increases but the rate of overfitting is slower; this is again due to the fact that the CLMS algorithm has fewer parameters to tune. \\
+\noindent{}For higher model orders, the ACLMS algorithm's performance starts to degrade. This is due to the fact that overfitting starts to take place. The ACLMS algorithm has a greater number of parameters to tune as compared to the CLMS algorithm. The greater number of parameters affords the algorithm the ability to fit the training data extremely well. However, overfitting the training data has the disadvantage that the filter will no longer generalize well, or in this case, predict future values well. The CLMS algorithm also clearly overfits the data since the prediction error starts to rise as the model order increases but the rate of overfitting is slower; this is again due to the fact that the CLMS algorithm has fewer parameters to tune. The above intuitive explanation of overfitting based on the number of free parameters of degrees of freedom has also be mathematically formalized. Vapnik–Chervonenkis Theory is the branch of mathematics that explains learning algorithms from a statistical point of view. \\
 
 \noindent{}c. The complex voltages in  the three-phase power system can be expressed compactly using the Clarke Transform reproduced in (\ref{eq:clarke_transform}).
 
@@ -57,12 +57,12 @@ B(n) &= \frac{\sqrt{6}}{6}\bigg(V_a(n)+V_b(n)e^{-j(\Delta_b + \frac{2\pi}{3})}+V
 \caption{Balanced and Unbalanced Complex Voltages}
 \end{figure}
 
-\noindent{}It is clear that we can visually when a system is balanced as compared to when it is unbalanced. A balanced system results in a circular plot, whereas an unbalanced system does not. In fact, patterns can also be drawn about the effects of changing the relative magnitudes or phase differences.\\
+\noindent{}It is clear that we can visually tell when a system is balanced and when it is unbalanced. A balanced system results in a circular plot, whereas an unbalanced system does not. In fact, patterns can also be drawn about the effects of changing the relative magnitudes or phase differences on the shape of the plot obtained.\\
 
-\noindent{}c. A strictly linear first order autoregressive model has the form given in (\ref{eq:ar_strict_linear}). 
+\noindent{}d. A strictly linear first order autoregressive model has the form given in (\ref{eq:ar_strict_linear}). 
 
 \begin{align}
-v(n+1)=h*(n)v(n) \label{eq:ar_strict_linear}
+v(n+1)=h^*(n)v(n) \label{eq:ar_strict_linear}
 \end{align}
 
 \noindent{}Next, given that:
@@ -141,7 +141,7 @@ e^{-j2\pi\frac{f_0}{f_s}} &= \frac{h^*(n)B(n)+g^*(n)A^*(n)}{B(n+1)} \approx h^*(
 h^*(n) + g^*(n)\frac{B^*(n)}{A(n)} = h(n) + g(n)\frac{A(n)}{B^*(n)} 
 \end{align*}
 
-\noindent{}Next, setting $Y=\frac{A(n)}{B^*(n)}$, we get a quadratic equation in $Y$:
+\noindent{}Next, setting $Y=\frac{B^*(n)}{A(n)}$, we get a quadratic equation in $Y$:
 
 \begin{align*}
 g^*(n)Y^2 + \big(h^*(n)-h(n)\big)Y + g(n) = 0
@@ -152,33 +152,33 @@ g^*(n)Y^2 + \big(h^*(n)-h(n)\big)Y + g(n) = 0
 \begin{align*}
 Y &= \frac{-\big(h^*(n)-h(n)\big) \pm \sqrt{\big(h^*(n)-h(n)\big)^2-4g^*(n)g(n)}}{2g^*(n)} \\
 &= \frac{2\Im\{h(n)\}j \pm \sqrt{-4\Im^2\{h(n)\}+4|g(n)|^2}}{2g^*(n)} \\
-&= \frac{2\Im\{h(n)\}j \pm j\sqrt{4\Im^2\{h(n)\}-4|g(n)|^2}}{2g^*(n)}
+&= \frac{\Im\{h(n)\}j \pm j\sqrt{\Im^2\{h(n)\}-|g(n)|^2}}{g^*(n)}
 \end{align*}
 
 \noindent{}Substituting $Y$ into (\ref{eq:widely_mid_1}), we obtain:
 
 \begin{align*}
-e^{j2\pi\frac{f_0}{f_s}} &= h^*(n) + 2\Im\{h(n)\}j \pm j\sqrt{4\Im^2\{h(n)\}-4|g(n)|^2} \\
-&= \Re\{h(n)\} \pm j\sqrt{4\Im^2\{h(n)\}-4|g(n)|^2}
+e^{j2\pi\frac{f_0}{f_s}} &= h^*(n) + \Im\{h(n)\}j \pm j\sqrt{\Im^2\{h(n)\}-|g(n)|^2} \\
+&= \Re\{h(n)\} \pm j\sqrt{\Im^2\{h(n)\}-|g(n)|^2}
 \end{align*}
 
 \noindent{}Since $f_s > f_0 > 0$:
 
 \begin{align*}
-e^{j2\pi\frac{f_0}{f_s}}  &= \Re\{h(n)\} + j\sqrt{4\Im^2\{h(n)\}-4|g(n)|^2} \\
-&= |M| e^{j\big(\text{arctan}\big(\frac{\sqrt{4\Im^2\{h(n)\}-4|g(n)|^2}}{\Re\{h(n)\}}\big)\big)}
+e^{j2\pi\frac{f_0}{f_s}}  &= \Re\{h(n)\} + j\sqrt{\Im^2\{h(n)\}-|g(n)|^2} \\
+&= |M| e^{j\big(\text{arctan}\big(\frac{\sqrt{\Im^2\{h(n)\}-|g(n)|^2}}{\Re\{h(n)\}}\big)\big)}
 \end{align*}
 
 \noindent{}Next, equating only the phase of the left and right hand sides:
 
 \begin{align*}
-2\pi\frac{f_0}{f_s}  &= \text{arctan}\bigg(\frac{\sqrt{4\Im^2\{h(n)\}-4|g(n)|^2}}{\Re\{h(n)\}}\bigg)
+2\pi\frac{f_0}{f_s}  &= \text{arctan}\bigg(\frac{\sqrt{\Im^2\{h(n)\}-|g(n)|^2}}{\Re\{h(n)\}}\bigg)
 \end{align*}
 
 \noindent{}Rearranging, we get (\ref{eq:widely_lin_ar_final}) which completes the proof:
 
 \begin{align}
-f_0 = \frac{f_s}{2\pi} \text{arctan}\bigg(\frac{\sqrt{4\Im^2\{h(n)\}-4|g(n)|^2}}{\Re\{h(n)\}}\bigg) \label{eq:widely_lin_ar_final}
+f_0 = \frac{f_s}{2\pi} \text{arctan}\bigg(\frac{\sqrt{\Im^2\{h(n)\}-|g(n)|^2}}{\Re\{h(n)\}}\bigg) \label{eq:widely_lin_ar_final}
 \end{align}
 
 \noindent{}d. The value of $f_0$ was set at 50 Hz to match the operating frequency of power transmission in the UK. The figure below shows how the two algorithms perform when tested on a balanced system. The CLMS algorithm converges much faster than the ACLMS algorithm. The ACLMS also displays a big overshoot during the first two iterations, something that the CLMS algorithm does not do. Note that both algorithms converge to the nominal frequency of 50 Hz without any bias.
@@ -202,7 +202,7 @@ f_0 = \frac{f_s}{2\pi} \text{arctan}\bigg(\frac{\sqrt{4\Im^2\{h(n)\}-4|g(n)|^2}}
 
 \subsection{Adaptive AR Model Based Time-Frequency Estimation}
 
-\noindent{}a. A frequency modulated signal is generated using circular white-gaussian noise with zero mean and variance of 0.05. The figure below shows that the signal's frequency is non-stationary. The figure also shows the frequency spectrum obtained if the entire signal is modeled as an AR process. Modeling the entire signal as an AR-process is not wise. The matlab function \texttt{aryule} assumes that the input signal is stationary. This is evidently not the case for this frequency modulated signal. The signal has 3 distinct stages in which the frequency is either constant, increasing linearly or increasing quadratically. It would be possible to performed block-based autoregressive modeling. If three blocks each of 500 samples were generated and run through \texttt{aryule}, we would be able to model the first block which has a constant frequency. The non-stationarity present in the other 2 blocks would still not be captured by the AR process. 
+\noindent{}a. A frequency modulated signal is generated using circular white-gaussian noise with zero mean and variance of 0.05. The figure below shows that the signal's frequency is not stationary. The figure also shows the frequency spectrum obtained if the entire signal is modeled as an AR process. Modeling the entire signal as an AR-process is not wise. The matlab function \texttt{aryule} assumes that the input signal is stationary. This is evidently not the case for this frequency modulated signal. The signal has 3 distinct stages in which the frequency is either constant, increasing linearly or increasing quadratically. It would be possible to performed block-based autoregressive modeling. If three blocks each of 500 samples were generated and run through \texttt{aryule}, we would be able to model the first block which has a constant frequency. The non-stationarity present in the other 2 blocks would still not be captured by the block-based AR process estimation procedure. 
 
 \begin{figure}[H]
 \centering{}
@@ -211,7 +211,7 @@ f_0 = \frac{f_s}{2\pi} \text{arctan}\bigg(\frac{\sqrt{4\Im^2\{h(n)\}-4|g(n)|^2}}
 \caption{Original, Non-Stationary Frequency of FM Signal and Power Spectrum obtained using Block-Based Estimate of AR Coefficients}
 \end{figure}
 
-\noindent{}b. Using the CLMS algorithm to infer the weights allows for us to capture the non-stationarity in the data. We are now optimizing the value of the AR coefficient in an adaptive manner rather than considering the entire dataset all at once. The figure below shows the results that are obtained. The impact that the choice of $\mu$ has is very clear. In the previous sections, the effect of $\mu$ on the rate of convergence was discussed at great length. The graphs below justify the need for fast convergence in a real-world application such as tracking the frequency of a signal. Notice that a large value of $\mu$ leads to a thicker yellow line. The thickness of the line indicates that there is a large variation in the exact frequency of the signal. Again this highlights the trade-off between convergence speed and steady state error.
+\noindent{}b. Using the CLMS algorithm to infer the weights allows us to capture the non-stationarity in the data. We are now inferring the value of the AR coefficient in an adaptive manner rather than considering the entire dataset all at once. The figure below shows the results that are obtained. The impact that the choice of $\mu$ has is very clear. In the previous sections, the effect of $\mu$ on the rate of convergence was discussed at great length. The graphs below justify the need for fast convergence in a real-world application such as tracking the frequency of a signal. Notice that a large value of $\mu$ leads to a thicker yellow line. The thickness of the line indicates that there is large uncertainty in the exact frequency of the signal. Again this highlights the trade-off between convergence speed and steady state error variation.
 
 \begin{figure}[H]
 \centering{}
@@ -243,7 +243,7 @@ f_0 = \frac{f_s}{2\pi} \text{arctan}\bigg(\frac{\sqrt{4\Im^2\{h(n)\}-4|g(n)|^2}}
 0 -\textbf{y}^H\textbf{F} - \textbf{y}^H\textbf{F} + \textbf{w}^H\big(\textbf{F}^H\textbf{F}+\textbf{F}^H\textbf{F}\big)
 \end{align*}
 
-\noindent{}Equating the derivative to 0, cancelling out the common terms and taking the transpose on each side, we get:
+\noindent{}Equating the derivative to 0, cancelling out the constant multipliers and taking the transpose on each side, we get:
 
 \begin{align*}
 -\textbf{y}^H\textbf{F} - \textbf{y}^H\textbf{F} + \textbf{w}\big(\textbf{F}^H\textbf{F}+\textbf{F}^H\textbf{F}\big) &= 0 \\
@@ -301,9 +301,9 @@ X(N-1)
  
 \noindent{}The Fourier coefficients, $\textbf{X}$, that (\ref{eq:dft_inverse_form}) returns would allow us to form a signal $\hat{\textbf{x}}$ such that the squared error between $\textbf{x}$ and $\hat{\textbf{x}}$ is minimized.\\
 
-\noindent{}b. Using the matrix vector form of the Inverse DFT, it is clear that $\hat{\textbf{x}} = \textbf{W}\textbf{X}$ is an approximation of the signal $\textbf{x}$. The approximation comes from the fact that $\textbf{X}$ was formed by projecting $\textbf{x}$ onto the column space of $\textbf{W}$. Notice that the columns of $\textbf{W}$ form an orthonormal basis consisting of complex exponentials. In contrast to the Continuous Time Fourier Transform, the DFT only requires a finite set of basis vectors, namely $N$ for a signal $x(n)$ that has $N$ non-zero components. Notice that since we are projecting onto an orthonormal basis, Parseval's theorem will hold. Parseval's theorem would not hold if the basis that the signal $x(n)$ is projected on is not orthorgonal.\\
+\noindent{}b. Using the matrix vector form of the Inverse DFT, it is clear that $\hat{\textbf{x}} = \textbf{W}\textbf{X}$ is an approximation of the signal $\textbf{x}$. The approximation comes from the fact that $\textbf{X}$ was formed by projecting $\textbf{x}$ onto the column space of $\textbf{W}$. Notice that the columns of $\textbf{W}$ form an orthonormal basis consisting of complex exponentials. In contrast to the Continuous Time Fourier Transform, the DFT only requires a finite set of basis vectors, namely $N$ for a signal $x(n)$ that has $N$ non-zero components. Notice that since we are projecting onto an orthonormal basis, Parseval's theorem will hold. Parseval's theorem would not hold if the basis that the signal $x(n)$ is projected onto is not orthorgonal.\\
 
-\noindent{}c. The DFT-CLMS algorithm is applied to the Frequency Modulated signal and the results obtained are shown in the figure below. The rough shape of the spectrum observed somewhat matches the ideal frequency spectrum. However, it seems that frequency components are everlasting. Once the algorithm picks up a frequency component, that frequency component forever remains in the spectrum. In actual fact, this comes about from the fact that the weights are updated in an adaptive manner rather than the weights being calculated at each time-instance. As such, for a frequency component to be removed from the spectrum, an error needs to be propogated back. This propogation of error takes some time and thus the frequency components seem to be everlasting.
+\noindent{}c. The DFT-CLMS algorithm is applied to the Frequency Modulated signal and the results obtained are shown in the figure below. The rough shape of the spectrum observed somewhat matches the ideal frequency spectrum. However, it seems that frequency components are everlasting. Once the algorithm picks up a frequency component, that frequency component forever remains in the spectrum. In actual fact, this comes about from the fact that the weights are updated in an adaptive manner rather than being calculated at each time-instance. As such, for a frequency component to be removed from the spectrum, an error needs to be propagated back. The propagation of error takes some time and thus the frequency components seem to be everlasting.
  
 \begin{figure}[H]
 \centering{}
@@ -311,7 +311,7 @@ X(N-1)
 \caption{Time-Frequency Estimation using DFT-CLMS}
 \end{figure}
 
-\noindent{}To combat the slow trickle down effect that the error has, the Leaky-LMS algorithm is used instead. This allows the weights to be 'forgotten' and thus leads to a more accurate prediction of the weights. The value of $\gamma$ was set at $0.05$. The results obtained are significantly better. Notice that even such a small value of $0.05$ was able have a tremendous effect on the accuracy of the weights. Increasing the value of $\gamma$ beyond $0.05$ did not prove useful; the spectrum is would being estimated using very few values of signal and the dominant frequency tones would be correctly identified. 
+\noindent{}To combat the slow trickle down effect that the back-propagation of the error has, the Leaky-LMS algorithm is used instead. This allows the weights to be "forgotten" and thus leads to a more accurate prediction of the weights. The value of $\gamma$ was set at $0.05$. The results obtained are significantly better. Notice that even such a small value of $0.05$ was able have a tremendous effect on the accuracy of the weights. Increasing the value of $\gamma$ beyond $0.05$ did not prove useful; the spectrum is would being estimated using very few values of signal and the dominant frequency tones would be correctly identified. 
 
 \begin{figure}[H]
 \centering{}
@@ -319,7 +319,9 @@ X(N-1)
 \caption{Time-Frequency Estimation using Leaky DFT-CLMS}
 \end{figure}
 
-\noindent{}d. The DFT-CLMS and Leaky DFT-CLMS algorithms are used to identify the spectrum of the EEG signal obtained from the POz location on the scalp. Both algorithm have identified clearly the strong component at 50 Hz. The first and second harmonics of the SSEVP have also been clearly identified at 13 Hz and 26 Hz. The third harmonic at 39 Hz is however indistinguishable. Notice that the Leaky DFT-CLMS algorithm does not work as well as the DFT-CLMS algorithm in this scenario. The reason for this is due to the stationary nature of the EEG signal. The Leaky DFT-CLMS, to some extent, 'forgets' weights that it learns. This amplifies the effect of placing a greater emphasis on recent samples rather than samples that were observed a very long time ago.  In so doing, it takes slightly longer to converge to a solution if the signal is stationary as in this case. The DFT-CLMS algorithm only 'forgets' weights using the backward error propagation mechanism and thus, in this case, is able to converge fast. Not only does the DFT-CLMS algorithm converge faster, it's ability to distinguish resonant components at 13, 26 and 50 Hz is also stronger; notice the brightness of the spectrogram at this frequencies. 
+\noindent{}d. The DFT-CLMS and Leaky DFT-CLMS algorithms are used to identify the spectrum of the EEG signal obtained from the POz location on the scalp. Both algorithm have identified clearly the strong component at 50 Hz. The first and second harmonics of the SSEVP have also been clearly identified at 13 Hz and 26 Hz. The third harmonic at 39 Hz is however indistinguishable. \\
+
+\noindent{}Notice that the Leaky DFT-CLMS algorithm does not work as well as the DFT-CLMS algorithm in this scenario. The reason for this is due to the stationary nature of the EEG signal. The Leaky DFT-CLMS, to some extent, "forgets" weights that it learns. This amplifies the effect of placing a greater emphasis on recent samples rather than samples that were observed a very long time ago.  In so doing, it takes slightly longer to converge to a solution if the signal is stationary. The DFT-CLMS algorithm only 'forgets' weights using the backward error propagation mechanism, which is rather slow, and thus, in this case, is able to converge fast. Not only does the DFT-CLMS algorithm converge faster, it's ability to distinguish resonant components at 13, 26 and 50 Hz is also stronger; notice the brightness of the spectrogram at this frequencies. 
 
 \begin{figure}[H]
 \centering{}
