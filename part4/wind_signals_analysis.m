@@ -81,30 +81,36 @@ end
 figure(1);
 plot(real(low_wind),imag(low_wind),'o','LineWidth', line_width);
 hold on;
-plot(low_wind_hor_x,low_wind_hor_y,'--','LineWidth', line_width, 'Color', colors(2,:));
-plot(low_wind_vert_x,low_wind_vert_y,'--','LineWidth', line_width, 'Color', colors(2,:));
+plot([-5 5],[0 0],'--','LineWidth', line_width*2, 'Color', colors(3,:));
+plot([0 0],[-5 5],'--','LineWidth', line_width*2, 'Color', colors(3,:));
+plot(low_wind_hor_x,low_wind_hor_y,'--','LineWidth', line_width*1.5, 'Color', colors(2,:));
+plot(low_wind_vert_x,low_wind_vert_y,'--','LineWidth', line_width*1.5, 'Color', colors(2,:));
 hold off;
 str=sprintf('Low Wind, Circularity=%.3f', low_wind_mean);
-pranav_plot_no_legend(str, 'v_{east}[n]', 'v_{north}[n]', [-0.5 0.5 -0.5 0.5], 1);
+pranav_plot_no_legend(str, 'v_{east}[n]', 'v_{north}[n]', [-4 4 -4 4], 1);
 % graph_saving('../report/images/part4/circularity_low_wind');
 
 %% Scatter Plot for Medium Wind
 figure(2);
 plot(real(medium_wind),imag(medium_wind),'o','LineWidth', line_width);
 hold on;
-plot(medium_wind_hor_x,medium_wind_hor_y,'--','LineWidth', line_width, 'Color', colors(2,:));
-plot(medium_wind_vert_x,medium_wind_vert_y,'--','LineWidth', line_width, 'Color', colors(2,:));
+plot([-5 5],[0 0],'--','LineWidth', line_width*2, 'Color', colors(3,:));
+plot([0 0],[-5 5],'--','LineWidth', line_width*2, 'Color', colors(3,:));
+plot(medium_wind_hor_x,medium_wind_hor_y,'--','LineWidth', line_width*1.5, 'Color', colors(2,:));
+plot(medium_wind_vert_x,medium_wind_vert_y,'--','LineWidth', line_width*1.5, 'Color', colors(2,:));
 hold off;
 str=sprintf('Medium Wind, Circularity=%.3f', medium_wind_mean);
-pranav_plot_no_legend(str, 'v_{east}[n]', 'v_{north}[n]', [-2 2 -2 2], 1);
+pranav_plot_no_legend(str, 'v_{east}[n]', 'v_{north}[n]', [-4 4 -4 4], 1);
 % graph_saving('../report/images/part4/circularity_medium_wind');
 
-%% Scatter Plot for Low Wind
+%% Scatter Plot for High Wind
 figure(3);
 plot(real(high_wind),imag(high_wind),'o','LineWidth', line_width);
 hold on;
-plot(high_wind_hor_x,high_wind_hor_y,'--','LineWidth', line_width, 'Color', colors(2,:));
-plot(high_wind_vert_x,high_wind_vert_y,'--','LineWidth', line_width, 'Color', colors(2,:));
+plot([-5 5],[0 0],'--','LineWidth', line_width*2, 'Color', colors(3,:));
+plot([0 0],[-5 5],'--','LineWidth', line_width*2, 'Color', colors(3,:));
+plot(high_wind_hor_x,high_wind_hor_y,'--','LineWidth', line_width*1.5, 'Color', colors(2,:));
+plot(high_wind_vert_x,high_wind_vert_y,'--','LineWidth', line_width*1.5, 'Color', colors(2,:));
 hold off;
 str=sprintf('High Wind, Circularity=%.3f', high_wind_mean);
 pranav_plot_no_legend(str, 'v_{east}[n]', 'v_{north}[n]', [-4 4 -4 4], 1);

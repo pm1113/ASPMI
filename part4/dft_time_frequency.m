@@ -8,7 +8,6 @@ load ../data/colors.mat
 
 % parameters of the algorithm
 mu=1;
-order=1;
 K=1024;
 
 % parameters of signal

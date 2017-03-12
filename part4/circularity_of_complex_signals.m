@@ -47,7 +47,7 @@ end
 figure(1)
 plot(real(v_balanced), imag(v_balanced), 'o','LineWidth',line_width);
 pranav_plot_no_legend('Balanced Signal', 'Real Part, \Re', 'Imaginary Part, \Im', [-2.5 2.5 -2.5 2.5], 1);
-graph_saving('../report/images/part4/balanced_signal');
+% graph_saving('../report/images/part4/balanced_signal');
 
 %% Plot Unbalanced Signals because of Distortion
 figure(2)
