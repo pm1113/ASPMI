@@ -22,7 +22,7 @@ title('Singular Values of X','FontSize',title_font_size);
 xlabel('Index', 'FontSize', x_axis_font_size);
 ylabel('Singular Value Magnitude', 'FontSize', y_axis_font_size);
 run('../utility_functions/scale_graph.m');
-graph_saving('../report/images/part2/svd_x');
+% graph_saving('../report/images/part2/svd_x');
 
 %% Xnoise
 
@@ -34,5 +34,17 @@ title('Singular Values of Xnoise','FontSize',title_font_size);
 xlabel('Index', 'FontSize', x_axis_font_size);
 ylabel('Singular Value Magnitude', 'FontSize', y_axis_font_size);
 run('../utility_functions/scale_graph.m');
-graph_saving('../report/images/part2/svd_x_noise');
+% graph_saving('../report/images/part2/svd_x_noise');
 
+%% Error in Values
+
+error=(S-S_noise).^2;
+
+stem(error,'LineWidth', line_width);
+axis([1 10 0 300]);
+set(gca,'fontsize',axis_font_size);
+title('Squared Errors','FontSize',title_font_size);
+xlabel('Index', 'FontSize', x_axis_font_size);
+ylabel('Squared Error Between Singular Values', 'FontSize', y_axis_font_size);
+run('../utility_functions/scale_graph.m');
+% graph_saving('../report/images/part2/squared_error_svd');

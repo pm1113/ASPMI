@@ -25,8 +25,8 @@ V_c=ones(1,N);
 v_balanced=clarkson_transform_voltage(N,f0,fs,phi_phase_shift,V_a,V_b,V_c,distortion_b,distortion_c);
 
 % unbalance because of phase
-distortion_b_unbalanced = [pi/2 pi/3 pi/5 pi/7];
-distortion_c_unbalanced = [pi/3 pi/4 pi/6 pi/8];
+distortion_b_unbalanced = [pi/2 pi/3 pi/5 pi/7 pi/4];
+distortion_c_unbalanced = [pi/3 pi/4 pi/6 pi/8 pi/4];
 % initialise holder variable
 v_unbalanced_distortion = complex(zeros(N,length(distortion_b)));
 
@@ -63,7 +63,7 @@ set(h,'Interpreter','latex');
 % graph_saving('../report/images/part4/unbalanced_phase_distortion');
 
 %% Plot Unbalanced Signals because of Magnitude
-figure(2)
+figure(3)
 plot(real(v_unbalanced_magnitude(:,1)), imag(v_unbalanced_distortion(:,1)), 'o','LineWidth',line_width);
 hold on;
 plot(real(v_unbalanced_magnitude(:,2)), imag(v_unbalanced_distortion(:,2)), 'o','LineWidth',line_width);
@@ -80,3 +80,15 @@ set(h,'Interpreter','latex');
 % h.Position(2) = h.Position(2) - (NewHeight - h.Position(4));
 % h.Position(4) = NewHeight;
 
+
+%% Plot Unbalanced Phase and Magnitude for 4.1e
+
+figure(4)
+plot(real(v_unbalanced_distortion(:,5)), imag(v_unbalanced_distortion(:,5)), 'o','LineWidth',line_width);
+hold on;
+plot(real(v_unbalanced_magnitude(:,4)), imag(v_unbalanced_distortion(:,4)), 'o','LineWidth',line_width);
+hold off;
+pranav_plot_no_legend('Unbalanced: Magnitude Distortions', 'Real Part, \Re', 'Imaginary Part, \Im', [-2.5 2.5 -2.5 2.5], 1);
+h = legend({'$\Delta_{b}=\frac{\pi}{4}, \ \Delta_{c}=\frac{\pi}{4}$','$V_a = 0.2, \ V_b = 1, \ V_c = 1.8$' }, 'FontSize', 25);
+set(h,'Interpreter','latex');
+% graph_saving('../report/images/part4/magntiude_plot_4_e')

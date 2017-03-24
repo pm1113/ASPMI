@@ -67,10 +67,10 @@ pranav_plot('Learning Curve, CLMS and ACLMS', 'n', 'Error Power (dB)', {legend1,
 
 %% Plottin of Learning Curves
 figure(2)
-plot(real(y_mean),imag(y_mean),'o','LineWidth',line_width,'Color',colors(2,:));
-hold on;
 plot(real(w_mean),imag(w_mean),'o','LineWidth',line_width,'Color',colors(1,:));
+hold on;
+plot(real(y_mean),imag(y_mean),'o','LineWidth',line_width,'Color',colors(2,:));
 hold off;
-yticklabels({'-1.00', '-0.80', '-0.60', '-0.40', '-0.20', '0', '0.20', '0.40', '0.60', '0.80', '1.00'})
+% yticklabels({'-1.00', '-0.80', '-0.60', '-0.40', '-0.20', '0', '0.20', '0.40', '0.60', '0.80', '1.00'})
 pranav_plot('Distribution of Noise and WLMA(1)', 'Real Part', 'Imaginary Part', {'Circular White Gaussian Noise', 'First-Order Widely Linear Moving Average Process'}, [-1.1 1.1 -1.1 1.1], 1);
 % graph_saving('../report/images/part4/distributions');

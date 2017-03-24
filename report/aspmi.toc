@@ -2,16 +2,17 @@
 \contentsline {subsection}{\numberline {1.1}Discrete Fourier Transform Basics}{2}
 \contentsline {subsection}{\numberline {1.2}Properties of Power Spectral Density (PSD)}{3}
 \contentsline {subsection}{\numberline {1.3}Resolution and Leakage of Periodogram-based Methods}{5}
-\contentsline {subsection}{\numberline {1.4}Periodogram-based Methods Applied to Real-World Data}{8}
+\contentsline {subsection}{\numberline {1.4}Periodogram-based Methods Applied to Real-World Data}{9}
 \contentsline {section}{\numberline {2}Parametric and Line Spectra}{11}
 \contentsline {subsection}{\numberline {2.1}Correlation Estimate}{11}
-\contentsline {subsection}{\numberline {2.2}Spectrum of Autoregrssive Processes}{14}
-\contentsline {subsection}{\numberline {2.3}Real World Signals: Respiratory Sinus Arrhythmia from RR-Intervals}{15}
-\contentsline {section}{\numberline {3}Adaptive Signal Processing}{18}
-\contentsline {subsection}{\numberline {3.1}The Least Mean Square (LMS) Algorithm}{18}
-\contentsline {subsection}{\numberline {3.2}Adaptive Step Sizes}{21}
-\contentsline {subsection}{\numberline {3.3}Adaptive Noise Cancellation}{24}
-\contentsline {section}{\numberline {4}Widely Linear Filtering and Adaptive Spectral Estimation}{28}
-\contentsline {subsection}{\numberline {4.1}Complex LMS andWidely Linear Modelling}{28}
-\contentsline {subsection}{\numberline {4.2}Adaptive AR Model Based Time-Frequency Estimation}{32}
-\contentsline {subsection}{\numberline {4.3}A Real Time Spectrum Analyser Using Least Mean Square}{33}
+\contentsline {subsection}{\numberline {2.2}Spectrum of Autoregrssive Processes}{15}
+\contentsline {subsection}{\numberline {2.3}Principal Component Analysis}{16}
+\contentsline {subsection}{\numberline {2.4}Real World Signals: Respiratory Sinus Arrhythmia from RR-Intervals}{18}
+\contentsline {section}{\numberline {3}Adaptive Signal Processing}{20}
+\contentsline {subsection}{\numberline {3.1}The Least Mean Square (LMS) Algorithm}{20}
+\contentsline {subsection}{\numberline {3.2}Adaptive Step Sizes}{23}
+\contentsline {subsection}{\numberline {3.3}Adaptive Noise Cancellation}{26}
+\contentsline {section}{\numberline {4}Widely Linear Filtering and Adaptive Spectral Estimation}{30}
+\contentsline {subsection}{\numberline {4.1}Complex LMS and Widely Linear Modelling}{30}
+\contentsline {subsection}{\numberline {4.2}Adaptive AR Model Based Time-Frequency Estimation}{35}
+\contentsline {subsection}{\numberline {4.3}A Real Time Spectrum Analyser Using Least Mean Square}{36}

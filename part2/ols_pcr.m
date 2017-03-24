@@ -16,8 +16,15 @@ k=3;
 % perform svd
 [Unoise,Snoise,Vnoise]=svd(Xnoise);
 
+% obtain only singular values of Xnoise;
+Snoise_col=svd(Xnoise);
+
 % get low rank approximation
 Xnoise_low_rank=Unoise(1:m,1:k)*Snoise(1:k,1:k)*Vnoise(1:n,1:k)';
+
+fprintf('Difference between X and Xnoise: %.3f\n', sum(sum((X-Xnoise).^2)));
+fprintf('Difference between Xnoise_low_rank and Xnoise: %.3f\n', sum(sum((Xnoise_low_rank-X).^2)));
+fprintf('Squared Sum of Singular Values: %.3f\n', sum(sum((Snoise_col(4:end)).^2)));
 
 % perform pricipal component regression
 b_pcr=Vnoise(1:n,1:k)*(Snoise(1:k,1:k)^(-1))*Unoise(1:m,1:k)'*Y;
@@ -26,16 +33,16 @@ b_pcr=Vnoise(1:n,1:k)*(Snoise(1:k,1:k)^(-1))*Unoise(1:m,1:k)'*Y;
 Y_pcr=Xnoise_low_rank*b_pcr;
 
 % forbenius norm of y-y_pcr
-forbenius_pcr=norm(Y-Y_pcr,'fro');
+forbenius_pcr=norm(Y-Y_pcr,'fro').^2;
 
 % perform ordinary least squares 
-b_ols=(X'*X)\X'*Y;
+b_ols=(Xnoise'*Xnoise)\Xnoise'*Y;
 
 % obtain y_ols using b_ols
 Y_ols=Xnoise*b_ols;
 
 % forbenius norm of y-y_pcr
-forbenius_ols=norm(Y-Y_ols,'fro');
+forbenius_ols=norm(Y-Y_ols,'fro').^2;
 
 %% work on test data
 
@@ -43,7 +50,7 @@ forbenius_ols=norm(Y-Y_ols,'fro');
 Ytest_ols=Xtest*b_ols;
 
 % forbenius norm of Ytest-Ytest_ols
-forbenius_test_ols=norm(Ytest-Ytest_ols,'fro');
+forbenius_test_ols=norm(Ytest-Ytest_ols,'fro').^2;
 
 % obtain low rank approximation of Xtest
 [Utest,Stest,Vtest]=svd(Xtest);
@@ -54,7 +61,7 @@ Xtest_low_rank=Utest(1:m,1:k)*Stest(1:k,1:k)*Vtest(1:n,1:k)';
 Ytest_pcr=Xtest_low_rank*b_pcr;
 
 % forbenius norm of Ytest-Ytest_pcr
-forbenius_test_pcr=norm(Ytest-Ytest_pcr,'fro');
+forbenius_test_pcr=norm(Ytest-Ytest_pcr,'fro').^2;
 
 %% Evalute b_pcr and b_ols
 

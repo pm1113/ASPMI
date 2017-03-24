@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.21)  12 MAR 2017 16:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.21)  24 MAR 2017 14:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -210,18 +210,18 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 (./tex/part2.aux) (./tex/part3.aux) (./tex/part4.aux) (./tex/bibliography.aux))
 \openout1 = `aspmi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -313,11 +313,987 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+\openout2 = `tex/title.aux'.
+
+
+(./tex/title.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 20.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 20.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<images/logo.png, id=1, 1927.2pt x 2055.68pt>
+File: images/logo.png Graphic file (type png)
+ <use images/logo.png>
+Package pdftex.def Info: images/logo.png used on input line 31.
+(pdftex.def)             Requested size: 115.62701pt x 123.33548pt.
+ [1
+
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
+s/logo.png>])
+\openout2 = `tex/contentspage.aux'.
+
+ (./tex/contentspage.tex (./aspmi.toc)
+\tf@toc=\write3
+\openout3 = `aspmi.toc'.
+
+) [1
+
+
+]
+\openout2 = `tex/part1.aux'.
+
+ (./tex/part1.tex
+Package epstopdf Info: Source file: <images/part1/ideal_magnitude_spectrum_20hz
+_sine_wave.eps>
+(epstopdf)                    date: 2017-02-16 11:42:16
+(epstopdf)                    size: 72437 bytes
+(epstopdf)             Output file: <images/part1/ideal_magnitude_spectrum_20hz
+_sine_wave-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 11:42:25
+(epstopdf)                    size: 9069 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/ideal_magnitu
+de_spectrum_20hz_sine_wave-eps-converted-to.pdf images/part1/ideal_magnitude_sp
+ectrum_20hz_sine_wave.eps>
+(epstopdf)             \includegraphics on input line 9.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/ideal_magnitude_spectrum_20hz_sine_wave-eps-converted-to.pdf, id=
+18, 857.2025pt x 674.52pt>
+File: images/part1/ideal_magnitude_spectrum_20hz_sine_wave-eps-converted-to.pdf
+ Graphic file (type pdf)
+
+<use images/part1/ideal_magnitude_spectrum_20hz_sine_wave-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/ideal_magnitude_spectrum_20hz_sine_wave-e
+ps-converted-to.pdf used on input line 9.
+(pdftex.def)             Requested size: 154.78653pt x 121.79947pt.
+Package epstopdf Info: Source file: <images/part1/theoretical_magnitude_spectru
+m_windowed_20hz_sine_wave.eps>
+(epstopdf)                    date: 2017-02-16 11:42:11
+(epstopdf)                    size: 76803 bytes
+(epstopdf)             Output file: <images/part1/theoretical_magnitude_spectru
+m_windowed_20hz_sine_wave-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 11:42:26
+(epstopdf)                    size: 27254 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/theoretical_m
+agnitude_spectrum_windowed_20hz_sine_wave-eps-converted-to.pdf images/part1/the
+oretical_magnitude_spectrum_windowed_20hz_sine_wave.eps>
+(epstopdf)             \includegraphics on input line 10.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/theoretical_magnitude_spectrum_windowed_20hz_sine_wave-eps-conver
+ted-to.pdf, id=19, 857.2025pt x 674.52pt>
+File: images/part1/theoretical_magnitude_spectrum_windowed_20hz_sine_wave-eps-c
+onverted-to.pdf Graphic file (type pdf)
+
+<use images/part1/theoretical_magnitude_spectrum_windowed_20hz_sine_wave-eps-co
+nverted-to.pdf>
+Package pdftex.def Info: images/part1/theoretical_magnitude_spectrum_windowed_2
+0hz_sine_wave-eps-converted-to.pdf used on input line 10.
+(pdftex.def)             Requested size: 154.78653pt x 121.79947pt.
+Package epstopdf Info: Source file: <images/part1/dft_spectra_f_20_n_100_Fs_100
+0_k_100.eps>
+(epstopdf)                    date: 2017-02-16 11:41:07
+(epstopdf)                    size: 23766 bytes
+(epstopdf)             Output file: <images/part1/dft_spectra_f_20_n_100_Fs_100
+0_k_100-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 11:41:17
+(epstopdf)                    size: 8820 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/dft_spectra_f
+_20_n_100_Fs_1000_k_100-eps-converted-to.pdf images/part1/dft_spectra_f_20_n_10
+0_Fs_1000_k_100.eps>
+(epstopdf)             \includegraphics on input line 19.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/dft_spectra_f_20_n_100_Fs_1000_k_100-eps-converted-to.pdf, id=20,
+ 855.195pt x 674.52pt>
+File: images/part1/dft_spectra_f_20_n_100_Fs_1000_k_100-eps-converted-to.pdf Gr
+aphic file (type pdf)
+
+<use images/part1/dft_spectra_f_20_n_100_Fs_1000_k_100-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/dft_spectra_f_20_n_100_Fs_1000_k_100-eps-
+converted-to.pdf used on input line 19.
+(pdftex.def)             Requested size: 154.78653pt x 122.07736pt.
+Package epstopdf Info: Source file: <images/part1/dft_spectra_f_20_n_100_Fs_100
+0_k_1000.eps>
+(epstopdf)                    date: 2017-02-16 11:40:15
+(epstopdf)                    size: 29684 bytes
+(epstopdf)             Output file: <images/part1/dft_spectra_f_20_n_100_Fs_100
+0_k_1000-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 11:40:36
+(epstopdf)                    size: 9573 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/dft_spectra_f
+_20_n_100_Fs_1000_k_1000-eps-converted-to.pdf images/part1/dft_spectra_f_20_n_1
+00_Fs_1000_k_1000.eps>
+(epstopdf)             \includegraphics on input line 20.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/dft_spectra_f_20_n_100_Fs_1000_k_1000-eps-converted-to.pdf, id=21
+, 855.195pt x 670.505pt>
+File: images/part1/dft_spectra_f_20_n_100_Fs_1000_k_1000-eps-converted-to.pdf G
+raphic file (type pdf)
+
+<use images/part1/dft_spectra_f_20_n_100_Fs_1000_k_1000-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/dft_spectra_f_20_n_100_Fs_1000_k_1000-eps
+-converted-to.pdf used on input line 20.
+(pdftex.def)             Requested size: 154.78653pt x 121.35071pt.
+Package epstopdf Info: Source file: <images/part1/dft_spectra_f_24_n_100_Fs_100
+0_k_100.eps>
+(epstopdf)                    date: 2017-02-16 11:40:21
+(epstopdf)                    size: 23862 bytes
+(epstopdf)             Output file: <images/part1/dft_spectra_f_24_n_100_Fs_100
+0_k_100-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 11:40:37
+(epstopdf)                    size: 8947 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/dft_spectra_f
+_24_n_100_Fs_1000_k_100-eps-converted-to.pdf images/part1/dft_spectra_f_24_n_10
+0_Fs_1000_k_100.eps>
+(epstopdf)             \includegraphics on input line 29.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/dft_spectra_f_24_n_100_Fs_1000_k_100-eps-converted-to.pdf, id=22,
+ 855.195pt x 670.505pt>
+File: images/part1/dft_spectra_f_24_n_100_Fs_1000_k_100-eps-converted-to.pdf Gr
+aphic file (type pdf)
+
+<use images/part1/dft_spectra_f_24_n_100_Fs_1000_k_100-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/dft_spectra_f_24_n_100_Fs_1000_k_100-eps-
+converted-to.pdf used on input line 29.
+(pdftex.def)             Requested size: 154.78653pt x 121.35071pt.
+Package epstopdf Info: Source file: <images/part1/dft_spectra_f_24_n_100_Fs_100
+0_k_2_to_16.eps>
+(epstopdf)                    date: 2017-02-16 11:40:28
+(epstopdf)                    size: 80603 bytes
+(epstopdf)             Output file: <images/part1/dft_spectra_f_24_n_100_Fs_100
+0_k_2_to_16-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 11:40:37
+(epstopdf)                    size: 31359 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/dft_spectra_f
+_24_n_100_Fs_1000_k_2_to_16-eps-converted-to.pdf images/part1/dft_spectra_f_24_
+n_100_Fs_1000_k_2_to_16.eps>
+(epstopdf)             \includegraphics on input line 30.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/dft_spectra_f_24_n_100_Fs_1000_k_2_to_16-eps-converted-to.pdf, id
+=23, 855.195pt x 670.505pt>
+File: images/part1/dft_spectra_f_24_n_100_Fs_1000_k_2_to_16-eps-converted-to.pd
+f Graphic file (type pdf)
+
+<use images/part1/dft_spectra_f_24_n_100_Fs_1000_k_2_to_16-eps-converted-to.pdf
+>
+Package pdftex.def Info: images/part1/dft_spectra_f_24_n_100_Fs_1000_k_2_to_16-
+eps-converted-to.pdf used on input line 30.
+(pdftex.def)             Requested size: 154.78653pt x 121.35071pt.
+ [2
+
+
+ <./images/part1/ideal_magnitude_spectrum_20hz_sine_wave-eps-converted-to.pdf> 
+<./images/part1/theoretical_magnitude_spectrum_windowed_20hz_sine_wave-eps-conv
+erted-to.pdf> <./images/part1/dft_spectra_f_20_n_100_Fs_1000_k_100-eps-converte
+d-to.pdf> <./images/part1/dft_spectra_f_20_n_100_Fs_1000_k_1000-eps-converted-t
+o.pdf>]
+Package epstopdf Info: Source file: <images/part1/dft_spectra_acf_m_10_l_20.eps
+>
+(epstopdf)                    date: 2017-02-16 11:43:29
+(epstopdf)                    size: 21717 bytes
+(epstopdf)             Output file: <images/part1/dft_spectra_acf_m_10_l_20-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 11:44:26
+(epstopdf)                    size: 9446 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/dft_spectra_a
+cf_m_10_l_20-eps-converted-to.pdf images/part1/dft_spectra_acf_m_10_l_20.eps>
+(epstopdf)             \includegraphics on input line 65.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/dft_spectra_acf_m_10_l_20-eps-converted-to.pdf, id=67, 835.12pt x
+ 674.52pt>
+File: images/part1/dft_spectra_acf_m_10_l_20-eps-converted-to.pdf Graphic file 
+(type pdf)
+ <use images/part1/dft_spectra_acf_m_10_l_20-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/dft_spectra_acf_m_10_l_20-eps-converted-t
+o.pdf used on input line 65.
+(pdftex.def)             Requested size: 154.78653pt x 125.02097pt.
+Package epstopdf Info: Source file: <images/part1/dft_spectra_acf_m_10_l_256.ep
+s>
+(epstopdf)                    date: 2017-02-16 11:43:39
+(epstopdf)                    size: 38485 bytes
+(epstopdf)             Output file: <images/part1/dft_spectra_acf_m_10_l_256-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 11:44:26
+(epstopdf)                    size: 12126 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/dft_spectra_a
+cf_m_10_l_256-eps-converted-to.pdf images/part1/dft_spectra_acf_m_10_l_256.eps>
+
+(epstopdf)             \includegraphics on input line 66.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/dft_spectra_acf_m_10_l_256-eps-converted-to.pdf, id=68, 835.12pt 
+x 674.52pt>
+File: images/part1/dft_spectra_acf_m_10_l_256-eps-converted-to.pdf Graphic file
+ (type pdf)
+ <use images/part1/dft_spectra_acf_m_10_l_256-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/dft_spectra_acf_m_10_l_256-eps-converted-
+to.pdf used on input line 66.
+(pdftex.def)             Requested size: 154.78653pt x 125.02097pt.
+Package epstopdf Info: Source file: <images/part1/dft_spectra_acf_m_128_l_256.e
+ps>
+(epstopdf)                    date: 2017-02-16 11:45:24
+(epstopdf)                    size: 38254 bytes
+(epstopdf)             Output file: <images/part1/dft_spectra_acf_m_128_l_256-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 11:45:37
+(epstopdf)                    size: 11567 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/dft_spectra_a
+cf_m_128_l_256-eps-converted-to.pdf images/part1/dft_spectra_acf_m_128_l_256.ep
+s>
+(epstopdf)             \includegraphics on input line 67.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/dft_spectra_acf_m_128_l_256-eps-converted-to.pdf, id=69, 846.1612
+5pt x 674.52pt>
+File: images/part1/dft_spectra_acf_m_128_l_256-eps-converted-to.pdf Graphic fil
+e (type pdf)
+
+<use images/part1/dft_spectra_acf_m_128_l_256-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/dft_spectra_acf_m_128_l_256-eps-converted
+-to.pdf used on input line 67.
+(pdftex.def)             Requested size: 154.78653pt x 123.38449pt.
+Package epstopdf Info: Source file: <images/part1/dft_spectra_acf_m_128_l_2048.
+eps>
+(epstopdf)                    date: 2017-02-16 11:45:12
+(epstopdf)                    size: 164950 bytes
+(epstopdf)             Output file: <images/part1/dft_spectra_acf_m_128_l_2048-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 11:45:38
+(epstopdf)                    size: 24532 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/dft_spectra_a
+cf_m_128_l_2048-eps-converted-to.pdf images/part1/dft_spectra_acf_m_128_l_2048.
+eps>
+(epstopdf)             \includegraphics on input line 68.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/dft_spectra_acf_m_128_l_2048-eps-converted-to.pdf, id=70, 846.161
+25pt x 674.52pt>
+File: images/part1/dft_spectra_acf_m_128_l_2048-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use images/part1/dft_spectra_acf_m_128_l_2048-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/dft_spectra_acf_m_128_l_2048-eps-converte
+d-to.pdf used on input line 68.
+(pdftex.def)             Requested size: 154.78653pt x 123.38449pt.
+ [3 <./images/part1/dft_spectra_f_24_n_100_Fs_1000_k_100-eps-converted-to.pdf> 
+<./images/part1/dft_spectra_f_24_n_100_Fs_1000_k_2_to_16-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/part1/dft_spectra_acf_x_real.eps>
+(epstopdf)                    date: 2017-02-16 11:51:26
+(epstopdf)                    size: 27055 bytes
+(epstopdf)             Output file: <images/part1/dft_spectra_acf_x_real-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2017-02-16 11:53:19
+(epstopdf)                    size: 9739 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/dft_spectra_a
+cf_x_real-eps-converted-to.pdf images/part1/dft_spectra_acf_x_real.eps>
+(epstopdf)             \includegraphics on input line 76.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/dft_spectra_acf_x_real-eps-converted-to.pdf, id=91, 843.15pt x 67
+1.50874pt>
+File: images/part1/dft_spectra_acf_x_real-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use images/part1/dft_spectra_acf_x_real-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/dft_spectra_acf_x_real-eps-converted-to.p
+df used on input line 76.
+(pdftex.def)             Requested size: 154.78653pt x 123.27426pt.
+Package epstopdf Info: Source file: <images/part1/dft_spectra_acf_x_imag.eps>
+(epstopdf)                    date: 2017-02-16 11:51:33
+(epstopdf)                    size: 28681 bytes
+(epstopdf)             Output file: <images/part1/dft_spectra_acf_x_imag-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2017-02-16 11:53:20
+(epstopdf)                    size: 10501 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/dft_spectra_a
+cf_x_imag-eps-converted-to.pdf images/part1/dft_spectra_acf_x_imag.eps>
+(epstopdf)             \includegraphics on input line 77.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/dft_spectra_acf_x_imag-eps-converted-to.pdf, id=92, 848.16875pt x
+ 671.50874pt>
+File: images/part1/dft_spectra_acf_x_imag-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use images/part1/dft_spectra_acf_x_imag-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/dft_spectra_acf_x_imag-eps-converted-to.p
+df used on input line 77.
+(pdftex.def)             Requested size: 154.78653pt x 122.54677pt.
+Package epstopdf Info: Source file: <images/part1/dft_spectra_acf_z_real.eps>
+(epstopdf)                    date: 2017-02-16 11:51:44
+(epstopdf)                    size: 27057 bytes
+(epstopdf)             Output file: <images/part1/dft_spectra_acf_z_real-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2017-02-16 11:53:20
+(epstopdf)                    size: 9736 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/dft_spectra_a
+cf_z_real-eps-converted-to.pdf images/part1/dft_spectra_acf_z_real.eps>
+(epstopdf)             \includegraphics on input line 86.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/dft_spectra_acf_z_real-eps-converted-to.pdf, id=93, 843.15pt x 67
+1.50874pt>
+File: images/part1/dft_spectra_acf_z_real-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use images/part1/dft_spectra_acf_z_real-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/dft_spectra_acf_z_real-eps-converted-to.p
+df used on input line 86.
+(pdftex.def)             Requested size: 154.78653pt x 123.27426pt.
+Package epstopdf Info: Source file: <images/part1/dft_spectra_acf_z_imag.eps>
+(epstopdf)                    date: 2017-02-16 11:51:55
+(epstopdf)                    size: 27060 bytes
+(epstopdf)             Output file: <images/part1/dft_spectra_acf_z_imag-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2017-02-16 11:53:21
+(epstopdf)                    size: 10008 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/dft_spectra_a
+cf_z_imag-eps-converted-to.pdf images/part1/dft_spectra_acf_z_imag.eps>
+(epstopdf)             \includegraphics on input line 87.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/dft_spectra_acf_z_imag-eps-converted-to.pdf, id=94, 843.15pt x 67
+1.50874pt>
+File: images/part1/dft_spectra_acf_z_imag-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use images/part1/dft_spectra_acf_z_imag-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/dft_spectra_acf_z_imag-eps-converted-to.p
+df used on input line 87.
+(pdftex.def)             Requested size: 154.78653pt x 123.27426pt.
+
+[4 <./images/part1/dft_spectra_acf_m_10_l_20-eps-converted-to.pdf> <./images/pa
+rt1/dft_spectra_acf_m_10_l_256-eps-converted-to.pdf> <./images/part1/dft_spectr
+a_acf_m_128_l_256-eps-converted-to.pdf> <./images/part1/dft_spectra_acf_m_128_l
+_2048-eps-converted-to.pdf> <./images/part1/dft_spectra_acf_x_real-eps-converte
+d-to.pdf> <./images/part1/dft_spectra_acf_x_imag-eps-converted-to.pdf> <./image
+s/part1/dft_spectra_acf_z_real-eps-converted-to.pdf> <./images/part1/dft_spectr
+a_acf_z_imag-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/part1/acf_z_psd_without_imag.eps>
+(epstopdf)                    date: 2017-02-16 11:53:47
+(epstopdf)                    size: 25614 bytes
+(epstopdf)             Output file: <images/part1/acf_z_psd_without_imag-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2017-02-16 11:54:00
+(epstopdf)                    size: 10060 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/acf_z_psd_wit
+hout_imag-eps-converted-to.pdf images/part1/acf_z_psd_without_imag.eps>
+(epstopdf)             \includegraphics on input line 95.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/acf_z_psd_without_imag-eps-converted-to.pdf, id=162, 835.12pt x 6
+71.50874pt>
+File: images/part1/acf_z_psd_without_imag-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use images/part1/acf_z_psd_without_imag-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/acf_z_psd_without_imag-eps-converted-to.p
+df used on input line 95.
+(pdftex.def)             Requested size: 154.78653pt x 124.46283pt.
+Package epstopdf Info: Source file: <images/part1/acf_z_psd_with_imag.eps>
+(epstopdf)                    date: 2017-02-16 11:52:36
+(epstopdf)                    size: 25605 bytes
+(epstopdf)             Output file: <images/part1/acf_z_psd_with_imag-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2017-02-16 11:53:22
+(epstopdf)                    size: 9998 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/acf_z_psd_wit
+h_imag-eps-converted-to.pdf images/part1/acf_z_psd_with_imag.eps>
+(epstopdf)             \includegraphics on input line 96.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/acf_z_psd_with_imag-eps-converted-to.pdf, id=163, 835.12pt x 671.
+50874pt>
+File: images/part1/acf_z_psd_with_imag-eps-converted-to.pdf Graphic file (type 
+pdf)
+ <use images/part1/acf_z_psd_with_imag-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/acf_z_psd_with_imag-eps-converted-to.pdf 
+used on input line 96.
+(pdftex.def)             Requested size: 154.78653pt x 124.46283pt.
+Package epstopdf Info: Source file: <images/part1/bartlett_window_N_128_linear.
+eps>
+(epstopdf)                    date: 2017-02-16 12:04:30
+(epstopdf)                    size: 42532 bytes
+(epstopdf)             Output file: <images/part1/bartlett_window_N_128_linear-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 12:04:42
+(epstopdf)                    size: 14371 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/bartlett_wind
+ow_N_128_linear-eps-converted-to.pdf images/part1/bartlett_window_N_128_linear.
+eps>
+(epstopdf)             \includegraphics on input line 126.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/bartlett_window_N_128_linear-eps-converted-to.pdf, id=164, 858.20
+625pt x 670.505pt>
+File: images/part1/bartlett_window_N_128_linear-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use images/part1/bartlett_window_N_128_linear-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/bartlett_window_N_128_linear-eps-converte
+d-to.pdf used on input line 126.
+(pdftex.def)             Requested size: 154.78653pt x 120.93123pt.
+Package epstopdf Info: Source file: <images/part1/bartlett_window_N_512_linear.
+eps>
+(epstopdf)                    date: 2017-02-16 12:02:34
+(epstopdf)                    size: 42394 bytes
+(epstopdf)             Output file: <images/part1/bartlett_window_N_512_linear-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 12:03:07
+(epstopdf)                    size: 14148 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/bartlett_wind
+ow_N_512_linear-eps-converted-to.pdf images/part1/bartlett_window_N_512_linear.
+eps>
+(epstopdf)             \includegraphics on input line 127.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/bartlett_window_N_512_linear-eps-converted-to.pdf, id=165, 858.20
+625pt x 670.505pt>
+File: images/part1/bartlett_window_N_512_linear-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use images/part1/bartlett_window_N_512_linear-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/bartlett_window_N_512_linear-eps-converte
+d-to.pdf used on input line 127.
+(pdftex.def)             Requested size: 154.78653pt x 120.93123pt.
+Package epstopdf Info: Source file: <images/part1/bartlett_window_N_128_dB.eps>
+
+(epstopdf)                    date: 2017-02-16 12:02:08
+(epstopdf)                    size: 62861 bytes
+(epstopdf)             Output file: <images/part1/bartlett_window_N_128_dB-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 12:03:08
+(epstopdf)                    size: 18620 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/bartlett_wind
+ow_N_128_dB-eps-converted-to.pdf images/part1/bartlett_window_N_128_dB.eps>
+(epstopdf)             \includegraphics on input line 128.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/bartlett_window_N_128_dB-eps-converted-to.pdf, id=166, 867.24pt x
+ 670.505pt>
+File: images/part1/bartlett_window_N_128_dB-eps-converted-to.pdf Graphic file (
+type pdf)
+ <use images/part1/bartlett_window_N_128_dB-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/bartlett_window_N_128_dB-eps-converted-to
+.pdf used on input line 128.
+(pdftex.def)             Requested size: 154.78653pt x 119.6728pt.
+Package epstopdf Info: Source file: <images/part1/bartlett_window_N_512_dB.eps>
+
+(epstopdf)                    date: 2017-02-16 12:02:40
+(epstopdf)                    size: 63381 bytes
+(epstopdf)             Output file: <images/part1/bartlett_window_N_512_dB-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 12:03:08
+(epstopdf)                    size: 17423 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/bartlett_wind
+ow_N_512_dB-eps-converted-to.pdf images/part1/bartlett_window_N_512_dB.eps>
+(epstopdf)             \includegraphics on input line 129.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/bartlett_window_N_512_dB-eps-converted-to.pdf, id=167, 867.24pt x
+ 670.505pt>
+File: images/part1/bartlett_window_N_512_dB-eps-converted-to.pdf Graphic file (
+type pdf)
+ <use images/part1/bartlett_window_N_512_dB-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/bartlett_window_N_512_dB-eps-converted-to
+.pdf used on input line 129.
+(pdftex.def)             Requested size: 154.78653pt x 119.6728pt.
+Package epstopdf Info: Source file: <images/part1/bartlett_empirical_vs_N.eps>
+(epstopdf)                    date: 2017-02-16 12:07:21
+(epstopdf)                    size: 23627 bytes
+(epstopdf)             Output file: <images/part1/bartlett_empirical_vs_N-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2017-02-16 12:07:30
+(epstopdf)                    size: 11261 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/bartlett_empi
+rical_vs_N-eps-converted-to.pdf images/part1/bartlett_empirical_vs_N.eps>
+(epstopdf)             \includegraphics on input line 138.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/bartlett_empirical_vs_N-eps-converted-to.pdf, id=168, 883.3pt x 6
+70.505pt>
+File: images/part1/bartlett_empirical_vs_N-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use images/part1/bartlett_empirical_vs_N-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/bartlett_empirical_vs_N-eps-converted-to.
+pdf used on input line 138.
+(pdftex.def)             Requested size: 154.78653pt x 117.49359pt.
+Package epstopdf Info: Source file: <images/part1/bartlett_empirical_vs_1_over_
+N.eps>
+(epstopdf)                    date: 2017-02-21 10:35:28
+(epstopdf)                    size: 22388 bytes
+(epstopdf)             Output file: <images/part1/bartlett_empirical_vs_1_over_
+N-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-21 10:39:07
+(epstopdf)                    size: 11010 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/bartlett_empi
+rical_vs_1_over_N-eps-converted-to.pdf images/part1/bartlett_empirical_vs_1_ove
+r_N.eps>
+(epstopdf)             \includegraphics on input line 139.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/bartlett_empirical_vs_1_over_N-eps-converted-to.pdf, id=169, 886.
+31125pt x 671.50874pt>
+File: images/part1/bartlett_empirical_vs_1_over_N-eps-converted-to.pdf Graphic 
+file (type pdf)
+
+<use images/part1/bartlett_empirical_vs_1_over_N-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/bartlett_empirical_vs_1_over_N-eps-conver
+ted-to.pdf used on input line 139.
+(pdftex.def)             Requested size: 154.78653pt x 117.26987pt.
+ [5 <./images/part1/acf_z_psd_without_imag-eps-converted-to.pdf> <./images/part
+1/acf_z_psd_with_imag-eps-converted-to.pdf> <./images/part1/bartlett_window_N_1
+28_linear-eps-converted-to.pdf> <./images/part1/bartlett_window_N_512_linear-ep
+s-converted-to.pdf> <./images/part1/bartlett_window_N_128_dB-eps-converted-to.p
+df> <./images/part1/bartlett_window_N_512_dB-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/part1/bartlett_empirical_side_lobe.
+eps>
+(epstopdf)                    date: 2017-02-16 12:08:26
+(epstopdf)                    size: 23862 bytes
+(epstopdf)             Output file: <images/part1/bartlett_empirical_side_lobe-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 12:08:36
+(epstopdf)                    size: 9732 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/bartlett_empi
+rical_side_lobe-eps-converted-to.pdf images/part1/bartlett_empirical_side_lobe.
+eps>
+(epstopdf)             \includegraphics on input line 154.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/bartlett_empirical_side_lobe-eps-converted-to.pdf, id=225, 863.22
+5pt x 671.50874pt>
+File: images/part1/bartlett_empirical_side_lobe-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use images/part1/bartlett_empirical_side_lobe-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/bartlett_empirical_side_lobe-eps-converte
+d-to.pdf used on input line 154.
+(pdftex.def)             Requested size: 154.78653pt x 120.40527pt.
+Package epstopdf Info: Source file: <images/part1/periodogram_xn_alpha_1.eps>
+(epstopdf)                    date: 2017-02-18 09:57:10
+(epstopdf)                    size: 31007 bytes
+(epstopdf)             Output file: <images/part1/periodogram_xn_alpha_1-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2017-02-18 10:47:49
+(epstopdf)                    size: 14352 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/periodogram_x
+n_alpha_1-eps-converted-to.pdf images/part1/periodogram_xn_alpha_1.eps>
+(epstopdf)             \includegraphics on input line 168.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/periodogram_xn_alpha_1-eps-converted-to.pdf, id=226, 856.19875pt 
+x 670.505pt>
+File: images/part1/periodogram_xn_alpha_1-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use images/part1/periodogram_xn_alpha_1-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/periodogram_xn_alpha_1-eps-converted-to.p
+df used on input line 168.
+(pdftex.def)             Requested size: 154.78653pt x 121.20747pt.
+Package epstopdf Info: Source file: <images/part1/periodogram_xn_alpha_point_64
+.eps>
+(epstopdf)                    date: 2017-02-16 12:34:28
+(epstopdf)                    size: 28328 bytes
+(epstopdf)             Output file: <images/part1/periodogram_xn_alpha_point_64
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 12:34:36
+(epstopdf)                    size: 13234 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/periodogram_x
+n_alpha_point_64-eps-converted-to.pdf images/part1/periodogram_xn_alpha_point_6
+4.eps>
+(epstopdf)             \includegraphics on input line 169.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/periodogram_xn_alpha_point_64-eps-converted-to.pdf, id=227, 856.1
+9875pt x 670.505pt>
+File: images/part1/periodogram_xn_alpha_point_64-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use images/part1/periodogram_xn_alpha_point_64-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/periodogram_xn_alpha_point_64-eps-convert
+ed-to.pdf used on input line 169.
+(pdftex.def)             Requested size: 154.78653pt x 121.20747pt.
+Package epstopdf Info: Source file: <images/part1/periodogram_xn_alpha_point_63
+.eps>
+(epstopdf)                    date: 2017-02-16 12:33:46
+(epstopdf)                    size: 28327 bytes
+(epstopdf)             Output file: <images/part1/periodogram_xn_alpha_point_63
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 12:34:03
+(epstopdf)                    size: 13170 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/periodogram_x
+n_alpha_point_63-eps-converted-to.pdf images/part1/periodogram_xn_alpha_point_6
+3.eps>
+(epstopdf)             \includegraphics on input line 170.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/periodogram_xn_alpha_point_63-eps-converted-to.pdf, id=228, 856.1
+9875pt x 670.505pt>
+File: images/part1/periodogram_xn_alpha_point_63-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use images/part1/periodogram_xn_alpha_point_63-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/periodogram_xn_alpha_point_63-eps-convert
+ed-to.pdf used on input line 170.
+(pdftex.def)             Requested size: 154.78653pt x 121.20747pt.
+ [6 <./images/part1/bartlett_empirical_vs_N-eps-converted-to.pdf> <./images/par
+t1/bartlett_empirical_vs_1_over_N-eps-converted-to.pdf> <./images/part1/bartlet
+t_empirical_side_lobe-eps-converted-to.pdf> <./images/part1/periodogram_xn_alph
+a_1-eps-converted-to.pdf> <./images/part1/periodogram_xn_alpha_point_64-eps-con
+verted-to.pdf> <./images/part1/periodogram_xn_alpha_point_63-eps-converted-to.p
+df>]
+Package epstopdf Info: Source file: <images/part1/periodogram_windowed_xn_alpha
+_1.eps>
+(epstopdf)                    date: 2017-02-16 12:32:21
+(epstopdf)                    size: 31758 bytes
+(epstopdf)             Output file: <images/part1/periodogram_windowed_xn_alpha
+_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 12:32:46
+(epstopdf)                    size: 14130 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/periodogram_w
+indowed_xn_alpha_1-eps-converted-to.pdf images/part1/periodogram_windowed_xn_al
+pha_1.eps>
+(epstopdf)             \includegraphics on input line 178.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/periodogram_windowed_xn_alpha_1-eps-converted-to.pdf, id=281, 856
+.19875pt x 670.505pt>
+File: images/part1/periodogram_windowed_xn_alpha_1-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use images/part1/periodogram_windowed_xn_alpha_1-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/periodogram_windowed_xn_alpha_1-eps-conve
+rted-to.pdf used on input line 178.
+(pdftex.def)             Requested size: 154.78653pt x 121.20747pt.
+Package epstopdf Info: Source file: <images/part1/periodogram_windowed_xn_alpha
+_point_75.eps>
+(epstopdf)                    date: 2017-02-16 12:30:57
+(epstopdf)                    size: 30491 bytes
+(epstopdf)             Output file: <images/part1/periodogram_windowed_xn_alpha
+_point_75-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 12:31:13
+(epstopdf)                    size: 14181 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/periodogram_w
+indowed_xn_alpha_point_75-eps-converted-to.pdf images/part1/periodogram_windowe
+d_xn_alpha_point_75.eps>
+(epstopdf)             \includegraphics on input line 179.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/periodogram_windowed_xn_alpha_point_75-eps-converted-to.pdf, id=2
+82, 856.19875pt x 670.505pt>
+File: images/part1/periodogram_windowed_xn_alpha_point_75-eps-converted-to.pdf 
+Graphic file (type pdf)
+
+<use images/part1/periodogram_windowed_xn_alpha_point_75-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/periodogram_windowed_xn_alpha_point_75-ep
+s-converted-to.pdf used on input line 179.
+(pdftex.def)             Requested size: 154.78653pt x 121.20747pt.
+Package epstopdf Info: Source file: <images/part1/periodogram_windowed_xn_alpha
+_point_70.eps>
+(epstopdf)                    date: 2017-02-16 12:31:05
+(epstopdf)                    size: 30425 bytes
+(epstopdf)             Output file: <images/part1/periodogram_windowed_xn_alpha
+_point_70-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 12:31:14
+(epstopdf)                    size: 14051 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/periodogram_w
+indowed_xn_alpha_point_70-eps-converted-to.pdf images/part1/periodogram_windowe
+d_xn_alpha_point_70.eps>
+(epstopdf)             \includegraphics on input line 180.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/periodogram_windowed_xn_alpha_point_70-eps-converted-to.pdf, id=2
+83, 856.19875pt x 670.505pt>
+File: images/part1/periodogram_windowed_xn_alpha_point_70-eps-converted-to.pdf 
+Graphic file (type pdf)
+
+<use images/part1/periodogram_windowed_xn_alpha_point_70-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/periodogram_windowed_xn_alpha_point_70-ep
+s-converted-to.pdf used on input line 180.
+(pdftex.def)             Requested size: 154.78653pt x 121.20747pt.
+Package epstopdf Info: Source file: <images/part1/periodogram_leakage_bartlett_
+part_1.eps>
+(epstopdf)                    date: 2017-02-16 13:02:09
+(epstopdf)                    size: 71881 bytes
+(epstopdf)             Output file: <images/part1/periodogram_leakage_bartlett_
+part_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 13:02:19
+(epstopdf)                    size: 24617 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/periodogram_l
+eakage_bartlett_part_1-eps-converted-to.pdf images/part1/periodogram_leakage_ba
+rtlett_part_1.eps>
+(epstopdf)             \includegraphics on input line 188.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/periodogram_leakage_bartlett_part_1-eps-converted-to.pdf, id=284,
+ 839.135pt x 639.38875pt>
+File: images/part1/periodogram_leakage_bartlett_part_1-eps-converted-to.pdf Gra
+phic file (type pdf)
+
+<use images/part1/periodogram_leakage_bartlett_part_1-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/periodogram_leakage_bartlett_part_1-eps-c
+onverted-to.pdf used on input line 188.
+(pdftex.def)             Requested size: 232.17241pt x 176.90076pt.
+Package epstopdf Info: Source file: <images/part1/periodogram_leakage_bartlett_
+part_2.eps>
+(epstopdf)                    date: 2017-02-16 13:02:12
+(epstopdf)                    size: 76529 bytes
+(epstopdf)             Output file: <images/part1/periodogram_leakage_bartlett_
+part_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 13:02:20
+(epstopdf)                    size: 24732 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/periodogram_l
+eakage_bartlett_part_2-eps-converted-to.pdf images/part1/periodogram_leakage_ba
+rtlett_part_2.eps>
+(epstopdf)             \includegraphics on input line 189.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/periodogram_leakage_bartlett_part_2-eps-converted-to.pdf, id=285,
+ 839.135pt x 639.38875pt>
+File: images/part1/periodogram_leakage_bartlett_part_2-eps-converted-to.pdf Gra
+phic file (type pdf)
+
+<use images/part1/periodogram_leakage_bartlett_part_2-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/periodogram_leakage_bartlett_part_2-eps-c
+onverted-to.pdf used on input line 189.
+(pdftex.def)             Requested size: 232.17241pt x 176.90076pt.
+Package epstopdf Info: Source file: <images/part1/bartlett_amplitude.eps>
+(epstopdf)                    date: 2017-02-21 10:53:16
+(epstopdf)                    size: 28781 bytes
+(epstopdf)             Output file: <images/part1/bartlett_amplitude-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-02-21 10:53:24
+(epstopdf)                    size: 12553 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/bartlett_ampl
+itude-eps-converted-to.pdf images/part1/bartlett_amplitude.eps>
+(epstopdf)             \includegraphics on input line 198.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/bartlett_amplitude-eps-converted-to.pdf, id=286, 861.2175pt x 671
+.50874pt>
+File: images/part1/bartlett_amplitude-eps-converted-to.pdf Graphic file (type p
+df)
+ <use images/part1/bartlett_amplitude-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/bartlett_amplitude-eps-converted-to.pdf u
+sed on input line 198.
+(pdftex.def)             Requested size: 154.78653pt x 120.68192pt.
+ [7 <./images/part1/periodogram_windowed_xn_alpha_1-eps-converted-to.pdf> <./im
+ages/part1/periodogram_windowed_xn_alpha_point_75-eps-converted-to.pdf> <./imag
+es/part1/periodogram_windowed_xn_alpha_point_70-eps-converted-to.pdf> <./images
+/part1/periodogram_leakage_bartlett_part_1-eps-converted-to.pdf> <./images/part
+1/periodogram_leakage_bartlett_part_2-eps-converted-to.pdf> <./images/part1/bar
+tlett_amplitude-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/part1/periodogram_leakage_chebwin_p
+art_1.eps>
+(epstopdf)                    date: 2017-02-16 13:00:52
+(epstopdf)                    size: 76553 bytes
+(epstopdf)             Output file: <images/part1/periodogram_leakage_chebwin_p
+art_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 13:01:20
+(epstopdf)                    size: 24734 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/periodogram_l
+eakage_chebwin_part_1-eps-converted-to.pdf images/part1/periodogram_leakage_che
+bwin_part_1.eps>
+(epstopdf)             \includegraphics on input line 206.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/periodogram_leakage_chebwin_part_1-eps-converted-to.pdf, id=339, 
+839.135pt x 639.38875pt>
+File: images/part1/periodogram_leakage_chebwin_part_1-eps-converted-to.pdf Grap
+hic file (type pdf)
+
+<use images/part1/periodogram_leakage_chebwin_part_1-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/periodogram_leakage_chebwin_part_1-eps-co
+nverted-to.pdf used on input line 206.
+(pdftex.def)             Requested size: 232.17241pt x 176.90076pt.
+Package epstopdf Info: Source file: <images/part1/periodogram_leakage_chebwin_p
+art_2.eps>
+(epstopdf)                    date: 2017-02-16 13:00:56
+(epstopdf)                    size: 76882 bytes
+(epstopdf)             Output file: <images/part1/periodogram_leakage_chebwin_p
+art_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 13:01:20
+(epstopdf)                    size: 24744 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/periodogram_l
+eakage_chebwin_part_2-eps-converted-to.pdf images/part1/periodogram_leakage_che
+bwin_part_2.eps>
+(epstopdf)             \includegraphics on input line 207.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/periodogram_leakage_chebwin_part_2-eps-converted-to.pdf, id=340, 
+839.135pt x 639.38875pt>
+File: images/part1/periodogram_leakage_chebwin_part_2-eps-converted-to.pdf Grap
+hic file (type pdf)
+
+<use images/part1/periodogram_leakage_chebwin_part_2-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/periodogram_leakage_chebwin_part_2-eps-co
+nverted-to.pdf used on input line 207.
+(pdftex.def)             Requested size: 232.17241pt x 176.90076pt.
+Package epstopdf Info: Source file: <images/part1/periodogram_leakage_blackman_
+tukey_part_1.eps>
+(epstopdf)                    date: 2017-02-16 13:00:36
+(epstopdf)                    size: 73534 bytes
+(epstopdf)             Output file: <images/part1/periodogram_leakage_blackman_
+tukey_part_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 13:01:21
+(epstopdf)                    size: 24665 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/periodogram_l
+eakage_blackman_tukey_part_1-eps-converted-to.pdf images/part1/periodogram_leak
+age_blackman_tukey_part_1.eps>
+(epstopdf)             \includegraphics on input line 215.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/periodogram_leakage_blackman_tukey_part_1-eps-converted-to.pdf, i
+d=341, 832.10875pt x 639.38875pt>
+File: images/part1/periodogram_leakage_blackman_tukey_part_1-eps-converted-to.p
+df Graphic file (type pdf)
+
+<use images/part1/periodogram_leakage_blackman_tukey_part_1-eps-converted-to.pd
+f>
+Package pdftex.def Info: images/part1/periodogram_leakage_blackman_tukey_part_1
+-eps-converted-to.pdf used on input line 215.
+(pdftex.def)             Requested size: 232.17241pt x 178.39346pt.
+Package epstopdf Info: Source file: <images/part1/periodogram_leakage_blackman_
+tukey_part_2.eps>
+(epstopdf)                    date: 2017-02-16 13:00:40
+(epstopdf)                    size: 73552 bytes
+(epstopdf)             Output file: <images/part1/periodogram_leakage_blackman_
+tukey_part_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 13:01:21
+(epstopdf)                    size: 24162 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/periodogram_l
+eakage_blackman_tukey_part_2-eps-converted-to.pdf images/part1/periodogram_leak
+age_blackman_tukey_part_2.eps>
+(epstopdf)             \includegraphics on input line 216.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/periodogram_leakage_blackman_tukey_part_2-eps-converted-to.pdf, i
+d=342, 832.10875pt x 639.38875pt>
+File: images/part1/periodogram_leakage_blackman_tukey_part_2-eps-converted-to.p
+df Graphic file (type pdf)
+
+<use images/part1/periodogram_leakage_blackman_tukey_part_2-eps-converted-to.pd
+f>
+Package pdftex.def Info: images/part1/periodogram_leakage_blackman_tukey_part_2
+-eps-converted-to.pdf used on input line 216.
+(pdftex.def)             Requested size: 232.17241pt x 178.39346pt.
+ [8 <./images/part1/periodogram_leakage_chebwin_part_1-eps-converted-to.pdf> <.
+/images/part1/periodogram_leakage_chebwin_part_2-eps-converted-to.pdf> <./image
+s/part1/periodogram_leakage_blackman_tukey_part_1-eps-converted-to.pdf> <./imag
+es/part1/periodogram_leakage_blackman_tukey_part_2-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/part1/sunspot_periodogram.eps>
+(epstopdf)                    date: 2017-02-18 11:12:54
+(epstopdf)                    size: 98828 bytes
+(epstopdf)             Output file: <images/part1/sunspot_periodogram-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2017-02-18 11:13:03
+(epstopdf)                    size: 38696 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/sunspot_perio
+dogram-eps-converted-to.pdf images/part1/sunspot_periodogram.eps>
+(epstopdf)             \includegraphics on input line 227.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/sunspot_periodogram-eps-converted-to.pdf, id=378, 844.15375pt x 6
+71.50874pt>
+File: images/part1/sunspot_periodogram-eps-converted-to.pdf Graphic file (type 
+pdf)
+ <use images/part1/sunspot_periodogram-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/sunspot_periodogram-eps-converted-to.pdf 
+used on input line 227.
+(pdftex.def)             Requested size: 159.62083pt x 126.9732pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
+
+ []
+
+Package epstopdf Info: Source file: <images/part1/POz_standard_periodogram.eps>
+
+(epstopdf)                    date: 2017-02-16 14:16:58
+(epstopdf)                    size: 33400 bytes
+(epstopdf)             Output file: <images/part1/POz_standard_periodogram-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 14:24:32
+(epstopdf)                    size: 13689 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/POz_standard_
+periodogram-eps-converted-to.pdf images/part1/POz_standard_periodogram.eps>
+(epstopdf)             \includegraphics on input line 239.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/POz_standard_periodogram-eps-converted-to.pdf, id=379, 863.225pt 
+x 671.50874pt>
+File: images/part1/POz_standard_periodogram-eps-converted-to.pdf Graphic file (
+type pdf)
+
+<use images/part1/POz_standard_periodogram-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/POz_standard_periodogram-eps-converted-to
+.pdf used on input line 239.
+(pdftex.def)             Requested size: 159.62083pt x 124.1657pt.
+Package epstopdf Info: Source file: <images/part1/POz_welch_periodogram.eps>
+(epstopdf)                    date: 2017-02-18 11:11:17
+(epstopdf)                    size: 52375 bytes
+(epstopdf)             Output file: <images/part1/POz_welch_periodogram-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2017-02-18 11:11:48
+(epstopdf)                    size: 21764 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/POz_welch_per
+iodogram-eps-converted-to.pdf images/part1/POz_welch_periodogram.eps>
+(epstopdf)             \includegraphics on input line 240.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/POz_welch_periodogram-eps-converted-to.pdf, id=380, 863.225pt x 6
+71.50874pt>
+File: images/part1/POz_welch_periodogram-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use images/part1/POz_welch_periodogram-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/POz_welch_periodogram-eps-converted-to.pd
+f used on input line 240.
+(pdftex.def)             Requested size: 159.62083pt x 124.1657pt.
+
+[9 <./images/part1/sunspot_periodogram-eps-converted-to.pdf> <./images/part1/PO
+z_standard_periodogram-eps-converted-to.pdf> <./images/part1/POz_welch_periodog
+ram-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/part1/POz_welch_periodogram_1_sec.e
+ps>
+(epstopdf)                    date: 2017-02-18 11:11:35
+(epstopdf)                    size: 30800 bytes
+(epstopdf)             Output file: <images/part1/POz_welch_periodogram_1_sec-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-18 11:11:49
+(epstopdf)                    size: 14160 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part1/POz_welch_per
+iodogram_1_sec-eps-converted-to.pdf images/part1/POz_welch_periodogram_1_sec.ep
+s>
+(epstopdf)             \includegraphics on input line 248.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part1/POz_welch_periodogram_1_sec-eps-converted-to.pdf, id=409, 863.225
+pt x 671.50874pt>
+File: images/part1/POz_welch_periodogram_1_sec-eps-converted-to.pdf Graphic fil
+e (type pdf)
+
+<use images/part1/POz_welch_periodogram_1_sec-eps-converted-to.pdf>
+Package pdftex.def Info: images/part1/POz_welch_periodogram_1_sec-eps-converted
+-to.pdf used on input line 248.
+(pdftex.def)             Requested size: 159.62083pt x 124.1657pt.
+) [10 <./images/part1/POz_welch_periodogram_1_sec-eps-converted-to.pdf>]
 \openout2 = `tex/part2.aux'.
 
-
-(./tex/part2.tex
+ (./tex/part2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
@@ -332,17 +1308,17 @@ ates-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=images/part2/wgn_biased_an
 d_unbiased_estimates-eps-converted-to.pdf images/part2/wgn_biased_and_unbiased_
 estimates.eps>
-(epstopdf)             \includegraphics on input line 11.
+(epstopdf)             \includegraphics on input line 13.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/wgn_biased_and_unbiased_estimates-eps-converted-to.pdf, id=1, 860
-.21375pt x 665.48625pt>
+<images/part2/wgn_biased_and_unbiased_estimates-eps-converted-to.pdf, id=421, 8
+60.21375pt x 665.48625pt>
 File: images/part2/wgn_biased_and_unbiased_estimates-eps-converted-to.pdf Graph
 ic file (type pdf)
 
 <use images/part2/wgn_biased_and_unbiased_estimates-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/wgn_biased_and_unbiased_estimates-eps-con
-verted-to.pdf used on input line 11.
+verted-to.pdf used on input line 13.
 (pdftex.def)             Requested size: 154.78653pt x 119.74173pt.
 Package epstopdf Info: Source file: <images/part2/sinewave_biased_and_unbiased_
 estimates.eps>
@@ -355,17 +1331,17 @@ estimates-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=images/part2/sinewave_bias
 ed_and_unbiased_estimates-eps-converted-to.pdf images/part2/sinewave_biased_and
 _unbiased_estimates.eps>
-(epstopdf)             \includegraphics on input line 12.
+(epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/sinewave_biased_and_unbiased_estimates-eps-converted-to.pdf, id=2
-, 862.22125pt x 665.48625pt>
+<images/part2/sinewave_biased_and_unbiased_estimates-eps-converted-to.pdf, id=4
+22, 862.22125pt x 665.48625pt>
 File: images/part2/sinewave_biased_and_unbiased_estimates-eps-converted-to.pdf 
 Graphic file (type pdf)
 
 <use images/part2/sinewave_biased_and_unbiased_estimates-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/sinewave_biased_and_unbiased_estimates-ep
-s-converted-to.pdf used on input line 12.
+s-converted-to.pdf used on input line 14.
 (pdftex.def)             Requested size: 154.78653pt x 119.46756pt.
 Package epstopdf Info: Source file: <images/part2/filt_wgn_biased_and_unbiased_
 estimates.eps>
@@ -378,17 +1354,17 @@ estimates-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=images/part2/filt_wgn_bias
 ed_and_unbiased_estimates-eps-converted-to.pdf images/part2/filt_wgn_biased_and
 _unbiased_estimates.eps>
-(epstopdf)             \includegraphics on input line 13.
+(epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/filt_wgn_biased_and_unbiased_estimates-eps-converted-to.pdf, id=3
-, 860.21375pt x 665.48625pt>
+<images/part2/filt_wgn_biased_and_unbiased_estimates-eps-converted-to.pdf, id=4
+23, 860.21375pt x 665.48625pt>
 File: images/part2/filt_wgn_biased_and_unbiased_estimates-eps-converted-to.pdf 
 Graphic file (type pdf)
 
 <use images/part2/filt_wgn_biased_and_unbiased_estimates-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/filt_wgn_biased_and_unbiased_estimates-ep
-s-converted-to.pdf used on input line 13.
+s-converted-to.pdf used on input line 15.
 (pdftex.def)             Requested size: 154.78653pt x 119.74173pt.
 Package epstopdf Info: Source file: <images/part2/wgn_correlogram.eps>
 (epstopdf)                    date: 2017-02-25 13:00:46
@@ -399,16 +1375,16 @@ Package epstopdf Info: Source file: <images/part2/wgn_correlogram.eps>
 (epstopdf)                    size: 34100 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/part2/wgn_correlogr
 am-eps-converted-to.pdf images/part2/wgn_correlogram.eps>
-(epstopdf)             \includegraphics on input line 14.
+(epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/wgn_correlogram-eps-converted-to.pdf, id=4, 832.10875pt x 671.508
-74pt>
+<images/part2/wgn_correlogram-eps-converted-to.pdf, id=424, 832.10875pt x 671.5
+0874pt>
 File: images/part2/wgn_correlogram-eps-converted-to.pdf Graphic file (type pdf)
 
  <use images/part2/wgn_correlogram-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/wgn_correlogram-eps-converted-to.pdf used
- on input line 14.
+ on input line 16.
 (pdftex.def)             Requested size: 154.78653pt x 124.91368pt.
 Package epstopdf Info: Source file: <images/part2/sinewave_correlogram.eps>
 (epstopdf)                    date: 2017-02-25 13:07:21
@@ -419,16 +1395,16 @@ erted-to.pdf>
 (epstopdf)                    size: 26607 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/part2/sinewave_corr
 elogram-eps-converted-to.pdf images/part2/sinewave_correlogram.eps>
-(epstopdf)             \includegraphics on input line 15.
+(epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/sinewave_correlogram-eps-converted-to.pdf, id=5, 832.10875pt x 67
-1.50874pt>
+<images/part2/sinewave_correlogram-eps-converted-to.pdf, id=425, 832.10875pt x 
+671.50874pt>
 File: images/part2/sinewave_correlogram-eps-converted-to.pdf Graphic file (type
  pdf)
  <use images/part2/sinewave_correlogram-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/sinewave_correlogram-eps-converted-to.pdf
- used on input line 15.
+ used on input line 17.
 (pdftex.def)             Requested size: 154.78653pt x 124.91368pt.
 Package epstopdf Info: Source file: <images/part2/filt_wgn_correlogram.eps>
 (epstopdf)                    date: 2017-02-25 13:03:01
@@ -439,16 +1415,16 @@ erted-to.pdf>
 (epstopdf)                    size: 32505 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/part2/filt_wgn_corr
 elogram-eps-converted-to.pdf images/part2/filt_wgn_correlogram.eps>
-(epstopdf)             \includegraphics on input line 16.
+(epstopdf)             \includegraphics on input line 18.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/filt_wgn_correlogram-eps-converted-to.pdf, id=6, 832.10875pt x 67
-1.50874pt>
+<images/part2/filt_wgn_correlogram-eps-converted-to.pdf, id=426, 832.10875pt x 
+671.50874pt>
 File: images/part2/filt_wgn_correlogram-eps-converted-to.pdf Graphic file (type
  pdf)
  <use images/part2/filt_wgn_correlogram-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/filt_wgn_correlogram-eps-converted-to.pdf
- used on input line 16.
+ used on input line 18.
 (pdftex.def)             Requested size: 154.78653pt x 124.91368pt.
 Package epstopdf Info: Source file: <images/part2/variance_correlogram_sine_wav
 es_4_8.eps>
@@ -461,17 +1437,17 @@ es_4_8-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=images/part2/variance_corr
 elogram_sine_waves_4_8-eps-converted-to.pdf images/part2/variance_correlogram_s
 ine_waves_4_8.eps>
-(epstopdf)             \includegraphics on input line 25.
+(epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/variance_correlogram_sine_waves_4_8-eps-converted-to.pdf, id=7, 8
-39.135pt x 671.50874pt>
+<images/part2/variance_correlogram_sine_waves_4_8-eps-converted-to.pdf, id=427,
+ 839.135pt x 671.50874pt>
 File: images/part2/variance_correlogram_sine_waves_4_8-eps-converted-to.pdf Gra
 phic file (type pdf)
 
 <use images/part2/variance_correlogram_sine_waves_4_8-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/variance_correlogram_sine_waves_4_8-eps-c
-onverted-to.pdf used on input line 25.
+onverted-to.pdf used on input line 27.
 (pdftex.def)             Requested size: 154.78653pt x 123.85829pt.
 Package epstopdf Info: Source file: <images/part2/variance_correlogram_sine_wav
 es_1_2.eps>
@@ -484,17 +1460,17 @@ es_1_2-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=images/part2/variance_corr
 elogram_sine_waves_1_2-eps-converted-to.pdf images/part2/variance_correlogram_s
 ine_waves_1_2.eps>
-(epstopdf)             \includegraphics on input line 26.
+(epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/variance_correlogram_sine_waves_1_2-eps-converted-to.pdf, id=8, 8
-39.135pt x 671.50874pt>
+<images/part2/variance_correlogram_sine_waves_1_2-eps-converted-to.pdf, id=428,
+ 839.135pt x 671.50874pt>
 File: images/part2/variance_correlogram_sine_waves_1_2-eps-converted-to.pdf Gra
 phic file (type pdf)
 
 <use images/part2/variance_correlogram_sine_waves_1_2-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/variance_correlogram_sine_waves_1_2-eps-c
-onverted-to.pdf used on input line 26.
+onverted-to.pdf used on input line 28.
 (pdftex.def)             Requested size: 154.78653pt x 123.85829pt.
 Package epstopdf Info: Source file: <images/part2/std_dev_correlogram_sine_wave
 s_4_8.eps>
@@ -507,17 +1483,17 @@ s_4_8-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=images/part2/std_dev_corre
 logram_sine_waves_4_8-eps-converted-to.pdf images/part2/std_dev_correlogram_sin
 e_waves_4_8.eps>
-(epstopdf)             \includegraphics on input line 31.
+(epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/std_dev_correlogram_sine_waves_4_8-eps-converted-to.pdf, id=9, 84
-4.15375pt x 671.50874pt>
+<images/part2/std_dev_correlogram_sine_waves_4_8-eps-converted-to.pdf, id=429, 
+844.15375pt x 671.50874pt>
 File: images/part2/std_dev_correlogram_sine_waves_4_8-eps-converted-to.pdf Grap
 hic file (type pdf)
 
 <use images/part2/std_dev_correlogram_sine_waves_4_8-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/std_dev_correlogram_sine_waves_4_8-eps-co
-nverted-to.pdf used on input line 31.
+nverted-to.pdf used on input line 33.
 (pdftex.def)             Requested size: 154.78653pt x 123.1308pt.
 Package epstopdf Info: Source file: <images/part2/std_dev_correlogram_sine_wave
 s_1_2.eps>
@@ -530,44 +1506,30 @@ s_1_2-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=images/part2/std_dev_corre
 logram_sine_waves_1_2-eps-converted-to.pdf images/part2/std_dev_correlogram_sin
 e_waves_1_2.eps>
-(epstopdf)             \includegraphics on input line 32.
+(epstopdf)             \includegraphics on input line 34.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/std_dev_correlogram_sine_waves_1_2-eps-converted-to.pdf, id=10, 8
-44.15375pt x 671.50874pt>
+<images/part2/std_dev_correlogram_sine_waves_1_2-eps-converted-to.pdf, id=430, 
+844.15375pt x 671.50874pt>
 File: images/part2/std_dev_correlogram_sine_waves_1_2-eps-converted-to.pdf Grap
 hic file (type pdf)
 
 <use images/part2/std_dev_correlogram_sine_waves_1_2-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/std_dev_correlogram_sine_waves_1_2-eps-co
-nverted-to.pdf used on input line 32.
+nverted-to.pdf used on input line 34.
 (pdftex.def)             Requested size: 154.78653pt x 123.1308pt.
 
 [11
 
 
-
-
-
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
-s/part2/wgn_biased_and_unbiased_estimates-eps-converted-to.pdf> <./images/part2
-/sinewave_biased_and_unbiased_estimates-eps-converted-to.pdf> <./images/part2/f
-ilt_wgn_biased_and_unbiased_estimates-eps-converted-to.pdf> <./images/part2/wgn
-_correlogram-eps-converted-to.pdf> <./images/part2/sinewave_correlogram-eps-con
-verted-to.pdf> <./images/part2/filt_wgn_correlogram-eps-converted-to.pdf> <./im
-ages/part2/variance_correlogram_sine_waves_4_8-eps-converted-to.pdf> <./images/
-part2/variance_correlogram_sine_waves_1_2-eps-converted-to.pdf>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 36.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 36.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+ <./images/part2/wgn_biased_and_unbiased_estimates-eps-converted-to.pdf> <./ima
+ges/part2/sinewave_biased_and_unbiased_estimates-eps-converted-to.pdf> <./image
+s/part2/filt_wgn_biased_and_unbiased_estimates-eps-converted-to.pdf> <./images/
+part2/wgn_correlogram-eps-converted-to.pdf> <./images/part2/sinewave_correlogra
+m-eps-converted-to.pdf> <./images/part2/filt_wgn_correlogram-eps-converted-to.p
+df> <./images/part2/variance_correlogram_sine_waves_4_8-eps-converted-to.pdf> <
+./images/part2/variance_correlogram_sine_waves_1_2-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
@@ -582,17 +1544,17 @@ es_1_2_dB-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=images/part2/variance_corr
 elogram_sine_waves_1_2_dB-eps-converted-to.pdf images/part2/variance_correlogra
 m_sine_waves_1_2_dB.eps>
-(epstopdf)             \includegraphics on input line 42.
+(epstopdf)             \includegraphics on input line 44.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/variance_correlogram_sine_waves_1_2_dB-eps-converted-to.pdf, id=8
-2, 847.165pt x 671.50874pt>
+<images/part2/variance_correlogram_sine_waves_1_2_dB-eps-converted-to.pdf, id=4
+99, 847.165pt x 671.50874pt>
 File: images/part2/variance_correlogram_sine_waves_1_2_dB-eps-converted-to.pdf 
 Graphic file (type pdf)
 
 <use images/part2/variance_correlogram_sine_waves_1_2_dB-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/variance_correlogram_sine_waves_1_2_dB-ep
-s-converted-to.pdf used on input line 42.
+s-converted-to.pdf used on input line 44.
 (pdftex.def)             Requested size: 154.78653pt x 122.69022pt.
 Package epstopdf Info: Source file: <images/part2/std_dev_correlogram_sine_wave
 s_1_2_dB.eps>
@@ -605,85 +1567,85 @@ s_1_2_dB-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=images/part2/std_dev_corre
 logram_sine_waves_1_2_dB-eps-converted-to.pdf images/part2/std_dev_correlogram_
 sine_waves_1_2_dB.eps>
-(epstopdf)             \includegraphics on input line 43.
+(epstopdf)             \includegraphics on input line 45.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/std_dev_correlogram_sine_waves_1_2_dB-eps-converted-to.pdf, id=83
-, 847.165pt x 671.50874pt>
+<images/part2/std_dev_correlogram_sine_waves_1_2_dB-eps-converted-to.pdf, id=50
+0, 847.165pt x 671.50874pt>
 File: images/part2/std_dev_correlogram_sine_waves_1_2_dB-eps-converted-to.pdf G
 raphic file (type pdf)
 
 <use images/part2/std_dev_correlogram_sine_waves_1_2_dB-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/std_dev_correlogram_sine_waves_1_2_dB-eps
--converted-to.pdf used on input line 43.
+-converted-to.pdf used on input line 45.
 (pdftex.def)             Requested size: 154.78653pt x 122.69022pt.
 Package epstopdf Info: Source file: <images/part2/complex_psd_n_30.eps>
-(epstopdf)                    date: 2017-02-25 13:34:18
-(epstopdf)                    size: 29667 bytes
+(epstopdf)                    date: 2017-03-23 12:51:11
+(epstopdf)                    size: 23779 bytes
 (epstopdf)             Output file: <images/part2/complex_psd_n_30-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2017-02-25 13:37:20
-(epstopdf)                    size: 11283 bytes
+(epstopdf)                    date: 2017-03-23 12:51:30
+(epstopdf)                    size: 10774 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/part2/complex_psd_n
 _30-eps-converted-to.pdf images/part2/complex_psd_n_30.eps>
-(epstopdf)             \includegraphics on input line 51.
+(epstopdf)             \includegraphics on input line 53.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/complex_psd_n_30-eps-converted-to.pdf, id=84, 844.15375pt x 670.5
-05pt>
+<images/part2/complex_psd_n_30-eps-converted-to.pdf, id=501, 844.15375pt x 689.
+57625pt>
 File: images/part2/complex_psd_n_30-eps-converted-to.pdf Graphic file (type pdf
 )
  <use images/part2/complex_psd_n_30-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/complex_psd_n_30-eps-converted-to.pdf use
-d on input line 51.
-(pdftex.def)             Requested size: 154.78653pt x 122.94676pt.
+d on input line 53.
+(pdftex.def)             Requested size: 154.78653pt x 126.44374pt.
 Package epstopdf Info: Source file: <images/part2/complex_psd_n_50.eps>
-(epstopdf)                    date: 2017-02-25 13:34:26
-(epstopdf)                    size: 29668 bytes
+(epstopdf)                    date: 2017-03-23 12:51:18
+(epstopdf)                    size: 23778 bytes
 (epstopdf)             Output file: <images/part2/complex_psd_n_50-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2017-02-25 13:37:21
-(epstopdf)                    size: 11254 bytes
+(epstopdf)                    date: 2017-03-23 12:51:30
+(epstopdf)                    size: 10740 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/part2/complex_psd_n
 _50-eps-converted-to.pdf images/part2/complex_psd_n_50.eps>
-(epstopdf)             \includegraphics on input line 52.
+(epstopdf)             \includegraphics on input line 54.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/complex_psd_n_50-eps-converted-to.pdf, id=85, 844.15375pt x 670.5
-05pt>
+<images/part2/complex_psd_n_50-eps-converted-to.pdf, id=502, 844.15375pt x 689.
+57625pt>
 File: images/part2/complex_psd_n_50-eps-converted-to.pdf Graphic file (type pdf
 )
  <use images/part2/complex_psd_n_50-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/complex_psd_n_50-eps-converted-to.pdf use
-d on input line 52.
-(pdftex.def)             Requested size: 154.78653pt x 122.94676pt.
+d on input line 54.
+(pdftex.def)             Requested size: 154.78653pt x 126.44374pt.
 Package epstopdf Info: Source file: <images/part2/complex_psd_n_70.eps>
-(epstopdf)                    date: 2017-02-25 13:37:48
-(epstopdf)                    size: 29676 bytes
+(epstopdf)                    date: 2017-03-23 12:51:22
+(epstopdf)                    size: 23772 bytes
 (epstopdf)             Output file: <images/part2/complex_psd_n_70-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2017-02-25 13:38:01
-(epstopdf)                    size: 11236 bytes
+(epstopdf)                    date: 2017-03-23 12:51:31
+(epstopdf)                    size: 10699 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/part2/complex_psd_n
 _70-eps-converted-to.pdf images/part2/complex_psd_n_70.eps>
-(epstopdf)             \includegraphics on input line 53.
+(epstopdf)             \includegraphics on input line 55.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/complex_psd_n_70-eps-converted-to.pdf, id=86, 844.15375pt x 670.5
-05pt>
+<images/part2/complex_psd_n_70-eps-converted-to.pdf, id=503, 844.15375pt x 689.
+57625pt>
 File: images/part2/complex_psd_n_70-eps-converted-to.pdf Graphic file (type pdf
 )
  <use images/part2/complex_psd_n_70-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/complex_psd_n_70-eps-converted-to.pdf use
-d on input line 53.
-(pdftex.def)             Requested size: 154.78653pt x 122.94676pt.
+d on input line 55.
+(pdftex.def)             Requested size: 154.78653pt x 126.44374pt.
  [12 <./images/part2/std_dev_correlogram_sine_waves_4_8-eps-converted-to.pdf> <
 ./images/part2/std_dev_correlogram_sine_waves_1_2-eps-converted-to.pdf> <./imag
 es/part2/variance_correlogram_sine_waves_1_2_dB-eps-converted-to.pdf> <./images
 /part2/std_dev_correlogram_sine_waves_1_2_dB-eps-converted-to.pdf> <./images/pa
 rt2/complex_psd_n_30-eps-converted-to.pdf> <./images/part2/complex_psd_n_50-eps
 -converted-to.pdf> <./images/part2/complex_psd_n_70-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
@@ -696,16 +1658,16 @@ nverted-to.pdf>
 (epstopdf)                    size: 8798 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/part2/music_2_sinew
 aves_n_30-eps-converted-to.pdf images/part2/music_2_sinewaves_n_30.eps>
-(epstopdf)             \includegraphics on input line 82.
+(epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/music_2_sinewaves_n_30-eps-converted-to.pdf, id=152, 859.21pt x 6
+<images/part2/music_2_sinewaves_n_30-eps-converted-to.pdf, id=564, 859.21pt x 6
 70.505pt>
 File: images/part2/music_2_sinewaves_n_30-eps-converted-to.pdf Graphic file (ty
 pe pdf)
  <use images/part2/music_2_sinewaves_n_30-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/music_2_sinewaves_n_30-eps-converted-to.p
-df used on input line 82.
+df used on input line 85.
 (pdftex.def)             Requested size: 154.78653pt x 120.788pt.
 Package epstopdf Info: Source file: <images/part2/music_3_sine_waves_n_30.eps>
 (epstopdf)                    date: 2017-02-25 15:10:56
@@ -716,16 +1678,16 @@ onverted-to.pdf>
 (epstopdf)                    size: 8911 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/part2/music_3_sine_
 waves_n_30-eps-converted-to.pdf images/part2/music_3_sine_waves_n_30.eps>
-(epstopdf)             \includegraphics on input line 83.
+(epstopdf)             \includegraphics on input line 86.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/music_3_sine_waves_n_30-eps-converted-to.pdf, id=153, 859.21pt x 
+<images/part2/music_3_sine_waves_n_30-eps-converted-to.pdf, id=565, 859.21pt x 
 670.505pt>
 File: images/part2/music_3_sine_waves_n_30-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use images/part2/music_3_sine_waves_n_30-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/music_3_sine_waves_n_30-eps-converted-to.
-pdf used on input line 83.
+pdf used on input line 86.
 (pdftex.def)             Requested size: 154.78653pt x 120.788pt.
 Package epstopdf Info: Source file: <images/part2/music_3_sine_waves_n_70.eps>
 (epstopdf)                    date: 2017-03-03 10:22:54
@@ -736,16 +1698,16 @@ onverted-to.pdf>
 (epstopdf)                    size: 8743 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/part2/music_3_sine_
 waves_n_70-eps-converted-to.pdf images/part2/music_3_sine_waves_n_70.eps>
-(epstopdf)             \includegraphics on input line 84.
+(epstopdf)             \includegraphics on input line 87.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/music_3_sine_waves_n_70-eps-converted-to.pdf, id=154, 870.25125pt
+<images/part2/music_3_sine_waves_n_70-eps-converted-to.pdf, id=566, 870.25125pt
  x 670.505pt>
 File: images/part2/music_3_sine_waves_n_70-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use images/part2/music_3_sine_waves_n_70-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/music_3_sine_waves_n_70-eps-converted-to.
-pdf used on input line 84.
+pdf used on input line 87.
 (pdftex.def)             Requested size: 154.78653pt x 119.25334pt.
 Package epstopdf Info: Source file: <images/part2/music_2_sinewaves_n_30_overla
 y.eps>
@@ -758,17 +1720,17 @@ y-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=images/part2/music_2_sinew
 aves_n_30_overlay-eps-converted-to.pdf images/part2/music_2_sinewaves_n_30_over
 lay.eps>
-(epstopdf)             \includegraphics on input line 85.
+(epstopdf)             \includegraphics on input line 88.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/music_2_sinewaves_n_30_overlay-eps-converted-to.pdf, id=155, 870.
+<images/part2/music_2_sinewaves_n_30_overlay-eps-converted-to.pdf, id=567, 870.
 25125pt x 670.505pt>
 File: images/part2/music_2_sinewaves_n_30_overlay-eps-converted-to.pdf Graphic 
 file (type pdf)
 
 <use images/part2/music_2_sinewaves_n_30_overlay-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/music_2_sinewaves_n_30_overlay-eps-conver
-ted-to.pdf used on input line 85.
+ted-to.pdf used on input line 88.
 (pdftex.def)             Requested size: 154.78653pt x 119.25334pt.
 Package epstopdf Info: Source file: <images/part2/music_3_sinewaves_n_30_overla
 y.eps>
@@ -781,17 +1743,17 @@ y-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=images/part2/music_3_sinew
 aves_n_30_overlay-eps-converted-to.pdf images/part2/music_3_sinewaves_n_30_over
 lay.eps>
-(epstopdf)             \includegraphics on input line 86.
+(epstopdf)             \includegraphics on input line 89.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/music_3_sinewaves_n_30_overlay-eps-converted-to.pdf, id=156, 870.
+<images/part2/music_3_sinewaves_n_30_overlay-eps-converted-to.pdf, id=568, 870.
 25125pt x 670.505pt>
 File: images/part2/music_3_sinewaves_n_30_overlay-eps-converted-to.pdf Graphic 
 file (type pdf)
 
 <use images/part2/music_3_sinewaves_n_30_overlay-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/music_3_sinewaves_n_30_overlay-eps-conver
-ted-to.pdf used on input line 86.
+ted-to.pdf used on input line 89.
 (pdftex.def)             Requested size: 154.78653pt x 119.25334pt.
 Package epstopdf Info: Source file: <images/part2/music_3_sinewaves_n_70_overla
 y.eps>
@@ -804,20 +1766,20 @@ y-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=images/part2/music_3_sinew
 aves_n_70_overlay-eps-converted-to.pdf images/part2/music_3_sinewaves_n_70_over
 lay.eps>
-(epstopdf)             \includegraphics on input line 87.
+(epstopdf)             \includegraphics on input line 90.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/music_3_sinewaves_n_70_overlay-eps-converted-to.pdf, id=157, 853.
+<images/part2/music_3_sinewaves_n_70_overlay-eps-converted-to.pdf, id=569, 853.
 1875pt x 670.505pt>
 File: images/part2/music_3_sinewaves_n_70_overlay-eps-converted-to.pdf Graphic 
 file (type pdf)
 
 <use images/part2/music_3_sinewaves_n_70_overlay-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/music_3_sinewaves_n_70_overlay-eps-conver
-ted-to.pdf used on input line 87.
+ted-to.pdf used on input line 90.
 (pdftex.def)             Requested size: 154.78653pt x 121.63718pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
@@ -827,7 +1789,12 @@ ves_n_70-eps-converted-to.pdf> <./images/part2/music_2_sinewaves_n_30_overlay-e
 ps-converted-to.pdf> <./images/part2/music_3_sinewaves_n_30_overlay-eps-convert
 ed-to.pdf> <./images/part2/music_3_sinewaves_n_70_overlay-eps-converted-to.pdf>
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
@@ -842,17 +1809,17 @@ eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=images/part2/ar_spectrum_e
 stimate_order_4-eps-converted-to.pdf images/part2/ar_spectrum_estimate_order_4.
 eps>
-(epstopdf)             \includegraphics on input line 111.
+(epstopdf)             \includegraphics on input line 116.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/ar_spectrum_estimate_order_4-eps-converted-to.pdf, id=218, 841.14
+<images/part2/ar_spectrum_estimate_order_4-eps-converted-to.pdf, id=629, 841.14
 25pt x 667.49374pt>
 File: images/part2/ar_spectrum_estimate_order_4-eps-converted-to.pdf Graphic fi
 le (type pdf)
 
 <use images/part2/ar_spectrum_estimate_order_4-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/ar_spectrum_estimate_order_4-eps-converte
-d-to.pdf used on input line 111.
+d-to.pdf used on input line 116.
 (pdftex.def)             Requested size: 116.08989pt x 92.12442pt.
 Package epstopdf Info: Source file: <images/part2/ar_spectrum_estimate_order_8.
 eps>
@@ -865,17 +1832,17 @@ eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=images/part2/ar_spectrum_e
 stimate_order_8-eps-converted-to.pdf images/part2/ar_spectrum_estimate_order_8.
 eps>
-(epstopdf)             \includegraphics on input line 112.
+(epstopdf)             \includegraphics on input line 117.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/ar_spectrum_estimate_order_8-eps-converted-to.pdf, id=219, 841.14
+<images/part2/ar_spectrum_estimate_order_8-eps-converted-to.pdf, id=630, 841.14
 25pt x 667.49374pt>
 File: images/part2/ar_spectrum_estimate_order_8-eps-converted-to.pdf Graphic fi
 le (type pdf)
 
 <use images/part2/ar_spectrum_estimate_order_8-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/ar_spectrum_estimate_order_8-eps-converte
-d-to.pdf used on input line 112.
+d-to.pdf used on input line 117.
 (pdftex.def)             Requested size: 116.08989pt x 92.12442pt.
 Package epstopdf Info: Source file: <images/part2/ar_spectrum_estimate_order_10
 .eps>
@@ -888,17 +1855,17 @@ Package epstopdf Info: Source file: <images/part2/ar_spectrum_estimate_order_10
 (epstopdf)             Command: <repstopdf --outfile=images/part2/ar_spectrum_e
 stimate_order_10-eps-converted-to.pdf images/part2/ar_spectrum_estimate_order_1
 0.eps>
-(epstopdf)             \includegraphics on input line 113.
+(epstopdf)             \includegraphics on input line 118.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/ar_spectrum_estimate_order_10-eps-converted-to.pdf, id=220, 841.1
+<images/part2/ar_spectrum_estimate_order_10-eps-converted-to.pdf, id=631, 841.1
 425pt x 667.49374pt>
 File: images/part2/ar_spectrum_estimate_order_10-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
 <use images/part2/ar_spectrum_estimate_order_10-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/ar_spectrum_estimate_order_10-eps-convert
-ed-to.pdf used on input line 113.
+ed-to.pdf used on input line 118.
 (pdftex.def)             Requested size: 116.08989pt x 92.12442pt.
 Package epstopdf Info: Source file: <images/part2/ar_spectrum_estimate_order_14
 .eps>
@@ -911,18 +1878,23 @@ Package epstopdf Info: Source file: <images/part2/ar_spectrum_estimate_order_14
 (epstopdf)             Command: <repstopdf --outfile=images/part2/ar_spectrum_e
 stimate_order_14-eps-converted-to.pdf images/part2/ar_spectrum_estimate_order_1
 4.eps>
-(epstopdf)             \includegraphics on input line 114.
+(epstopdf)             \includegraphics on input line 119.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/ar_spectrum_estimate_order_14-eps-converted-to.pdf, id=221, 841.1
+<images/part2/ar_spectrum_estimate_order_14-eps-converted-to.pdf, id=632, 841.1
 425pt x 667.49374pt>
 File: images/part2/ar_spectrum_estimate_order_14-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
 <use images/part2/ar_spectrum_estimate_order_14-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/ar_spectrum_estimate_order_14-eps-convert
-ed-to.pdf used on input line 114.
+ed-to.pdf used on input line 119.
 (pdftex.def)             Requested size: 116.08989pt x 92.12442pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
 Package epstopdf Info: Source file: <images/part2/ar_spectrum_estimate_order_2_
 9500.eps>
 (epstopdf)                    date: 2017-02-25 16:42:44
@@ -934,17 +1906,17 @@ Package epstopdf Info: Source file: <images/part2/ar_spectrum_estimate_order_2_
 (epstopdf)             Command: <repstopdf --outfile=images/part2/ar_spectrum_e
 stimate_order_2_9500-eps-converted-to.pdf images/part2/ar_spectrum_estimate_ord
 er_2_9500.eps>
-(epstopdf)             \includegraphics on input line 123.
+(epstopdf)             \includegraphics on input line 130.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/ar_spectrum_estimate_order_2_9500-eps-converted-to.pdf, id=222, 8
+<images/part2/ar_spectrum_estimate_order_2_9500-eps-converted-to.pdf, id=633, 8
 36.12375pt x 671.50874pt>
 File: images/part2/ar_spectrum_estimate_order_2_9500-eps-converted-to.pdf Graph
 ic file (type pdf)
 
 <use images/part2/ar_spectrum_estimate_order_2_9500-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/ar_spectrum_estimate_order_2_9500-eps-con
-verted-to.pdf used on input line 123.
+verted-to.pdf used on input line 130.
 (pdftex.def)             Requested size: 154.78653pt x 124.30914pt.
 Package epstopdf Info: Source file: <images/part2/ar_spectrum_estimate_order_4_
 9500.eps>
@@ -957,17 +1929,17 @@ Package epstopdf Info: Source file: <images/part2/ar_spectrum_estimate_order_4_
 (epstopdf)             Command: <repstopdf --outfile=images/part2/ar_spectrum_e
 stimate_order_4_9500-eps-converted-to.pdf images/part2/ar_spectrum_estimate_ord
 er_4_9500.eps>
-(epstopdf)             \includegraphics on input line 124.
+(epstopdf)             \includegraphics on input line 131.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/ar_spectrum_estimate_order_4_9500-eps-converted-to.pdf, id=223, 8
+<images/part2/ar_spectrum_estimate_order_4_9500-eps-converted-to.pdf, id=634, 8
 41.1425pt x 671.50874pt>
 File: images/part2/ar_spectrum_estimate_order_4_9500-eps-converted-to.pdf Graph
 ic file (type pdf)
 
 <use images/part2/ar_spectrum_estimate_order_4_9500-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/ar_spectrum_estimate_order_4_9500-eps-con
-verted-to.pdf used on input line 124.
+verted-to.pdf used on input line 131.
 (pdftex.def)             Requested size: 154.78653pt x 123.5714pt.
 Package epstopdf Info: Source file: <images/part2/ar_spectrum_estimate_order_12
 _9500.eps>
@@ -980,59 +1952,97 @@ _9500-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=images/part2/ar_spectrum_e
 stimate_order_12_9500-eps-converted-to.pdf images/part2/ar_spectrum_estimate_or
 der_12_9500.eps>
-(epstopdf)             \includegraphics on input line 125.
+(epstopdf)             \includegraphics on input line 132.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/ar_spectrum_estimate_order_12_9500-eps-converted-to.pdf, id=224, 
+<images/part2/ar_spectrum_estimate_order_12_9500-eps-converted-to.pdf, id=635, 
 841.1425pt x 671.50874pt>
 File: images/part2/ar_spectrum_estimate_order_12_9500-eps-converted-to.pdf Grap
 hic file (type pdf)
 
 <use images/part2/ar_spectrum_estimate_order_12_9500-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/ar_spectrum_estimate_order_12_9500-eps-co
-nverted-to.pdf used on input line 125.
+nverted-to.pdf used on input line 132.
 (pdftex.def)             Requested size: 154.78653pt x 123.5714pt.
 
-[14 <./images/part2/ar_spectrum_estimate_order_4-eps-converted-to.pdf> <./image
+[15 <./images/part2/ar_spectrum_estimate_order_4-eps-converted-to.pdf> <./image
 s/part2/ar_spectrum_estimate_order_8-eps-converted-to.pdf> <./images/part2/ar_s
 pectrum_estimate_order_10-eps-converted-to.pdf> <./images/part2/ar_spectrum_est
-imate_order_14-eps-converted-to.pdf>]
+imate_order_14-eps-converted-to.pdf> <./images/part2/ar_spectrum_estimate_order
+_2_9500-eps-converted-to.pdf> <./images/part2/ar_spectrum_estimate_order_4_9500
+-eps-converted-to.pdf> <./images/part2/ar_spectrum_estimate_order_12_9500-eps-c
+onverted-to.pdf>]
 Package epstopdf Info: Source file: <images/part2/svd_x.eps>
-(epstopdf)                    date: 2017-02-25 20:50:37
-(epstopdf)                    size: 30142 bytes
+(epstopdf)                    date: 2017-03-24 09:18:08
+(epstopdf)                    size: 24478 bytes
 (epstopdf)             Output file: <images/part2/svd_x-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-25 20:52:53
-(epstopdf)                    size: 9731 bytes
+(epstopdf)                    date: 2017-03-24 09:20:47
+(epstopdf)                    size: 9422 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/part2/svd_x-eps-con
 verted-to.pdf images/part2/svd_x.eps>
-(epstopdf)             \includegraphics on input line 133.
+(epstopdf)             \includegraphics on input line 144.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/svd_x-eps-converted-to.pdf, id=276, 844.15375pt x 666.49pt>
+<images/part2/svd_x-eps-converted-to.pdf, id=724, 844.15375pt x 685.56125pt>
 File: images/part2/svd_x-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/part2/svd_x-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/svd_x-eps-converted-to.pdf used on input 
-line 133.
-(pdftex.def)             Requested size: 154.78653pt x 122.21054pt.
+line 144.
+(pdftex.def)             Requested size: 154.78653pt x 125.70753pt.
 Package epstopdf Info: Source file: <images/part2/svd_x_noise.eps>
-(epstopdf)                    date: 2017-02-25 20:50:46
-(epstopdf)                    size: 30183 bytes
+(epstopdf)                    date: 2017-03-24 09:18:19
+(epstopdf)                    size: 24530 bytes
 (epstopdf)             Output file: <images/part2/svd_x_noise-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2017-02-25 20:52:53
-(epstopdf)                    size: 9807 bytes
+(epstopdf)                    date: 2017-03-24 09:20:48
+(epstopdf)                    size: 9550 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/part2/svd_x_noise-e
 ps-converted-to.pdf images/part2/svd_x_noise.eps>
-(epstopdf)             \includegraphics on input line 134.
+(epstopdf)             \includegraphics on input line 145.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/svd_x_noise-eps-converted-to.pdf, id=277, 844.15375pt x 666.49pt>
+<images/part2/svd_x_noise-eps-converted-to.pdf, id=725, 844.15375pt x 685.56125
+pt>
 File: images/part2/svd_x_noise-eps-converted-to.pdf Graphic file (type pdf)
-<use images/part2/svd_x_noise-eps-converted-to.pdf>
+ <use images/part2/svd_x_noise-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/svd_x_noise-eps-converted-to.pdf used on 
-input line 134.
-(pdftex.def)             Requested size: 154.78653pt x 122.21054pt.
+input line 145.
+(pdftex.def)             Requested size: 154.78653pt x 125.70753pt.
+Package epstopdf Info: Source file: <images/part2/squared_error_svd.eps>
+(epstopdf)                    date: 2017-03-24 09:21:53
+(epstopdf)                    size: 23457 bytes
+(epstopdf)             Output file: <images/part2/squared_error_svd-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2017-03-24 09:25:44
+(epstopdf)                    size: 9749 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part2/squared_error
+_svd-eps-converted-to.pdf images/part2/squared_error_svd.eps>
+(epstopdf)             \includegraphics on input line 153.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part2/squared_error_svd-eps-converted-to.pdf, id=726, 855.195pt x 685.5
+6125pt>
+File: images/part2/squared_error_svd-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use images/part2/squared_error_svd-eps-converted-to.pdf>
+Package pdftex.def Info: images/part2/squared_error_svd-eps-converted-to.pdf us
+ed on input line 153.
+(pdftex.def)             Requested size: 154.78653pt x 124.07565pt.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
+
+ []
+
+[16 <./images/part2/svd_x-eps-converted-to.pdf> <./images/part2/svd_x_noise-eps
+-converted-to.pdf> <./images/part2/squared_error_svd-eps-converted-to.pdf>]
+[17]
 Package epstopdf Info: Source file: <images/part2/eeg_trial_1_standard.eps>
 (epstopdf)                    date: 2017-02-25 22:10:38
 (epstopdf)                    size: 131637 bytes
@@ -1042,16 +2052,16 @@ erted-to.pdf>
 (epstopdf)                    size: 19432 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/part2/eeg_trial_1_s
 tandard-eps-converted-to.pdf images/part2/eeg_trial_1_standard.eps>
-(epstopdf)             \includegraphics on input line 144.
+(epstopdf)             \includegraphics on input line 256.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/eeg_trial_1_standard-eps-converted-to.pdf, id=278, 852.18375pt x 
+<images/part2/eeg_trial_1_standard-eps-converted-to.pdf, id=758, 852.18375pt x 
 671.50874pt>
 File: images/part2/eeg_trial_1_standard-eps-converted-to.pdf Graphic file (type
  pdf)
  <use images/part2/eeg_trial_1_standard-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/eeg_trial_1_standard-eps-converted-to.pdf
- used on input line 144.
+ used on input line 256.
 (pdftex.def)             Requested size: 154.78653pt x 121.96272pt.
 Package epstopdf Info: Source file: <images/part2/eeg_trial_2_standard.eps>
 (epstopdf)                    date: 2017-02-25 22:10:48
@@ -1062,16 +2072,16 @@ erted-to.pdf>
 (epstopdf)                    size: 19412 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/part2/eeg_trial_2_s
 tandard-eps-converted-to.pdf images/part2/eeg_trial_2_standard.eps>
-(epstopdf)             \includegraphics on input line 145.
+(epstopdf)             \includegraphics on input line 257.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/eeg_trial_2_standard-eps-converted-to.pdf, id=279, 852.18375pt x 
+<images/part2/eeg_trial_2_standard-eps-converted-to.pdf, id=759, 852.18375pt x 
 671.50874pt>
 File: images/part2/eeg_trial_2_standard-eps-converted-to.pdf Graphic file (type
  pdf)
  <use images/part2/eeg_trial_2_standard-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/eeg_trial_2_standard-eps-converted-to.pdf
- used on input line 145.
+ used on input line 257.
 (pdftex.def)             Requested size: 154.78653pt x 121.96272pt.
 Package epstopdf Info: Source file: <images/part2/eeg_trial_3_standard.eps>
 (epstopdf)                    date: 2017-02-25 22:10:58
@@ -1082,16 +2092,16 @@ erted-to.pdf>
 (epstopdf)                    size: 19491 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/part2/eeg_trial_3_s
 tandard-eps-converted-to.pdf images/part2/eeg_trial_3_standard.eps>
-(epstopdf)             \includegraphics on input line 146.
+(epstopdf)             \includegraphics on input line 258.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/eeg_trial_3_standard-eps-converted-to.pdf, id=280, 852.18375pt x 
+<images/part2/eeg_trial_3_standard-eps-converted-to.pdf, id=760, 852.18375pt x 
 671.50874pt>
 File: images/part2/eeg_trial_3_standard-eps-converted-to.pdf Graphic file (type
  pdf)
  <use images/part2/eeg_trial_3_standard-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/eeg_trial_3_standard-eps-converted-to.pdf
- used on input line 146.
+ used on input line 258.
 (pdftex.def)             Requested size: 154.78653pt x 121.96272pt.
 Package epstopdf Info: Source file: <images/part2/eeg_trial_1_averaged.eps>
 (epstopdf)                    date: 2017-02-25 22:21:17
@@ -1102,16 +2112,16 @@ erted-to.pdf>
 (epstopdf)                    size: 35241 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/part2/eeg_trial_1_a
 veraged-eps-converted-to.pdf images/part2/eeg_trial_1_averaged.eps>
-(epstopdf)             \includegraphics on input line 154.
+(epstopdf)             \includegraphics on input line 266.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/eeg_trial_1_averaged-eps-converted-to.pdf, id=281, 852.18375pt x 
+<images/part2/eeg_trial_1_averaged-eps-converted-to.pdf, id=761, 852.18375pt x 
 670.505pt>
 File: images/part2/eeg_trial_1_averaged-eps-converted-to.pdf Graphic file (type
  pdf)
  <use images/part2/eeg_trial_1_averaged-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/eeg_trial_1_averaged-eps-converted-to.pdf
- used on input line 154.
+ used on input line 266.
 (pdftex.def)             Requested size: 154.78653pt x 121.78041pt.
 Package epstopdf Info: Source file: <images/part2/eeg_trial_2_averaged.eps>
 (epstopdf)                    date: 2017-02-25 22:21:30
@@ -1122,16 +2132,16 @@ erted-to.pdf>
 (epstopdf)                    size: 34866 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/part2/eeg_trial_2_a
 veraged-eps-converted-to.pdf images/part2/eeg_trial_2_averaged.eps>
-(epstopdf)             \includegraphics on input line 155.
+(epstopdf)             \includegraphics on input line 267.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/eeg_trial_2_averaged-eps-converted-to.pdf, id=282, 852.18375pt x 
+<images/part2/eeg_trial_2_averaged-eps-converted-to.pdf, id=762, 852.18375pt x 
 670.505pt>
 File: images/part2/eeg_trial_2_averaged-eps-converted-to.pdf Graphic file (type
  pdf)
  <use images/part2/eeg_trial_2_averaged-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/eeg_trial_2_averaged-eps-converted-to.pdf
- used on input line 155.
+ used on input line 267.
 (pdftex.def)             Requested size: 154.78653pt x 121.78041pt.
 Package epstopdf Info: Source file: <images/part2/eeg_trial_3_averaged.eps>
 (epstopdf)                    date: 2017-02-25 22:21:43
@@ -1142,29 +2152,37 @@ erted-to.pdf>
 (epstopdf)                    size: 35328 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/part2/eeg_trial_3_a
 veraged-eps-converted-to.pdf images/part2/eeg_trial_3_averaged.eps>
-(epstopdf)             \includegraphics on input line 156.
+(epstopdf)             \includegraphics on input line 268.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/eeg_trial_3_averaged-eps-converted-to.pdf, id=283, 852.18375pt x 
+<images/part2/eeg_trial_3_averaged-eps-converted-to.pdf, id=763, 852.18375pt x 
 670.505pt>
 File: images/part2/eeg_trial_3_averaged-eps-converted-to.pdf Graphic file (type
  pdf)
  <use images/part2/eeg_trial_3_averaged-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/eeg_trial_3_averaged-eps-converted-to.pdf
- used on input line 156.
+ used on input line 268.
 (pdftex.def)             Requested size: 154.78653pt x 121.78041pt.
 
-[15 <./images/part2/ar_spectrum_estimate_order_2_9500-eps-converted-to.pdf> <./
-images/part2/ar_spectrum_estimate_order_4_9500-eps-converted-to.pdf> <./images/
-part2/ar_spectrum_estimate_order_12_9500-eps-converted-to.pdf> <./images/part2/
-svd_x-eps-converted-to.pdf> <./images/part2/svd_x_noise-eps-converted-to.pdf> <
-./images/part2/eeg_trial_1_standard-eps-converted-to.pdf> <./images/part2/eeg_t
-rial_2_standard-eps-converted-to.pdf> <./images/part2/eeg_trial_3_standard-eps-
-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+
+ []
+
+[18 <./images/part2/eeg_trial_1_standard-eps-converted-to.pdf> <./images/part2/
+eeg_trial_2_standard-eps-converted-to.pdf> <./images/part2/eeg_trial_3_standard
+-eps-converted-to.pdf> <./images/part2/eeg_trial_1_averaged-eps-converted-to.pd
+f> <./images/part2/eeg_trial_2_averaged-eps-converted-to.pdf> <./images/part2/e
+eg_trial_3_averaged-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/part2/ar_spectrum_eeg_trial_1_order
 _2.eps>
 (epstopdf)                    date: 2017-02-25 22:49:57
@@ -1176,17 +2194,17 @@ _2-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=images/part2/ar_spectrum_e
 eg_trial_1_order_2-eps-converted-to.pdf images/part2/ar_spectrum_eeg_trial_1_or
 der_2.eps>
-(epstopdf)             \includegraphics on input line 180.
+(epstopdf)             \includegraphics on input line 292.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/ar_spectrum_eeg_trial_1_order_2-eps-converted-to.pdf, id=373, 852
+<images/part2/ar_spectrum_eeg_trial_1_order_2-eps-converted-to.pdf, id=835, 852
 .18375pt x 671.50874pt>
 File: images/part2/ar_spectrum_eeg_trial_1_order_2-eps-converted-to.pdf Graphic
  file (type pdf)
 
 <use images/part2/ar_spectrum_eeg_trial_1_order_2-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/ar_spectrum_eeg_trial_1_order_2-eps-conve
-rted-to.pdf used on input line 180.
+rted-to.pdf used on input line 292.
 (pdftex.def)             Requested size: 154.78653pt x 121.96272pt.
 Package epstopdf Info: Source file: <images/part2/ar_spectrum_eeg_trial_1_order
 _4.eps>
@@ -1199,17 +2217,17 @@ _4-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=images/part2/ar_spectrum_e
 eg_trial_1_order_4-eps-converted-to.pdf images/part2/ar_spectrum_eeg_trial_1_or
 der_4.eps>
-(epstopdf)             \includegraphics on input line 181.
+(epstopdf)             \includegraphics on input line 293.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/ar_spectrum_eeg_trial_1_order_4-eps-converted-to.pdf, id=374, 852
+<images/part2/ar_spectrum_eeg_trial_1_order_4-eps-converted-to.pdf, id=836, 852
 .18375pt x 671.50874pt>
 File: images/part2/ar_spectrum_eeg_trial_1_order_4-eps-converted-to.pdf Graphic
  file (type pdf)
 
 <use images/part2/ar_spectrum_eeg_trial_1_order_4-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/ar_spectrum_eeg_trial_1_order_4-eps-conve
-rted-to.pdf used on input line 181.
+rted-to.pdf used on input line 293.
 (pdftex.def)             Requested size: 154.78653pt x 121.96272pt.
 Package epstopdf Info: Source file: <images/part2/ar_spectrum_eeg_trial_1_order
 _10.eps>
@@ -1222,17 +2240,17 @@ _10-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=images/part2/ar_spectrum_e
 eg_trial_1_order_10-eps-converted-to.pdf images/part2/ar_spectrum_eeg_trial_1_o
 rder_10.eps>
-(epstopdf)             \includegraphics on input line 182.
+(epstopdf)             \includegraphics on input line 294.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/ar_spectrum_eeg_trial_1_order_10-eps-converted-to.pdf, id=375, 85
+<images/part2/ar_spectrum_eeg_trial_1_order_10-eps-converted-to.pdf, id=837, 85
 2.18375pt x 671.50874pt>
 File: images/part2/ar_spectrum_eeg_trial_1_order_10-eps-converted-to.pdf Graphi
 c file (type pdf)
 
 <use images/part2/ar_spectrum_eeg_trial_1_order_10-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/ar_spectrum_eeg_trial_1_order_10-eps-conv
-erted-to.pdf used on input line 182.
+erted-to.pdf used on input line 294.
 (pdftex.def)             Requested size: 154.78653pt x 121.96272pt.
 Package epstopdf Info: Source file: <images/part2/ar_spectrum_eeg_trial_2_order
 _8.eps>
@@ -1245,17 +2263,17 @@ _8-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=images/part2/ar_spectrum_e
 eg_trial_2_order_8-eps-converted-to.pdf images/part2/ar_spectrum_eeg_trial_2_or
 der_8.eps>
-(epstopdf)             \includegraphics on input line 183.
+(epstopdf)             \includegraphics on input line 295.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/ar_spectrum_eeg_trial_2_order_8-eps-converted-to.pdf, id=376, 852
+<images/part2/ar_spectrum_eeg_trial_2_order_8-eps-converted-to.pdf, id=838, 852
 .18375pt x 671.50874pt>
 File: images/part2/ar_spectrum_eeg_trial_2_order_8-eps-converted-to.pdf Graphic
  file (type pdf)
 
 <use images/part2/ar_spectrum_eeg_trial_2_order_8-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/ar_spectrum_eeg_trial_2_order_8-eps-conve
-rted-to.pdf used on input line 183.
+rted-to.pdf used on input line 295.
 (pdftex.def)             Requested size: 154.78653pt x 121.96272pt.
 Package epstopdf Info: Source file: <images/part2/ar_spectrum_eeg_trial_2_order
 _12.eps>
@@ -1268,17 +2286,17 @@ _12-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=images/part2/ar_spectrum_e
 eg_trial_2_order_12-eps-converted-to.pdf images/part2/ar_spectrum_eeg_trial_2_o
 rder_12.eps>
-(epstopdf)             \includegraphics on input line 184.
+(epstopdf)             \includegraphics on input line 296.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/ar_spectrum_eeg_trial_2_order_12-eps-converted-to.pdf, id=377, 85
+<images/part2/ar_spectrum_eeg_trial_2_order_12-eps-converted-to.pdf, id=839, 85
 2.18375pt x 671.50874pt>
 File: images/part2/ar_spectrum_eeg_trial_2_order_12-eps-converted-to.pdf Graphi
 c file (type pdf)
 
 <use images/part2/ar_spectrum_eeg_trial_2_order_12-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/ar_spectrum_eeg_trial_2_order_12-eps-conv
-erted-to.pdf used on input line 184.
+erted-to.pdf used on input line 296.
 (pdftex.def)             Requested size: 154.78653pt x 121.96272pt.
 Package epstopdf Info: Source file: <images/part2/ar_spectrum_eeg_trial_2_order
 _20.eps>
@@ -1291,17 +2309,17 @@ _20-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=images/part2/ar_spectrum_e
 eg_trial_2_order_20-eps-converted-to.pdf images/part2/ar_spectrum_eeg_trial_2_o
 rder_20.eps>
-(epstopdf)             \includegraphics on input line 185.
+(epstopdf)             \includegraphics on input line 297.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/ar_spectrum_eeg_trial_2_order_20-eps-converted-to.pdf, id=378, 85
+<images/part2/ar_spectrum_eeg_trial_2_order_20-eps-converted-to.pdf, id=840, 85
 2.18375pt x 671.50874pt>
 File: images/part2/ar_spectrum_eeg_trial_2_order_20-eps-converted-to.pdf Graphi
 c file (type pdf)
 
 <use images/part2/ar_spectrum_eeg_trial_2_order_20-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/ar_spectrum_eeg_trial_2_order_20-eps-conv
-erted-to.pdf used on input line 185.
+erted-to.pdf used on input line 297.
 (pdftex.def)             Requested size: 154.78653pt x 121.96272pt.
 Package epstopdf Info: Source file: <images/part2/ar_spectrum_eeg_trial_3_order
 _2.eps>
@@ -1314,17 +2332,17 @@ _2-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=images/part2/ar_spectrum_e
 eg_trial_3_order_2-eps-converted-to.pdf images/part2/ar_spectrum_eeg_trial_3_or
 der_2.eps>
-(epstopdf)             \includegraphics on input line 186.
+(epstopdf)             \includegraphics on input line 298.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/ar_spectrum_eeg_trial_3_order_2-eps-converted-to.pdf, id=379, 852
+<images/part2/ar_spectrum_eeg_trial_3_order_2-eps-converted-to.pdf, id=841, 852
 .18375pt x 671.50874pt>
 File: images/part2/ar_spectrum_eeg_trial_3_order_2-eps-converted-to.pdf Graphic
  file (type pdf)
 
 <use images/part2/ar_spectrum_eeg_trial_3_order_2-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/ar_spectrum_eeg_trial_3_order_2-eps-conve
-rted-to.pdf used on input line 186.
+rted-to.pdf used on input line 298.
 (pdftex.def)             Requested size: 154.78653pt x 121.96272pt.
 Package epstopdf Info: Source file: <images/part2/ar_spectrum_eeg_trial_3_order
 _13.eps>
@@ -1337,17 +2355,17 @@ _13-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=images/part2/ar_spectrum_e
 eg_trial_3_order_13-eps-converted-to.pdf images/part2/ar_spectrum_eeg_trial_3_o
 rder_13.eps>
-(epstopdf)             \includegraphics on input line 187.
+(epstopdf)             \includegraphics on input line 299.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/ar_spectrum_eeg_trial_3_order_13-eps-converted-to.pdf, id=380, 85
+<images/part2/ar_spectrum_eeg_trial_3_order_13-eps-converted-to.pdf, id=842, 85
 2.18375pt x 671.50874pt>
 File: images/part2/ar_spectrum_eeg_trial_3_order_13-eps-converted-to.pdf Graphi
 c file (type pdf)
 
 <use images/part2/ar_spectrum_eeg_trial_3_order_13-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/ar_spectrum_eeg_trial_3_order_13-eps-conv
-erted-to.pdf used on input line 187.
+erted-to.pdf used on input line 299.
 (pdftex.def)             Requested size: 154.78653pt x 121.96272pt.
 Package epstopdf Info: Source file: <images/part2/ar_spectrum_eeg_trial_3_order
 _35.eps>
@@ -1360,27 +2378,24 @@ _35-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=images/part2/ar_spectrum_e
 eg_trial_3_order_35-eps-converted-to.pdf images/part2/ar_spectrum_eeg_trial_3_o
 rder_35.eps>
-(epstopdf)             \includegraphics on input line 188.
+(epstopdf)             \includegraphics on input line 300.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/part2/ar_spectrum_eeg_trial_3_order_35-eps-converted-to.pdf, id=381, 85
+<images/part2/ar_spectrum_eeg_trial_3_order_35-eps-converted-to.pdf, id=843, 85
 2.18375pt x 671.50874pt>
 File: images/part2/ar_spectrum_eeg_trial_3_order_35-eps-converted-to.pdf Graphi
 c file (type pdf)
 
 <use images/part2/ar_spectrum_eeg_trial_3_order_35-eps-converted-to.pdf>
 Package pdftex.def Info: images/part2/ar_spectrum_eeg_trial_3_order_35-eps-conv
-erted-to.pdf used on input line 188.
+erted-to.pdf used on input line 300.
 (pdftex.def)             Requested size: 154.78653pt x 121.96272pt.
 
-[16 <./images/part2/eeg_trial_1_averaged-eps-converted-to.pdf> <./images/part2/
-eeg_trial_2_averaged-eps-converted-to.pdf> <./images/part2/eeg_trial_3_averaged
--eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
 
  []
 
-) [17 <./images/part2/ar_spectrum_eeg_trial_1_order_2-eps-converted-to.pdf> <./
+) [19 <./images/part2/ar_spectrum_eeg_trial_1_order_2-eps-converted-to.pdf> <./
 images/part2/ar_spectrum_eeg_trial_1_order_4-eps-converted-to.pdf> <./images/pa
 rt2/ar_spectrum_eeg_trial_1_order_10-eps-converted-to.pdf> <./images/part2/ar_s
 pectrum_eeg_trial_2_order_8-eps-converted-to.pdf> <./images/part2/ar_spectrum_e
@@ -1388,34 +2403,1700 @@ eg_trial_2_order_12-eps-converted-to.pdf> <./images/part2/ar_spectrum_eeg_trial
 _2_order_20-eps-converted-to.pdf> <./images/part2/ar_spectrum_eeg_trial_3_order
 _2-eps-converted-to.pdf> <./images/part2/ar_spectrum_eeg_trial_3_order_13-eps-c
 onverted-to.pdf> <./images/part2/ar_spectrum_eeg_trial_3_order_35-eps-converted
--to.pdf>] (./aspmi.aux (./tex/title.aux) (./tex/contentspage.aux)
+-to.pdf>]
+\openout2 = `tex/part3.aux'.
+
+ (./tex/part3.tex
+Package epstopdf Info: Source file: <images/part3/ar_lms_mu_1_realisation.eps>
+(epstopdf)                    date: 2017-02-26 10:39:42
+(epstopdf)                    size: 146484 bytes
+(epstopdf)             Output file: <images/part3/ar_lms_mu_1_realisation-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2017-02-26 10:44:03
+(epstopdf)                    size: 24494 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/ar_lms_mu_1_r
+ealisation-eps-converted-to.pdf images/part3/ar_lms_mu_1_realisation.eps>
+(epstopdf)             \includegraphics on input line 71.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/ar_lms_mu_1_realisation-eps-converted-to.pdf, id=947, 863.225pt x
+ 665.48625pt>
+File: images/part3/ar_lms_mu_1_realisation-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use images/part3/ar_lms_mu_1_realisation-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/ar_lms_mu_1_realisation-eps-converted-to.
+pdf used on input line 71.
+(pdftex.def)             Requested size: 154.78653pt x 119.3254pt.
+Package epstopdf Info: Source file: <images/part3/ar_lms_mu_100_realisation.eps
+>
+(epstopdf)                    date: 2017-02-28 11:47:41
+(epstopdf)                    size: 147279 bytes
+(epstopdf)             Output file: <images/part3/ar_lms_mu_100_realisation-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2017-02-28 12:04:30
+(epstopdf)                    size: 25692 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/ar_lms_mu_100
+_realisation-eps-converted-to.pdf images/part3/ar_lms_mu_100_realisation.eps>
+(epstopdf)             \includegraphics on input line 72.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/ar_lms_mu_100_realisation-eps-converted-to.pdf, id=948, 859.21pt 
+x 669.50125pt>
+File: images/part3/ar_lms_mu_100_realisation-eps-converted-to.pdf Graphic file 
+(type pdf)
+
+<use images/part3/ar_lms_mu_100_realisation-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/ar_lms_mu_100_realisation-eps-converted-t
+o.pdf used on input line 72.
+(pdftex.def)             Requested size: 154.78653pt x 120.60718pt.
+Package epstopdf Info: Source file: <images/part3/time_average_mu_01.eps>
+(epstopdf)                    date: 2017-02-28 08:00:27
+(epstopdf)                    size: 138467 bytes
+(epstopdf)             Output file: <images/part3/time_average_mu_01-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-02-28 08:00:46
+(epstopdf)                    size: 17305 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/time_average_
+mu_01-eps-converted-to.pdf images/part3/time_average_mu_01.eps>
+(epstopdf)             \includegraphics on input line 80.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/time_average_mu_01-eps-converted-to.pdf, id=949, 869.2475pt x 664
+.4825pt>
+File: images/part3/time_average_mu_01-eps-converted-to.pdf Graphic file (type p
+df)
+ <use images/part3/time_average_mu_01-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/time_average_mu_01-eps-converted-to.pdf u
+sed on input line 80.
+(pdftex.def)             Requested size: 154.78653pt x 118.32414pt.
+Package epstopdf Info: Source file: <images/part3/time_average_mu_05.eps>
+(epstopdf)                    date: 2017-02-26 11:04:22
+(epstopdf)                    size: 139298 bytes
+(epstopdf)             Output file: <images/part3/time_average_mu_05-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-02-26 11:04:33
+(epstopdf)                    size: 17387 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/time_average_
+mu_05-eps-converted-to.pdf images/part3/time_average_mu_05.eps>
+(epstopdf)             \includegraphics on input line 81.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/time_average_mu_05-eps-converted-to.pdf, id=950, 869.2475pt x 664
+.4825pt>
+File: images/part3/time_average_mu_05-eps-converted-to.pdf Graphic file (type p
+df)
+ <use images/part3/time_average_mu_05-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/time_average_mu_05-eps-converted-to.pdf u
+sed on input line 81.
+(pdftex.def)             Requested size: 154.78653pt x 118.32414pt.
+ [20
+
+
+ <./images/part3/ar_lms_mu_1_realisation-eps-converted-to.pdf> <./images/part3/
+ar_lms_mu_100_realisation-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/part3/ar_coefficients_evolution_mu_
+01_1_trial.eps>
+(epstopdf)                    date: 2017-02-26 12:08:58
+(epstopdf)                    size: 140958 bytes
+(epstopdf)             Output file: <images/part3/ar_coefficients_evolution_mu_
+01_1_trial-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-26 12:09:33
+(epstopdf)                    size: 23338 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/ar_coefficien
+ts_evolution_mu_01_1_trial-eps-converted-to.pdf images/part3/ar_coefficients_ev
+olution_mu_01_1_trial.eps>
+(epstopdf)             \includegraphics on input line 101.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/ar_coefficients_evolution_mu_01_1_trial-eps-converted-to.pdf, id=
+977, 864.22874pt x 664.4825pt>
+File: images/part3/ar_coefficients_evolution_mu_01_1_trial-eps-converted-to.pdf
+ Graphic file (type pdf)
+
+<use images/part3/ar_coefficients_evolution_mu_01_1_trial-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/ar_coefficients_evolution_mu_01_1_trial-e
+ps-converted-to.pdf used on input line 101.
+(pdftex.def)             Requested size: 154.78653pt x 119.00346pt.
+Package epstopdf Info: Source file: <images/part3/ar_coefficients_evolution_mu_
+05_1_trial.eps>
+(epstopdf)                    date: 2017-02-26 12:08:47
+(epstopdf)                    size: 140948 bytes
+(epstopdf)             Output file: <images/part3/ar_coefficients_evolution_mu_
+05_1_trial-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-26 12:09:33
+(epstopdf)                    size: 23884 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/ar_coefficien
+ts_evolution_mu_05_1_trial-eps-converted-to.pdf images/part3/ar_coefficients_ev
+olution_mu_05_1_trial.eps>
+(epstopdf)             \includegraphics on input line 102.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/ar_coefficients_evolution_mu_05_1_trial-eps-converted-to.pdf, id=
+978, 864.22874pt x 664.4825pt>
+File: images/part3/ar_coefficients_evolution_mu_05_1_trial-eps-converted-to.pdf
+ Graphic file (type pdf)
+
+<use images/part3/ar_coefficients_evolution_mu_05_1_trial-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/ar_coefficients_evolution_mu_05_1_trial-e
+ps-converted-to.pdf used on input line 102.
+(pdftex.def)             Requested size: 154.78653pt x 119.00346pt.
+Package epstopdf Info: Source file: <images/part3/ar_coefficients_evolution_mu_
+01.eps>
+(epstopdf)                    date: 2017-02-26 12:09:25
+(epstopdf)                    size: 148154 bytes
+(epstopdf)             Output file: <images/part3/ar_coefficients_evolution_mu_
+01-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-26 12:09:34
+(epstopdf)                    size: 24461 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/ar_coefficien
+ts_evolution_mu_01-eps-converted-to.pdf images/part3/ar_coefficients_evolution_
+mu_01.eps>
+(epstopdf)             \includegraphics on input line 103.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/ar_coefficients_evolution_mu_01-eps-converted-to.pdf, id=979, 857
+.2025pt x 664.4825pt>
+File: images/part3/ar_coefficients_evolution_mu_01-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use images/part3/ar_coefficients_evolution_mu_01-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/ar_coefficients_evolution_mu_01-eps-conve
+rted-to.pdf used on input line 103.
+(pdftex.def)             Requested size: 154.78653pt x 119.98697pt.
+Package epstopdf Info: Source file: <images/part3/ar_coefficients_evolution_mu_
+05.eps>
+(epstopdf)                    date: 2017-02-26 11:38:10
+(epstopdf)                    size: 65096 bytes
+(epstopdf)             Output file: <images/part3/ar_coefficients_evolution_mu_
+05-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-26 11:39:56
+(epstopdf)                    size: 23102 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/ar_coefficien
+ts_evolution_mu_05-eps-converted-to.pdf images/part3/ar_coefficients_evolution_
+mu_05.eps>
+(epstopdf)             \includegraphics on input line 104.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/ar_coefficients_evolution_mu_05-eps-converted-to.pdf, id=980, 861
+.2175pt x 664.4825pt>
+File: images/part3/ar_coefficients_evolution_mu_05-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use images/part3/ar_coefficients_evolution_mu_05-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/ar_coefficients_evolution_mu_05-eps-conve
+rted-to.pdf used on input line 104.
+(pdftex.def)             Requested size: 154.78653pt x 119.41917pt.
+Package epstopdf Info: Source file: <images/part3/steady_state_ar_coeff_1.eps>
+(epstopdf)                    date: 2017-02-26 11:51:27
+(epstopdf)                    size: 116849 bytes
+(epstopdf)             Output file: <images/part3/steady_state_ar_coeff_1-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2017-02-26 11:52:54
+(epstopdf)                    size: 12287 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/steady_state_
+ar_coeff_1-eps-converted-to.pdf images/part3/steady_state_ar_coeff_1.eps>
+(epstopdf)             \includegraphics on input line 113.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/steady_state_ar_coeff_1-eps-converted-to.pdf, id=981, 872.25874pt
+ x 665.48625pt>
+File: images/part3/steady_state_ar_coeff_1-eps-converted-to.pdf Graphic file (t
+ype pdf)
+
+<use images/part3/steady_state_ar_coeff_1-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/steady_state_ar_coeff_1-eps-converted-to.
+pdf used on input line 113.
+(pdftex.def)             Requested size: 154.78653pt x 118.08655pt.
+Package epstopdf Info: Source file: <images/part3/steady_state_ar_coeff_2.eps>
+(epstopdf)                    date: 2017-02-26 11:51:18
+(epstopdf)                    size: 119665 bytes
+(epstopdf)             Output file: <images/part3/steady_state_ar_coeff_2-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2017-02-26 11:52:54
+(epstopdf)                    size: 12531 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/steady_state_
+ar_coeff_2-eps-converted-to.pdf images/part3/steady_state_ar_coeff_2.eps>
+(epstopdf)             \includegraphics on input line 114.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/steady_state_ar_coeff_2-eps-converted-to.pdf, id=982, 872.25874pt
+ x 666.49pt>
+File: images/part3/steady_state_ar_coeff_2-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use images/part3/steady_state_ar_coeff_2-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/steady_state_ar_coeff_2-eps-converted-to.
+pdf used on input line 114.
+(pdftex.def)             Requested size: 154.78653pt x 118.26466pt.
+
+[21 <./images/part3/time_average_mu_01-eps-converted-to.pdf> <./images/part3/ti
+me_average_mu_05-eps-converted-to.pdf> <./images/part3/ar_coefficients_evolutio
+n_mu_01_1_trial-eps-converted-to.pdf> <./images/part3/ar_coefficients_evolution
+_mu_05_1_trial-eps-converted-to.pdf> <./images/part3/ar_coefficients_evolution_
+mu_01-eps-converted-to.pdf> <./images/part3/ar_coefficients_evolution_mu_05-eps
+-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+[22 <./images/part3/steady_state_ar_coeff_1-eps-converted-to.pdf> <./images/par
+t3/steady_state_ar_coeff_2-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/part3/leaky_mu_01_gamma_01.eps>
+(epstopdf)                    date: 2017-02-26 13:13:42
+(epstopdf)                    size: 261638 bytes
+(epstopdf)             Output file: <images/part3/leaky_mu_01_gamma_01-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2017-02-26 13:14:40
+(epstopdf)                    size: 24532 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/leaky_mu_01_g
+amma_01-eps-converted-to.pdf images/part3/leaky_mu_01_gamma_01.eps>
+(epstopdf)             \includegraphics on input line 182.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/leaky_mu_01_gamma_01-eps-converted-to.pdf, id=1078, 857.2025pt x 
+664.4825pt>
+File: images/part3/leaky_mu_01_gamma_01-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use images/part3/leaky_mu_01_gamma_01-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/leaky_mu_01_gamma_01-eps-converted-to.pdf
+ used on input line 182.
+(pdftex.def)             Requested size: 154.78653pt x 119.98697pt.
+Package epstopdf Info: Source file: <images/part3/leaky_mu_01_gamma_05.eps>
+(epstopdf)                    date: 2017-02-26 13:13:55
+(epstopdf)                    size: 261645 bytes
+(epstopdf)             Output file: <images/part3/leaky_mu_01_gamma_05-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2017-02-26 13:14:41
+(epstopdf)                    size: 24391 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/leaky_mu_01_g
+amma_05-eps-converted-to.pdf images/part3/leaky_mu_01_gamma_05.eps>
+(epstopdf)             \includegraphics on input line 183.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/leaky_mu_01_gamma_05-eps-converted-to.pdf, id=1079, 857.2025pt x 
+664.4825pt>
+File: images/part3/leaky_mu_01_gamma_05-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use images/part3/leaky_mu_01_gamma_05-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/leaky_mu_01_gamma_05-eps-converted-to.pdf
+ used on input line 183.
+(pdftex.def)             Requested size: 154.78653pt x 119.98697pt.
+Package epstopdf Info: Source file: <images/part3/leaky_mu_01_gamma_09.eps>
+(epstopdf)                    date: 2017-02-26 13:14:03
+(epstopdf)                    size: 261631 bytes
+(epstopdf)             Output file: <images/part3/leaky_mu_01_gamma_09-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2017-02-26 13:14:41
+(epstopdf)                    size: 24412 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/leaky_mu_01_g
+amma_09-eps-converted-to.pdf images/part3/leaky_mu_01_gamma_09.eps>
+(epstopdf)             \includegraphics on input line 184.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/leaky_mu_01_gamma_09-eps-converted-to.pdf, id=1080, 857.2025pt x 
+664.4825pt>
+File: images/part3/leaky_mu_01_gamma_09-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use images/part3/leaky_mu_01_gamma_09-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/leaky_mu_01_gamma_09-eps-converted-to.pdf
+ used on input line 184.
+(pdftex.def)             Requested size: 154.78653pt x 119.98697pt.
+Package epstopdf Info: Source file: <images/part3/leaky_mu_05_gamma_01.eps>
+(epstopdf)                    date: 2017-02-26 13:14:11
+(epstopdf)                    size: 261618 bytes
+(epstopdf)             Output file: <images/part3/leaky_mu_05_gamma_01-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2017-02-26 13:14:42
+(epstopdf)                    size: 24552 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/leaky_mu_05_g
+amma_01-eps-converted-to.pdf images/part3/leaky_mu_05_gamma_01.eps>
+(epstopdf)             \includegraphics on input line 185.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/leaky_mu_05_gamma_01-eps-converted-to.pdf, id=1081, 857.2025pt x 
+664.4825pt>
+File: images/part3/leaky_mu_05_gamma_01-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use images/part3/leaky_mu_05_gamma_01-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/leaky_mu_05_gamma_01-eps-converted-to.pdf
+ used on input line 185.
+(pdftex.def)             Requested size: 154.78653pt x 119.98697pt.
+Package epstopdf Info: Source file: <images/part3/leaky_mu_05_gamma_05.eps>
+(epstopdf)                    date: 2017-02-26 13:14:19
+(epstopdf)                    size: 261663 bytes
+(epstopdf)             Output file: <images/part3/leaky_mu_05_gamma_05-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2017-02-26 13:14:42
+(epstopdf)                    size: 24570 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/leaky_mu_05_g
+amma_05-eps-converted-to.pdf images/part3/leaky_mu_05_gamma_05.eps>
+(epstopdf)             \includegraphics on input line 186.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/leaky_mu_05_gamma_05-eps-converted-to.pdf, id=1082, 857.2025pt x 
+664.4825pt>
+File: images/part3/leaky_mu_05_gamma_05-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use images/part3/leaky_mu_05_gamma_05-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/leaky_mu_05_gamma_05-eps-converted-to.pdf
+ used on input line 186.
+(pdftex.def)             Requested size: 154.78653pt x 119.98697pt.
+Package epstopdf Info: Source file: <images/part3/leaky_mu_05_gamma_09.eps>
+(epstopdf)                    date: 2017-02-26 13:14:28
+(epstopdf)                    size: 261655 bytes
+(epstopdf)             Output file: <images/part3/leaky_mu_05_gamma_09-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2017-02-26 13:14:43
+(epstopdf)                    size: 24716 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/leaky_mu_05_g
+amma_09-eps-converted-to.pdf images/part3/leaky_mu_05_gamma_09.eps>
+(epstopdf)             \includegraphics on input line 187.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/leaky_mu_05_gamma_09-eps-converted-to.pdf, id=1083, 857.2025pt x 
+664.4825pt>
+File: images/part3/leaky_mu_05_gamma_09-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use images/part3/leaky_mu_05_gamma_09-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/leaky_mu_05_gamma_09-eps-converted-to.pdf
+ used on input line 187.
+(pdftex.def)             Requested size: 154.78653pt x 119.98697pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
+[23 <./images/part3/leaky_mu_01_gamma_01-eps-converted-to.pdf> <./images/part3/
+leaky_mu_01_gamma_05-eps-converted-to.pdf> <./images/part3/leaky_mu_01_gamma_09
+-eps-converted-to.pdf> <./images/part3/leaky_mu_05_gamma_01-eps-converted-to.pd
+f> <./images/part3/leaky_mu_05_gamma_05-eps-converted-to.pdf> <./images/part3/l
+eaky_mu_05_gamma_09-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+
+ []
+
+Package epstopdf Info: Source file: <images/part3/convergence_of_weights.eps>
+(epstopdf)                    date: 2017-02-26 14:52:15
+(epstopdf)                    size: 195219 bytes
+(epstopdf)             Output file: <images/part3/convergence_of_weights-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2017-02-26 14:53:59
+(epstopdf)                    size: 28997 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/convergence_o
+f_weights-eps-converted-to.pdf images/part3/convergence_of_weights.eps>
+(epstopdf)             \includegraphics on input line 216.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/convergence_of_weights-eps-converted-to.pdf, id=1179, 864.22874pt
+ x 665.48625pt>
+File: images/part3/convergence_of_weights-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use images/part3/convergence_of_weights-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/convergence_of_weights-eps-converted-to.p
+df used on input line 216.
+(pdftex.def)             Requested size: 154.78653pt x 119.18323pt.
+Package epstopdf Info: Source file: <images/part3/convergence_of_weights_db.eps
+>
+(epstopdf)                    date: 2017-02-26 15:05:28
+(epstopdf)                    size: 177845 bytes
+(epstopdf)             Output file: <images/part3/convergence_of_weights_db-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2017-02-26 15:05:45
+(epstopdf)                    size: 35066 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/convergence_o
+f_weights_db-eps-converted-to.pdf images/part3/convergence_of_weights_db.eps>
+(epstopdf)             \includegraphics on input line 217.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/convergence_of_weights_db-eps-converted-to.pdf, id=1180, 868.2437
+4pt x 665.48625pt>
+File: images/part3/convergence_of_weights_db-eps-converted-to.pdf Graphic file 
+(type pdf)
+
+<use images/part3/convergence_of_weights_db-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/convergence_of_weights_db-eps-converted-t
+o.pdf used on input line 217.
+(pdftex.def)             Requested size: 154.78653pt x 118.63489pt.
+Package epstopdf Info: Source file: <images/part3/convergence_of_weights_averag
+ed.eps>
+(epstopdf)                    date: 2017-02-26 15:02:40
+(epstopdf)                    size: 201454 bytes
+(epstopdf)             Output file: <images/part3/convergence_of_weights_averag
+ed-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-26 15:04:25
+(epstopdf)                    size: 31263 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/convergence_o
+f_weights_averaged-eps-converted-to.pdf images/part3/convergence_of_weights_ave
+raged.eps>
+(epstopdf)             \includegraphics on input line 226.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/convergence_of_weights_averaged-eps-converted-to.pdf, id=1181, 86
+4.22874pt x 664.4825pt>
+File: images/part3/convergence_of_weights_averaged-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use images/part3/convergence_of_weights_averaged-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/convergence_of_weights_averaged-eps-conve
+rted-to.pdf used on input line 226.
+(pdftex.def)             Requested size: 154.78653pt x 119.00346pt.
+Package epstopdf Info: Source file: <images/part3/convergence_of_weights_averag
+ed_db.eps>
+(epstopdf)                    date: 2017-02-26 15:06:35
+(epstopdf)                    size: 186250 bytes
+(epstopdf)             Output file: <images/part3/convergence_of_weights_averag
+ed_db-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-26 15:06:46
+(epstopdf)                    size: 38518 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/convergence_o
+f_weights_averaged_db-eps-converted-to.pdf images/part3/convergence_of_weights_
+averaged_db.eps>
+(epstopdf)             \includegraphics on input line 227.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/convergence_of_weights_averaged_db-eps-converted-to.pdf, id=1182,
+ 868.24374pt x 665.48625pt>
+File: images/part3/convergence_of_weights_averaged_db-eps-converted-to.pdf Grap
+hic file (type pdf)
+
+<use images/part3/convergence_of_weights_averaged_db-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/convergence_of_weights_averaged_db-eps-co
+nverted-to.pdf used on input line 227.
+(pdftex.def)             Requested size: 154.78653pt x 118.63489pt.
+
+[24 <./images/part3/convergence_of_weights-eps-converted-to.pdf> <./images/part
+3/convergence_of_weights_db-eps-converted-to.pdf> <./images/part3/convergence_o
+f_weights_averaged-eps-converted-to.pdf> <./images/part3/convergence_of_weights
+_averaged_db-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/part3/compare_benveniste_gngd.eps>
+(epstopdf)                    date: 2017-03-24 14:05:18
+(epstopdf)                    size: 56634 bytes
+(epstopdf)             Output file: <images/part3/compare_benveniste_gngd-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2017-03-24 14:05:27
+(epstopdf)                    size: 32717 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/compare_benve
+niste_gngd-eps-converted-to.pdf images/part3/compare_benveniste_gngd.eps>
+(epstopdf)             \includegraphics on input line 270.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/compare_benveniste_gngd-eps-converted-to.pdf, id=1232, 854.19125p
+t x 685.56125pt>
+File: images/part3/compare_benveniste_gngd-eps-converted-to.pdf Graphic file (t
+ype pdf)
+
+<use images/part3/compare_benveniste_gngd-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/compare_benveniste_gngd-eps-converted-to.
+pdf used on input line 270.
+(pdftex.def)             Requested size: 154.78653pt x 124.22209pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+
+ []
+
+[25 <./images/part3/compare_benveniste_gngd-eps-converted-to.pdf>] [26]
+Package epstopdf Info: Source file: <images/part3/delay_1.eps>
+(epstopdf)                    date: 2017-02-26 19:59:30
+(epstopdf)                    size: 131037 bytes
+(epstopdf)             Output file: <images/part3/delay_1-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2017-02-26 20:01:15
+(epstopdf)                    size: 17713 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/delay_1-eps-c
+onverted-to.pdf images/part3/delay_1.eps>
+(epstopdf)             \includegraphics on input line 362.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/delay_1-eps-converted-to.pdf, id=1247, 864.22874pt x 662.475pt>
+File: images/part3/delay_1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/part3/delay_1-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/delay_1-eps-converted-to.pdf used on inpu
+t line 362.
+(pdftex.def)             Requested size: 116.08989pt x 88.98549pt.
+Package epstopdf Info: Source file: <images/part3/delay_2.eps>
+(epstopdf)                    date: 2017-02-26 19:59:38
+(epstopdf)                    size: 131031 bytes
+(epstopdf)             Output file: <images/part3/delay_2-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2017-02-26 20:01:16
+(epstopdf)                    size: 17745 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/delay_2-eps-c
+onverted-to.pdf images/part3/delay_2.eps>
+(epstopdf)             \includegraphics on input line 363.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/delay_2-eps-converted-to.pdf, id=1248, 864.22874pt x 662.475pt>
+File: images/part3/delay_2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/part3/delay_2-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/delay_2-eps-converted-to.pdf used on inpu
+t line 363.
+(pdftex.def)             Requested size: 116.08989pt x 88.98549pt.
+Package epstopdf Info: Source file: <images/part3/delay_3.eps>
+(epstopdf)                    date: 2017-02-26 19:59:45
+(epstopdf)                    size: 131029 bytes
+(epstopdf)             Output file: <images/part3/delay_3-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2017-02-26 20:01:16
+(epstopdf)                    size: 17702 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/delay_3-eps-c
+onverted-to.pdf images/part3/delay_3.eps>
+(epstopdf)             \includegraphics on input line 364.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/delay_3-eps-converted-to.pdf, id=1249, 864.22874pt x 662.475pt>
+File: images/part3/delay_3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/part3/delay_3-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/delay_3-eps-converted-to.pdf used on inpu
+t line 364.
+(pdftex.def)             Requested size: 116.08989pt x 88.98549pt.
+Package epstopdf Info: Source file: <images/part3/delay_4.eps>
+(epstopdf)                    date: 2017-02-26 19:59:52
+(epstopdf)                    size: 131047 bytes
+(epstopdf)             Output file: <images/part3/delay_4-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2017-02-26 20:01:17
+(epstopdf)                    size: 17624 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/delay_4-eps-c
+onverted-to.pdf images/part3/delay_4.eps>
+(epstopdf)             \includegraphics on input line 365.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/delay_4-eps-converted-to.pdf, id=1250, 864.22874pt x 662.475pt>
+File: images/part3/delay_4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/part3/delay_4-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/delay_4-eps-converted-to.pdf used on inpu
+t line 365.
+(pdftex.def)             Requested size: 116.08989pt x 88.98549pt.
+Package epstopdf Info: Source file: <images/part3/mpse_delay_1.eps>
+(epstopdf)                    date: 2017-02-27 16:58:20
+(epstopdf)                    size: 386051 bytes
+(epstopdf)             Output file: <images/part3/mpse_delay_1-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-02-27 16:58:45
+(epstopdf)                    size: 136618 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/mpse_delay_1-
+eps-converted-to.pdf images/part3/mpse_delay_1.eps>
+(epstopdf)             \includegraphics on input line 366.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/mpse_delay_1-eps-converted-to.pdf, id=1251, 852.18375pt x 660.467
+5pt>
+File: images/part3/mpse_delay_1-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/part3/mpse_delay_1-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/mpse_delay_1-eps-converted-to.pdf used on
+ input line 366.
+(pdftex.def)             Requested size: 116.08989pt x 89.96548pt.
+Package epstopdf Info: Source file: <images/part3/mpse_delay_2.eps>
+(epstopdf)                    date: 2017-02-27 16:58:06
+(epstopdf)                    size: 386081 bytes
+(epstopdf)             Output file: <images/part3/mpse_delay_2-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-02-27 16:58:46
+(epstopdf)                    size: 136803 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/mpse_delay_2-
+eps-converted-to.pdf images/part3/mpse_delay_2.eps>
+(epstopdf)             \includegraphics on input line 367.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/mpse_delay_2-eps-converted-to.pdf, id=1252, 852.18375pt x 660.467
+5pt>
+File: images/part3/mpse_delay_2-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/part3/mpse_delay_2-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/mpse_delay_2-eps-converted-to.pdf used on
+ input line 367.
+(pdftex.def)             Requested size: 116.08989pt x 89.96548pt.
+Package epstopdf Info: Source file: <images/part3/mpse_delay_3.eps>
+(epstopdf)                    date: 2017-02-27 16:57:28
+(epstopdf)                    size: 386076 bytes
+(epstopdf)             Output file: <images/part3/mpse_delay_3-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-02-27 16:57:39
+(epstopdf)                    size: 135431 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/mpse_delay_3-
+eps-converted-to.pdf images/part3/mpse_delay_3.eps>
+(epstopdf)             \includegraphics on input line 368.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/mpse_delay_3-eps-converted-to.pdf, id=1253, 852.18375pt x 660.467
+5pt>
+File: images/part3/mpse_delay_3-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/part3/mpse_delay_3-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/mpse_delay_3-eps-converted-to.pdf used on
+ input line 368.
+(pdftex.def)             Requested size: 116.08989pt x 89.96548pt.
+Package epstopdf Info: Source file: <images/part3/mpse_delay_4.eps>
+(epstopdf)                    date: 2017-02-27 16:58:35
+(epstopdf)                    size: 386003 bytes
+(epstopdf)             Output file: <images/part3/mpse_delay_4-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-02-27 16:58:46
+(epstopdf)                    size: 135268 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/mpse_delay_4-
+eps-converted-to.pdf images/part3/mpse_delay_4.eps>
+(epstopdf)             \includegraphics on input line 369.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/mpse_delay_4-eps-converted-to.pdf, id=1254, 852.18375pt x 660.467
+5pt>
+File: images/part3/mpse_delay_4-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/part3/mpse_delay_4-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/mpse_delay_4-eps-converted-to.pdf used on
+ input line 369.
+(pdftex.def)             Requested size: 116.08989pt x 89.96548pt.
+ [27 <./images/part3/delay_1-eps-converted-to.pdf> <./images/part3/delay_2-eps-
+converted-to.pdf> <./images/part3/delay_3-eps-converted-to.pdf> <./images/part3
+/delay_4-eps-converted-to.pdf> <./images/part3/mpse_delay_1-eps-converted-to.pd
+f> <./images/part3/mpse_delay_2-eps-converted-to.pdf> <./images/part3/mpse_dela
+y_3-eps-converted-to.pdf> <./images/part3/mpse_delay_4-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/part3/delay_vs_mpse.eps>
+(epstopdf)                    date: 2017-03-11 13:17:54
+(epstopdf)                    size: 120811 bytes
+(epstopdf)             Output file: <images/part3/delay_vs_mpse-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2017-03-11 13:18:13
+(epstopdf)                    size: 12651 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/delay_vs_mpse
+-eps-converted-to.pdf images/part3/delay_vs_mpse.eps>
+(epstopdf)             \includegraphics on input line 379.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/delay_vs_mpse-eps-converted-to.pdf, id=1350, 850.17625pt x 665.48
+625pt>
+File: images/part3/delay_vs_mpse-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/part3/delay_vs_mpse-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/delay_vs_mpse-eps-converted-to.pdf used o
+n input line 379.
+(pdftex.def)             Requested size: 154.78653pt x 121.1532pt.
+Package epstopdf Info: Source file: <images/part3/mpse_delay_5.eps>
+(epstopdf)                    date: 2017-02-27 17:17:17
+(epstopdf)                    size: 465603 bytes
+(epstopdf)             Output file: <images/part3/mpse_delay_5-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-02-27 17:18:53
+(epstopdf)                    size: 137000 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/mpse_delay_5-
+eps-converted-to.pdf images/part3/mpse_delay_5.eps>
+(epstopdf)             \includegraphics on input line 380.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/mpse_delay_5-eps-converted-to.pdf, id=1351, 852.18375pt x 670.505
+pt>
+File: images/part3/mpse_delay_5-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/part3/mpse_delay_5-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/mpse_delay_5-eps-converted-to.pdf used on
+ input line 380.
+(pdftex.def)             Requested size: 154.78653pt x 121.78041pt.
+Package epstopdf Info: Source file: <images/part3/mpse_delay_25.eps>
+(epstopdf)                    date: 2017-02-27 17:17:29
+(epstopdf)                    size: 465417 bytes
+(epstopdf)             Output file: <images/part3/mpse_delay_25-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2017-02-27 17:18:54
+(epstopdf)                    size: 135497 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/mpse_delay_25
+-eps-converted-to.pdf images/part3/mpse_delay_25.eps>
+(epstopdf)             \includegraphics on input line 381.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/mpse_delay_25-eps-converted-to.pdf, id=1352, 852.18375pt x 670.50
+5pt>
+File: images/part3/mpse_delay_25-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/part3/mpse_delay_25-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/mpse_delay_25-eps-converted-to.pdf used o
+n input line 381.
+(pdftex.def)             Requested size: 154.78653pt x 121.78041pt.
+Package epstopdf Info: Source file: <images/part3/model_order_mpse.eps>
+(epstopdf)                    date: 2017-02-27 17:32:00
+(epstopdf)                    size: 36490 bytes
+(epstopdf)             Output file: <images/part3/model_order_mpse-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2017-02-27 17:38:32
+(epstopdf)                    size: 10631 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/model_order_m
+pse-eps-converted-to.pdf images/part3/model_order_mpse.eps>
+(epstopdf)             \includegraphics on input line 391.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/model_order_mpse-eps-converted-to.pdf, id=1353, 845.1575pt x 669.
+50125pt>
+File: images/part3/model_order_mpse-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use images/part3/model_order_mpse-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/model_order_mpse-eps-converted-to.pdf use
+d on input line 391.
+(pdftex.def)             Requested size: 154.78653pt x 122.60947pt.
+Package epstopdf Info: Source file: <images/part3/anc_ale_comparison.eps>
+(epstopdf)                    date: 2017-02-27 18:09:49
+(epstopdf)                    size: 63114 bytes
+(epstopdf)             Output file: <images/part3/anc_ale_comparison-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-02-27 18:16:34
+(epstopdf)                    size: 23685 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/anc_ale_compa
+rison-eps-converted-to.pdf images/part3/anc_ale_comparison.eps>
+(epstopdf)             \includegraphics on input line 400.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/anc_ale_comparison-eps-converted-to.pdf, id=1354, 869.2475pt x 66
+5.48625pt>
+File: images/part3/anc_ale_comparison-eps-converted-to.pdf Graphic file (type p
+df)
+ <use images/part3/anc_ale_comparison-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/anc_ale_comparison-eps-converted-to.pdf u
+sed on input line 400.
+(pdftex.def)             Requested size: 154.78653pt x 118.50288pt.
+Package epstopdf Info: Source file: <images/part3/ale_mpse.eps>
+(epstopdf)                    date: 2017-02-27 18:15:07
+(epstopdf)                    size: 386651 bytes
+(epstopdf)             Output file: <images/part3/ale_mpse-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2017-02-27 18:16:34
+(epstopdf)                    size: 137293 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/ale_mpse-eps-
+converted-to.pdf images/part3/ale_mpse.eps>
+(epstopdf)             \includegraphics on input line 401.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/ale_mpse-eps-converted-to.pdf, id=1355, 852.18375pt x 665.48625pt
+>
+File: images/part3/ale_mpse-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/part3/ale_mpse-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/ale_mpse-eps-converted-to.pdf used on inp
+ut line 401.
+(pdftex.def)             Requested size: 154.78653pt x 120.86888pt.
+Package epstopdf Info: Source file: <images/part3/anc_mpse.eps>
+(epstopdf)                    date: 2017-02-27 18:15:53
+(epstopdf)                    size: 386668 bytes
+(epstopdf)             Output file: <images/part3/anc_mpse-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2017-02-27 18:16:35
+(epstopdf)                    size: 135908 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/anc_mpse-eps-
+converted-to.pdf images/part3/anc_mpse.eps>
+(epstopdf)             \includegraphics on input line 402.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/anc_mpse-eps-converted-to.pdf, id=1356, 852.18375pt x 665.48625pt
+>
+File: images/part3/anc_mpse-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/part3/anc_mpse-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/anc_mpse-eps-converted-to.pdf used on inp
+ut line 402.
+(pdftex.def)             Requested size: 154.78653pt x 120.86888pt.
+Package epstopdf Info: Source file: <images/part3/original_POz_spectrogram.eps>
+
+(epstopdf)                    date: 2017-02-28 10:30:27
+(epstopdf)                    size: 1295349 bytes
+(epstopdf)             Output file: <images/part3/original_POz_spectrogram-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2017-02-28 10:32:15
+(epstopdf)                    size: 650514 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/original_POz_
+spectrogram-eps-converted-to.pdf images/part3/original_POz_spectrogram.eps>
+(epstopdf)             \includegraphics on input line 410.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/original_POz_spectrogram-eps-converted-to.pdf, id=1357, 902.37125
+pt x 667.49374pt>
+File: images/part3/original_POz_spectrogram-eps-converted-to.pdf Graphic file (
+type pdf)
+
+<use images/part3/original_POz_spectrogram-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/original_POz_spectrogram-eps-converted-to
+.pdf used on input line 410.
+(pdftex.def)             Requested size: 154.78653pt x 114.49094pt.
+ [28 <./images/part3/delay_vs_mpse-eps-converted-to.pdf> <./images/part3/mpse_d
+elay_5-eps-converted-to.pdf> <./images/part3/mpse_delay_25-eps-converted-to.pdf
+> <./images/part3/model_order_mpse-eps-converted-to.pdf> <./images/part3/anc_al
+e_comparison-eps-converted-to.pdf> <./images/part3/ale_mpse-eps-converted-to.pd
+f> <./images/part3/anc_mpse-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/part3/POz_mu_01_M_10.eps>
+(epstopdf)                    date: 2017-02-28 10:30:42
+(epstopdf)                    size: 743206 bytes
+(epstopdf)             Output file: <images/part3/POz_mu_01_M_10-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-02-28 10:32:15
+(epstopdf)                    size: 672138 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/POz_mu_01_M_1
+0-eps-converted-to.pdf images/part3/POz_mu_01_M_10.eps>
+(epstopdf)             \includegraphics on input line 419.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/POz_mu_01_M_10-eps-converted-to.pdf, id=1430, 902.37125pt x 661.4
+7125pt>
+File: images/part3/POz_mu_01_M_10-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/part3/POz_mu_01_M_10-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/POz_mu_01_M_10-eps-converted-to.pdf used 
+on input line 419.
+(pdftex.def)             Requested size: 116.08989pt x 85.09598pt.
+Package epstopdf Info: Source file: <images/part3/POz_mu_01_M_15.eps>
+(epstopdf)                    date: 2017-02-28 10:31:03
+(epstopdf)                    size: 742184 bytes
+(epstopdf)             Output file: <images/part3/POz_mu_01_M_15-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-02-28 10:32:16
+(epstopdf)                    size: 671451 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/POz_mu_01_M_1
+5-eps-converted-to.pdf images/part3/POz_mu_01_M_15.eps>
+(epstopdf)             \includegraphics on input line 420.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/POz_mu_01_M_15-eps-converted-to.pdf, id=1431, 902.37125pt x 661.4
+7125pt>
+File: images/part3/POz_mu_01_M_15-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/part3/POz_mu_01_M_15-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/POz_mu_01_M_15-eps-converted-to.pdf used 
+on input line 420.
+(pdftex.def)             Requested size: 116.08989pt x 85.09598pt.
+Package epstopdf Info: Source file: <images/part3/POz_mu_01_M_20.eps>
+(epstopdf)                    date: 2017-02-28 10:31:12
+(epstopdf)                    size: 741142 bytes
+(epstopdf)             Output file: <images/part3/POz_mu_01_M_20-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-02-28 10:32:17
+(epstopdf)                    size: 673320 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/POz_mu_01_M_2
+0-eps-converted-to.pdf images/part3/POz_mu_01_M_20.eps>
+(epstopdf)             \includegraphics on input line 421.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/POz_mu_01_M_20-eps-converted-to.pdf, id=1432, 902.37125pt x 661.4
+7125pt>
+File: images/part3/POz_mu_01_M_20-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/part3/POz_mu_01_M_20-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/POz_mu_01_M_20-eps-converted-to.pdf used 
+on input line 421.
+(pdftex.def)             Requested size: 116.08989pt x 85.09598pt.
+Package epstopdf Info: Source file: <images/part3/POz_mu_01_M_25.eps>
+(epstopdf)                    date: 2017-02-28 10:31:44
+(epstopdf)                    size: 739573 bytes
+(epstopdf)             Output file: <images/part3/POz_mu_01_M_25-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-02-28 10:32:17
+(epstopdf)                    size: 673273 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/POz_mu_01_M_2
+5-eps-converted-to.pdf images/part3/POz_mu_01_M_25.eps>
+(epstopdf)             \includegraphics on input line 422.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/POz_mu_01_M_25-eps-converted-to.pdf, id=1433, 902.37125pt x 661.4
+7125pt>
+File: images/part3/POz_mu_01_M_25-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/part3/POz_mu_01_M_25-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/POz_mu_01_M_25-eps-converted-to.pdf used 
+on input line 422.
+(pdftex.def)             Requested size: 116.08989pt x 85.09598pt.
+Package epstopdf Info: Source file: <images/part3/POz_mu_025_M_25.eps>
+(epstopdf)                    date: 2017-02-28 10:31:32
+(epstopdf)                    size: 736532 bytes
+(epstopdf)             Output file: <images/part3/POz_mu_025_M_25-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2017-02-28 10:32:18
+(epstopdf)                    size: 677087 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/POz_mu_025_M_
+25-eps-converted-to.pdf images/part3/POz_mu_025_M_25.eps>
+(epstopdf)             \includegraphics on input line 430.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/POz_mu_025_M_25-eps-converted-to.pdf, id=1434, 902.37125pt x 661.
+47125pt>
+File: images/part3/POz_mu_025_M_25-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use images/part3/POz_mu_025_M_25-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/POz_mu_025_M_25-eps-converted-to.pdf used
+ on input line 430.
+(pdftex.def)             Requested size: 116.08989pt x 85.09598pt.
+Package epstopdf Info: Source file: <images/part3/POz_mu_01_M_25.eps>
+(epstopdf)                    date: 2017-02-28 10:31:44
+(epstopdf)                    size: 739573 bytes
+(epstopdf)             Output file: <images/part3/POz_mu_01_M_25-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-02-28 10:32:17
+(epstopdf)                    size: 673273 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/POz_mu_01_M_2
+5-eps-converted-to.pdf images/part3/POz_mu_01_M_25.eps>
+(epstopdf)             \includegraphics on input line 431.
+Package epstopdf Info: Output file is already uptodate.
+File: images/part3/POz_mu_01_M_25-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/part3/POz_mu_01_M_25-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/POz_mu_01_M_25-eps-converted-to.pdf used 
+on input line 431.
+(pdftex.def)             Requested size: 116.08989pt x 85.09598pt.
+Package epstopdf Info: Source file: <images/part3/POz_mu_005_M_25.eps>
+(epstopdf)                    date: 2017-02-28 10:31:55
+(epstopdf)                    size: 741145 bytes
+(epstopdf)             Output file: <images/part3/POz_mu_005_M_25-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2017-02-28 10:32:19
+(epstopdf)                    size: 670273 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/POz_mu_005_M_
+25-eps-converted-to.pdf images/part3/POz_mu_005_M_25.eps>
+(epstopdf)             \includegraphics on input line 432.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/POz_mu_005_M_25-eps-converted-to.pdf, id=1435, 902.37125pt x 661.
+47125pt>
+File: images/part3/POz_mu_005_M_25-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use images/part3/POz_mu_005_M_25-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/POz_mu_005_M_25-eps-converted-to.pdf used
+ on input line 432.
+(pdftex.def)             Requested size: 116.08989pt x 85.09598pt.
+Package epstopdf Info: Source file: <images/part3/POz_mu_001_M_25.eps>
+(epstopdf)                    date: 2017-02-28 10:32:04
+(epstopdf)                    size: 741538 bytes
+(epstopdf)             Output file: <images/part3/POz_mu_001_M_25-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2017-02-28 10:32:20
+(epstopdf)                    size: 667482 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/POz_mu_001_M_
+25-eps-converted-to.pdf images/part3/POz_mu_001_M_25.eps>
+(epstopdf)             \includegraphics on input line 433.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/POz_mu_001_M_25-eps-converted-to.pdf, id=1436, 902.37125pt x 661.
+47125pt>
+File: images/part3/POz_mu_001_M_25-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use images/part3/POz_mu_001_M_25-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/POz_mu_001_M_25-eps-converted-to.pdf used
+ on input line 433.
+(pdftex.def)             Requested size: 116.08989pt x 85.09598pt.
+Package epstopdf Info: Source file: <images/part3/bartlett_cleaned_Poz.eps>
+(epstopdf)                    date: 2017-03-23 15:25:39
+(epstopdf)                    size: 65600 bytes
+(epstopdf)             Output file: <images/part3/bartlett_cleaned_Poz-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2017-03-23 15:25:48
+(epstopdf)                    size: 26757 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/bartlett_clea
+ned_Poz-eps-converted-to.pdf images/part3/bartlett_cleaned_Poz.eps>
+(epstopdf)             \includegraphics on input line 442.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/bartlett_cleaned_Poz-eps-converted-to.pdf, id=1437, 863.225pt x 6
+90.58pt>
+File: images/part3/bartlett_cleaned_Poz-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use images/part3/bartlett_cleaned_Poz-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/bartlett_cleaned_Poz-eps-converted-to.pdf
+ used on input line 442.
+(pdftex.def)             Requested size: 154.78653pt x 123.82484pt.
+Package epstopdf Info: Source file: <images/part3/squared_error_periodogram.eps
+>
+(epstopdf)                    date: 2017-02-28 09:51:15
+(epstopdf)                    size: 118647 bytes
+(epstopdf)             Output file: <images/part3/squared_error_periodogram-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2017-02-28 09:51:39
+(epstopdf)                    size: 16586 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/squared_error
+_periodogram-eps-converted-to.pdf images/part3/squared_error_periodogram.eps>
+(epstopdf)             \includegraphics on input line 443.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/squared_error_periodogram-eps-converted-to.pdf, id=1438, 863.225p
+t x 675.52374pt>
+File: images/part3/squared_error_periodogram-eps-converted-to.pdf Graphic file 
+(type pdf)
+
+<use images/part3/squared_error_periodogram-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/squared_error_periodogram-eps-converted-t
+o.pdf used on input line 443.
+(pdftex.def)             Requested size: 154.78653pt x 121.12518pt.
+Package epstopdf Info: Source file: <images/part3/squared_error_periodogram_bad
+.eps>
+(epstopdf)                    date: 2017-02-28 09:51:25
+(epstopdf)                    size: 118554 bytes
+(epstopdf)             Output file: <images/part3/squared_error_periodogram_bad
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-28 09:51:39
+(epstopdf)                    size: 16540 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part3/squared_error
+_periodogram_bad-eps-converted-to.pdf images/part3/squared_error_periodogram_ba
+d.eps>
+(epstopdf)             \includegraphics on input line 444.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part3/squared_error_periodogram_bad-eps-converted-to.pdf, id=1439, 863.
+225pt x 675.52374pt>
+File: images/part3/squared_error_periodogram_bad-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use images/part3/squared_error_periodogram_bad-eps-converted-to.pdf>
+Package pdftex.def Info: images/part3/squared_error_periodogram_bad-eps-convert
+ed-to.pdf used on input line 444.
+(pdftex.def)             Requested size: 154.78653pt x 121.12518pt.
+) [29 <./images/part3/original_POz_spectrogram-eps-converted-to.pdf> <./images/
+part3/POz_mu_01_M_10-eps-converted-to.pdf> <./images/part3/POz_mu_01_M_15-eps-c
+onverted-to.pdf> <./images/part3/POz_mu_01_M_20-eps-converted-to.pdf> <./images
+/part3/POz_mu_01_M_25-eps-converted-to.pdf> <./images/part3/POz_mu_025_M_25-eps
+-converted-to.pdf> <./images/part3/POz_mu_005_M_25-eps-converted-to.pdf> <./ima
+ges/part3/POz_mu_001_M_25-eps-converted-to.pdf> <./images/part3/bartlett_cleane
+d_Poz-eps-converted-to.pdf> <./images/part3/squared_error_periodogram-eps-conve
+rted-to.pdf> <./images/part3/squared_error_periodogram_bad-eps-converted-to.pdf
+>]
+\openout2 = `tex/part4.aux'.
+
+
+(./tex/part4.tex
+Package epstopdf Info: Source file: <images/part4/distributions.eps>
+(epstopdf)                    date: 2017-03-24 13:44:02
+(epstopdf)                    size: 549262 bytes
+(epstopdf)             Output file: <images/part4/distributions-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2017-03-24 13:44:22
+(epstopdf)                    size: 182967 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part4/distributions
+-eps-converted-to.pdf images/part4/distributions.eps>
+(epstopdf)             \includegraphics on input line 8.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part4/distributions-eps-converted-to.pdf, id=1584, 845.1575pt x 685.561
+25pt>
+File: images/part4/distributions-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/part4/distributions-eps-converted-to.pdf>
+Package pdftex.def Info: images/part4/distributions-eps-converted-to.pdf used o
+n input line 8.
+(pdftex.def)             Requested size: 154.78653pt x 125.55061pt.
+Package epstopdf Info: Source file: <images/part4/learning_curves_clms_aclms.ep
+s>
+(epstopdf)                    date: 2017-03-24 13:44:50
+(epstopdf)                    size: 141484 bytes
+(epstopdf)             Output file: <images/part4/learning_curves_clms_aclms-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2017-03-24 13:44:56
+(epstopdf)                    size: 74906 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part4/learning_curv
+es_clms_aclms-eps-converted-to.pdf images/part4/learning_curves_clms_aclms.eps>
+
+(epstopdf)             \includegraphics on input line 9.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part4/learning_curves_clms_aclms-eps-converted-to.pdf, id=1585, 868.243
+74pt x 685.56125pt>
+File: images/part4/learning_curves_clms_aclms-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use images/part4/learning_curves_clms_aclms-eps-converted-to.pdf>
+Package pdftex.def Info: images/part4/learning_curves_clms_aclms-eps-converted-
+to.pdf used on input line 9.
+(pdftex.def)             Requested size: 154.78653pt x 122.21362pt.
+Package epstopdf Info: Source file: <images/part4/circularity_low_wind.eps>
+(epstopdf)                    date: 2017-03-11 15:22:13
+(epstopdf)                    size: 228974 bytes
+(epstopdf)             Output file: <images/part4/circularity_low_wind-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2017-03-11 15:22:22
+(epstopdf)                    size: 38090 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part4/circularity_l
+ow_wind-eps-converted-to.pdf images/part4/circularity_low_wind.eps>
+(epstopdf)             \includegraphics on input line 17.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part4/circularity_low_wind-eps-converted-to.pdf, id=1586, 847.165pt x 6
+78.535pt>
+File: images/part4/circularity_low_wind-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use images/part4/circularity_low_wind-eps-converted-to.pdf>
+Package pdftex.def Info: images/part4/circularity_low_wind-eps-converted-to.pdf
+ used on input line 17.
+(pdftex.def)             Requested size: 154.78653pt x 123.97397pt.
+Package epstopdf Info: Source file: <images/part4/circularity_medium_wind.eps>
+(epstopdf)                    date: 2017-03-11 15:22:04
+(epstopdf)                    size: 733146 bytes
+(epstopdf)             Output file: <images/part4/circularity_medium_wind-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2017-03-11 15:22:23
+(epstopdf)                    size: 126658 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part4/circularity_m
+edium_wind-eps-converted-to.pdf images/part4/circularity_medium_wind.eps>
+(epstopdf)             \includegraphics on input line 18.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part4/circularity_medium_wind-eps-converted-to.pdf, id=1587, 847.165pt 
+x 678.535pt>
+File: images/part4/circularity_medium_wind-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use images/part4/circularity_medium_wind-eps-converted-to.pdf>
+Package pdftex.def Info: images/part4/circularity_medium_wind-eps-converted-to.
+pdf used on input line 18.
+(pdftex.def)             Requested size: 154.78653pt x 123.97397pt.
+Package epstopdf Info: Source file: <images/part4/circularity_high_wind.eps>
+(epstopdf)                    date: 2017-03-11 15:21:54
+(epstopdf)                    size: 807358 bytes
+(epstopdf)             Output file: <images/part4/circularity_high_wind-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2017-03-11 15:22:24
+(epstopdf)                    size: 149248 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part4/circularity_h
+igh_wind-eps-converted-to.pdf images/part4/circularity_high_wind.eps>
+(epstopdf)             \includegraphics on input line 19.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part4/circularity_high_wind-eps-converted-to.pdf, id=1588, 847.165pt x 
+678.535pt>
+File: images/part4/circularity_high_wind-eps-converted-to.pdf Graphic file (typ
+e pdf)
+ <use images/part4/circularity_high_wind-eps-converted-to.pdf>
+Package pdftex.def Info: images/part4/circularity_high_wind-eps-converted-to.pd
+f used on input line 19.
+(pdftex.def)             Requested size: 154.78653pt x 123.97397pt.
+Package epstopdf Info: Source file: <images/part4/filt_order_low_wind.eps>
+(epstopdf)                    date: 2017-02-28 13:44:56
+(epstopdf)                    size: 206978 bytes
+(epstopdf)             Output file: <images/part4/filt_order_low_wind-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2017-02-28 13:45:11
+(epstopdf)                    size: 15417 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part4/filt_order_lo
+w_wind-eps-converted-to.pdf images/part4/filt_order_low_wind.eps>
+(epstopdf)             \includegraphics on input line 28.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part4/filt_order_low_wind-eps-converted-to.pdf, id=1589, 864.22874pt x 
+670.505pt>
+File: images/part4/filt_order_low_wind-eps-converted-to.pdf Graphic file (type 
+pdf)
+ <use images/part4/filt_order_low_wind-eps-converted-to.pdf>
+Package pdftex.def Info: images/part4/filt_order_low_wind-eps-converted-to.pdf 
+used on input line 28.
+(pdftex.def)             Requested size: 154.78653pt x 120.08206pt.
+Package epstopdf Info: Source file: <images/part4/filt_order_medium_wind.eps>
+(epstopdf)                    date: 2017-02-28 13:44:31
+(epstopdf)                    size: 201682 bytes
+(epstopdf)             Output file: <images/part4/filt_order_medium_wind-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2017-02-28 13:45:11
+(epstopdf)                    size: 15632 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part4/filt_order_me
+dium_wind-eps-converted-to.pdf images/part4/filt_order_medium_wind.eps>
+(epstopdf)             \includegraphics on input line 29.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part4/filt_order_medium_wind-eps-converted-to.pdf, id=1590, 864.22874pt
+ x 670.505pt>
+File: images/part4/filt_order_medium_wind-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use images/part4/filt_order_medium_wind-eps-converted-to.pdf>
+Package pdftex.def Info: images/part4/filt_order_medium_wind-eps-converted-to.p
+df used on input line 29.
+(pdftex.def)             Requested size: 154.78653pt x 120.08206pt.
+Package epstopdf Info: Source file: <images/part4/filt_order_high_wind.eps>
+(epstopdf)                    date: 2017-02-28 13:39:11
+(epstopdf)                    size: 205532 bytes
+(epstopdf)             Output file: <images/part4/filt_order_high_wind-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2017-02-28 13:43:48
+(epstopdf)                    size: 15712 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part4/filt_order_hi
+gh_wind-eps-converted-to.pdf images/part4/filt_order_high_wind.eps>
+(epstopdf)             \includegraphics on input line 30.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part4/filt_order_high_wind-eps-converted-to.pdf, id=1591, 854.19125pt x
+ 670.505pt>
+File: images/part4/filt_order_high_wind-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use images/part4/filt_order_high_wind-eps-converted-to.pdf>
+Package pdftex.def Info: images/part4/filt_order_high_wind-eps-converted-to.pdf
+ used on input line 30.
+(pdftex.def)             Requested size: 154.78653pt x 121.49394pt.
+
+[30
+
+
+ <./images/part4/distributions-eps-converted-to.pdf> <./images/part4/learning_c
+urves_clms_aclms-eps-converted-to.pdf> <./images/part4/circularity_low_wind-eps
+-converted-to.pdf> <./images/part4/circularity_medium_wind-eps-converted-to.pdf
+> <./images/part4/circularity_high_wind-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+Missing character: There is no â in font cmbx10!
+Missing character: There is no € in font cmbx10!
+Missing character: There is no “ in font cmbx10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+Package epstopdf Info: Source file: <images/part4/balanced_signal.eps>
+(epstopdf)                    date: 2017-02-28 16:01:13
+(epstopdf)                    size: 260306 bytes
+(epstopdf)             Output file: <images/part4/balanced_signal-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2017-02-28 16:02:28
+(epstopdf)                    size: 17963 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part4/balanced_sign
+al-eps-converted-to.pdf images/part4/balanced_signal.eps>
+(epstopdf)             \includegraphics on input line 55.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part4/balanced_signal-eps-converted-to.pdf, id=1636, 861.2175pt x 673.5
+1625pt>
+File: images/part4/balanced_signal-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use images/part4/balanced_signal-eps-converted-to.pdf>
+Package pdftex.def Info: images/part4/balanced_signal-eps-converted-to.pdf used
+ on input line 55.
+(pdftex.def)             Requested size: 154.78653pt x 121.0427pt.
+Package epstopdf Info: Source file: <images/part4/unbalanced_phase_distortion.e
+ps>
+(epstopdf)                    date: 2017-02-28 16:00:21
+(epstopdf)                    size: 942664 bytes
+(epstopdf)             Output file: <images/part4/unbalanced_phase_distortion-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-28 16:02:29
+(epstopdf)                    size: 46384 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part4/unbalanced_ph
+ase_distortion-eps-converted-to.pdf images/part4/unbalanced_phase_distortion.ep
+s>
+(epstopdf)             \includegraphics on input line 56.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part4/unbalanced_phase_distortion-eps-converted-to.pdf, id=1637, 861.21
+75pt x 673.51625pt>
+File: images/part4/unbalanced_phase_distortion-eps-converted-to.pdf Graphic fil
+e (type pdf)
+
+<use images/part4/unbalanced_phase_distortion-eps-converted-to.pdf>
+Package pdftex.def Info: images/part4/unbalanced_phase_distortion-eps-converted
+-to.pdf used on input line 56.
+(pdftex.def)             Requested size: 154.78653pt x 121.0427pt.
+Package epstopdf Info: Source file: <images/part4/unbalanced_magnitude_distorti
+on.eps>
+(epstopdf)                    date: 2017-02-28 16:09:10
+(epstopdf)                    size: 945261 bytes
+(epstopdf)             Output file: <images/part4/unbalanced_magnitude_distorti
+on-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-28 16:09:19
+(epstopdf)                    size: 44593 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part4/unbalanced_ma
+gnitude_distortion-eps-converted-to.pdf images/part4/unbalanced_magnitude_disto
+rtion.eps>
+(epstopdf)             \includegraphics on input line 57.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part4/unbalanced_magnitude_distortion-eps-converted-to.pdf, id=1638, 86
+1.2175pt x 668.4975pt>
+File: images/part4/unbalanced_magnitude_distortion-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use images/part4/unbalanced_magnitude_distortion-eps-converted-to.pdf>
+Package pdftex.def Info: images/part4/unbalanced_magnitude_distortion-eps-conve
+rted-to.pdf used on input line 57.
+(pdftex.def)             Requested size: 154.78653pt x 120.14075pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+[31 <./images/part4/filt_order_low_wind-eps-converted-to.pdf> <./images/part4/f
+ilt_order_medium_wind-eps-converted-to.pdf> <./images/part4/filt_order_high_win
+d-eps-converted-to.pdf> <./images/part4/balanced_signal-eps-converted-to.pdf> <
+./images/part4/unbalanced_phase_distortion-eps-converted-to.pdf> <./images/part
+4/unbalanced_magnitude_distortion-eps-converted-to.pdf>]
+Overfull \hbox (16.04434pt too wide) in paragraph at lines 117--117
+[] 
+ []
+
+[32] [33]
+Package epstopdf Info: Source file: <images/part4/balanced_sys_clms_aclms.eps>
+(epstopdf)                    date: 2017-02-28 17:11:36
+(epstopdf)                    size: 125146 bytes
+(epstopdf)             Output file: <images/part4/balanced_sys_clms_aclms-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2017-02-28 17:22:12
+(epstopdf)                    size: 13917 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part4/balanced_sys_
+clms_aclms-eps-converted-to.pdf images/part4/balanced_sys_clms_aclms.eps>
+(epstopdf)             \includegraphics on input line 190.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part4/balanced_sys_clms_aclms-eps-converted-to.pdf, id=1756, 855.195pt 
+x 665.48625pt>
+File: images/part4/balanced_sys_clms_aclms-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use images/part4/balanced_sys_clms_aclms-eps-converted-to.pdf>
+Package pdftex.def Info: images/part4/balanced_sys_clms_aclms-eps-converted-to.
+pdf used on input line 190.
+(pdftex.def)             Requested size: 154.78653pt x 120.4424pt.
+Package epstopdf Info: Source file: <images/part4/unbalanced_sys_clms_aclms_pha
+se.eps>
+(epstopdf)                    date: 2017-02-28 17:19:58
+(epstopdf)                    size: 217715 bytes
+(epstopdf)             Output file: <images/part4/unbalanced_sys_clms_aclms_pha
+se-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-28 17:22:13
+(epstopdf)                    size: 20562 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part4/unbalanced_sy
+s_clms_aclms_phase-eps-converted-to.pdf images/part4/unbalanced_sys_clms_aclms_
+phase.eps>
+(epstopdf)             \includegraphics on input line 198.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part4/unbalanced_sys_clms_aclms_phase-eps-converted-to.pdf, id=1757, 86
+8.24374pt x 669.50125pt>
+File: images/part4/unbalanced_sys_clms_aclms_phase-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use images/part4/unbalanced_sys_clms_aclms_phase-eps-converted-to.pdf>
+Package pdftex.def Info: images/part4/unbalanced_sys_clms_aclms_phase-eps-conve
+rted-to.pdf used on input line 198.
+(pdftex.def)             Requested size: 154.78653pt x 119.35065pt.
+Package epstopdf Info: Source file: <images/part4/unbalanced_sys_clms_aclms_mag
+nitude.eps>
+(epstopdf)                    date: 2017-02-28 17:20:16
+(epstopdf)                    size: 136007 bytes
+(epstopdf)             Output file: <images/part4/unbalanced_sys_clms_aclms_mag
+nitude-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-28 17:22:13
+(epstopdf)                    size: 19144 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part4/unbalanced_sy
+s_clms_aclms_magnitude-eps-converted-to.pdf images/part4/unbalanced_sys_clms_ac
+lms_magnitude.eps>
+(epstopdf)             \includegraphics on input line 199.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part4/unbalanced_sys_clms_aclms_magnitude-eps-converted-to.pdf, id=1758
+, 868.24374pt x 668.4975pt>
+File: images/part4/unbalanced_sys_clms_aclms_magnitude-eps-converted-to.pdf Gra
+phic file (type pdf)
+
+<use images/part4/unbalanced_sys_clms_aclms_magnitude-eps-converted-to.pdf>
+Package pdftex.def Info: images/part4/unbalanced_sys_clms_aclms_magnitude-eps-c
+onverted-to.pdf used on input line 199.
+(pdftex.def)             Requested size: 154.78653pt x 119.1717pt.
+Package epstopdf Info: Source file: <images/part4/magntiude_plot_4_e.eps>
+(epstopdf)                    date: 2017-03-23 10:39:58
+(epstopdf)                    size: 489372 bytes
+(epstopdf)             Output file: <images/part4/magntiude_plot_4_e-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-03-23 10:40:38
+(epstopdf)                    size: 141363 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part4/magntiude_plo
+t_4_e-eps-converted-to.pdf images/part4/magntiude_plot_4_e.eps>
+(epstopdf)             \includegraphics on input line 208.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part4/magntiude_plot_4_e-eps-converted-to.pdf, id=1759, 861.2175pt x 68
+8.5725pt>
+File: images/part4/magntiude_plot_4_e-eps-converted-to.pdf Graphic file (type p
+df)
+ <use images/part4/magntiude_plot_4_e-eps-converted-to.pdf>
+Package pdftex.def Info: images/part4/magntiude_plot_4_e-eps-converted-to.pdf u
+sed on input line 208.
+(pdftex.def)             Requested size: 154.78653pt x 123.74857pt.
+ [34 <./images/part4/balanced_sys_clms_aclms-eps-converted-to.pdf> <./images/pa
+rt4/unbalanced_sys_clms_aclms_phase-eps-converted-to.pdf> <./images/part4/unbal
+anced_sys_clms_aclms_magnitude-eps-converted-to.pdf> <./images/part4/magntiude_
+plot_4_e-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/part4/frequency_original_fm_signal.
+eps>
+(epstopdf)                    date: 2017-03-23 11:17:14
+(epstopdf)                    size: 42787 bytes
+(epstopdf)             Output file: <images/part4/frequency_original_fm_signal-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2017-03-23 11:21:41
+(epstopdf)                    size: 15001 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part4/frequency_ori
+ginal_fm_signal-eps-converted-to.pdf images/part4/frequency_original_fm_signal.
+eps>
+(epstopdf)             \includegraphics on input line 218.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part4/frequency_original_fm_signal-eps-converted-to.pdf, id=1812, 866.2
+3625pt x 685.56125pt>
+File: images/part4/frequency_original_fm_signal-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use images/part4/frequency_original_fm_signal-eps-converted-to.pdf>
+Package pdftex.def Info: images/part4/frequency_original_fm_signal-eps-converte
+d-to.pdf used on input line 218.
+(pdftex.def)             Requested size: 154.78653pt x 122.49606pt.
+Package epstopdf Info: Source file: <images/part4/frequency_aryule_fm_signal.ep
+s>
+(epstopdf)                    date: 2017-03-23 11:06:43
+(epstopdf)                    size: 48270 bytes
+(epstopdf)             Output file: <images/part4/frequency_aryule_fm_signal-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2017-03-23 11:14:05
+(epstopdf)                    size: 19723 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part4/frequency_ary
+ule_fm_signal-eps-converted-to.pdf images/part4/frequency_aryule_fm_signal.eps>
+
+(epstopdf)             \includegraphics on input line 219.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part4/frequency_aryule_fm_signal-eps-converted-to.pdf, id=1813, 858.206
+25pt x 690.58pt>
+File: images/part4/frequency_aryule_fm_signal-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use images/part4/frequency_aryule_fm_signal-eps-converted-to.pdf>
+Package pdftex.def Info: images/part4/frequency_aryule_fm_signal-eps-converted-
+to.pdf used on input line 219.
+(pdftex.def)             Requested size: 154.78653pt x 124.55193pt.
+Package epstopdf Info: Source file: <images/part4/const_order_1.eps>
+(epstopdf)                    date: 2017-03-23 11:12:04
+(epstopdf)                    size: 28035 bytes
+(epstopdf)             Output file: <images/part4/const_order_1-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2017-03-23 11:14:06
+(epstopdf)                    size: 12860 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part4/const_order_1
+-eps-converted-to.pdf images/part4/const_order_1.eps>
+(epstopdf)             \includegraphics on input line 228.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part4/const_order_1-eps-converted-to.pdf, id=1814, 858.20625pt x 690.58
+pt>
+File: images/part4/const_order_1-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/part4/const_order_1-eps-converted-to.pdf>
+Package pdftex.def Info: images/part4/const_order_1-eps-converted-to.pdf used o
+n input line 228.
+(pdftex.def)             Requested size: 154.78653pt x 124.55193pt.
+Package epstopdf Info: Source file: <images/part4/linear_order_1.eps>
+(epstopdf)                    date: 2017-03-23 11:11:44
+(epstopdf)                    size: 28028 bytes
+(epstopdf)             Output file: <images/part4/linear_order_1-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-03-23 11:14:06
+(epstopdf)                    size: 12695 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part4/linear_order_
+1-eps-converted-to.pdf images/part4/linear_order_1.eps>
+(epstopdf)             \includegraphics on input line 229.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part4/linear_order_1-eps-converted-to.pdf, id=1815, 858.20625pt x 690.5
+8pt>
+File: images/part4/linear_order_1-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/part4/linear_order_1-eps-converted-to.pdf>
+Package pdftex.def Info: images/part4/linear_order_1-eps-converted-to.pdf used 
+on input line 229.
+(pdftex.def)             Requested size: 154.78653pt x 124.55193pt.
+Package epstopdf Info: Source file: <images/part4/quad_order_1.eps>
+(epstopdf)                    date: 2017-03-23 11:10:57
+(epstopdf)                    size: 28019 bytes
+(epstopdf)             Output file: <images/part4/quad_order_1-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-03-23 11:14:07
+(epstopdf)                    size: 12959 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part4/quad_order_1-
+eps-converted-to.pdf images/part4/quad_order_1.eps>
+(epstopdf)             \includegraphics on input line 230.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part4/quad_order_1-eps-converted-to.pdf, id=1816, 858.20625pt x 690.58p
+t>
+File: images/part4/quad_order_1-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/part4/quad_order_1-eps-converted-to.pdf>
+Package pdftex.def Info: images/part4/quad_order_1-eps-converted-to.pdf used on
+ input line 230.
+(pdftex.def)             Requested size: 154.78653pt x 124.55193pt.
+Package epstopdf Info: Source file: <images/part4/const_order_10.eps>
+(epstopdf)                    date: 2017-03-23 11:12:19
+(epstopdf)                    size: 28024 bytes
+(epstopdf)             Output file: <images/part4/const_order_10-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-03-23 11:14:07
+(epstopdf)                    size: 12798 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part4/const_order_1
+0-eps-converted-to.pdf images/part4/const_order_10.eps>
+(epstopdf)             \includegraphics on input line 231.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part4/const_order_10-eps-converted-to.pdf, id=1817, 858.20625pt x 690.5
+8pt>
+File: images/part4/const_order_10-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/part4/const_order_10-eps-converted-to.pdf>
+Package pdftex.def Info: images/part4/const_order_10-eps-converted-to.pdf used 
+on input line 231.
+(pdftex.def)             Requested size: 154.78653pt x 124.55193pt.
+Package epstopdf Info: Source file: <images/part4/linear_order_20.eps>
+(epstopdf)                    date: 2017-03-23 11:11:30
+(epstopdf)                    size: 28040 bytes
+(epstopdf)             Output file: <images/part4/linear_order_20-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2017-03-23 11:14:08
+(epstopdf)                    size: 12719 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part4/linear_order_
+20-eps-converted-to.pdf images/part4/linear_order_20.eps>
+(epstopdf)             \includegraphics on input line 232.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part4/linear_order_20-eps-converted-to.pdf, id=1818, 858.20625pt x 690.
+58pt>
+File: images/part4/linear_order_20-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use images/part4/linear_order_20-eps-converted-to.pdf>
+Package pdftex.def Info: images/part4/linear_order_20-eps-converted-to.pdf used
+ on input line 232.
+(pdftex.def)             Requested size: 154.78653pt x 124.55193pt.
+Package epstopdf Info: Source file: <images/part4/quad_order_20.eps>
+(epstopdf)                    date: 2017-03-23 11:10:38
+(epstopdf)                    size: 28037 bytes
+(epstopdf)             Output file: <images/part4/quad_order_20-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2017-03-23 11:14:08
+(epstopdf)                    size: 13023 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/part4/quad_order_20
+-eps-converted-to.pdf images/part4/quad_order_20.eps>
+(epstopdf)             \includegraphics on input line 233.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/part4/quad_order_20-eps-converted-to.pdf, id=1819, 858.20625pt x 690.58
+pt>
+File: images/part4/quad_order_20-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/part4/quad_order_20-eps-converted-to.pdf>
+Package pdftex.def Info: images/part4/quad_order_20-eps-converted-to.pdf used o
+n input line 233.
+(pdftex.def)             Requested size: 154.78653pt x 124.55193pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
+[35 <./images/part4/frequency_original_fm_signal-eps-converted-to.pdf> <./image
+s/part4/frequency_aryule_fm_signal-eps-converted-to.pdf> <./images/part4/const_
+order_1-eps-converted-to.pdf> <./images/part4/linear_order_1-eps-converted-to.p
+df> <./images/part4/quad_order_1-eps-converted-to.pdf> <./images/part4/const_or
+der_10-eps-converted-to.pdf> <./images/part4/linear_order_20-eps-converted-to.p
+df> <./images/part4/quad_order_20-eps-converted-to.pdf>]
+<images/part4/frequency_clms_fm_signal_1.png, id=1888, 865.83475pt x 659.86525p
+t>
+File: images/part4/frequency_clms_fm_signal_1.png Graphic file (type png)
+ <use images/part4/frequency_clms_fm_signal_1.png>
+Package pdftex.def Info: images/part4/frequency_clms_fm_signal_1.png used on in
+put line 243.
+(pdftex.def)             Requested size: 154.78653pt x 117.96512pt.
+
+<images/part4/frequency_clms_fm_signal_01.png, id=1889, 865.83475pt x 659.86525
+pt>
+File: images/part4/frequency_clms_fm_signal_01.png Graphic file (type png)
+ <use images/part4/frequency_clms_fm_signal_01.png>
+Package pdftex.def Info: images/part4/frequency_clms_fm_signal_01.png used on i
+nput line 244.
+(pdftex.def)             Requested size: 154.78653pt x 117.96512pt.
+
+<images/part4/frequency_clms_fm_signal_0025.png, id=1890, 865.83475pt x 659.865
+25pt>
+File: images/part4/frequency_clms_fm_signal_0025.png Graphic file (type png)
+ <use images/part4/frequency_clms_fm_signal_0025.png>
+Package pdftex.def Info: images/part4/frequency_clms_fm_signal_0025.png used on
+ input line 245.
+(pdftex.def)             Requested size: 154.78653pt x 117.96512pt.
+ [36 <./images/part4/frequency_clms_fm_signal_1.png> <./images/part4/frequency_
+clms_fm_signal_01.png> <./images/part4/frequency_clms_fm_signal_0025.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
+
+ []
+
+
+<images/part4/time_frequency_dft_non_leaky.png, id=1898, 865.83475pt x 660.6682
+4pt>
+File: images/part4/time_frequency_dft_non_leaky.png Graphic file (type png)
+ <use images/part4/time_frequency_dft_non_leaky.png>
+Package pdftex.def Info: images/part4/time_frequency_dft_non_leaky.png used on 
+input line 337.
+(pdftex.def)             Requested size: 154.78653pt x 118.10867pt.
+
+<images/part4/time_frequency_dft_leaky.png, id=1899, 865.83475pt x 664.081pt>
+File: images/part4/time_frequency_dft_leaky.png Graphic file (type png)
+
+<use images/part4/time_frequency_dft_leaky.png>
+Package pdftex.def Info: images/part4/time_frequency_dft_leaky.png used on inpu
+t line 345.
+(pdftex.def)             Requested size: 154.78653pt x 118.71877pt.
+ [37 <./images/part4/time_frequency_dft_non_leaky.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+
+ []
+
+
+<images/part4/eeg_time_frequency_dft_non_leaky.png, id=1904, 865.83475pt x 664.
+081pt>
+File: images/part4/eeg_time_frequency_dft_non_leaky.png Graphic file (type png)
+
+ <use images/part4/eeg_time_frequency_dft_non_leaky.png>
+Package pdftex.def Info: images/part4/eeg_time_frequency_dft_non_leaky.png used
+ on input line 355.
+(pdftex.def)             Requested size: 154.78653pt x 118.71877pt.
+
+<images/part4/eeg_time_frequency_dft_leaky.png, id=1905, 865.83475pt x 664.081p
+t>
+File: images/part4/eeg_time_frequency_dft_leaky.png Graphic file (type png)
+ <use images/part4/eeg_time_frequency_dft_leaky.png>
+Package pdftex.def Info: images/part4/eeg_time_frequency_dft_leaky.png used on 
+input line 356.
+(pdftex.def)             Requested size: 154.78653pt x 118.71877pt.
+) [38 <./images/part4/time_frequency_dft_leaky.png> <./images/part4/eeg_time_fr
+equency_dft_non_leaky.png> <./images/part4/eeg_time_frequency_dft_leaky.png>]
+\openout2 = `tex/bibliography.aux'.
+
+ (./tex/bibliography.tex
+(./aspmi.bbl)) [39
+
+
+] (./aspmi.aux (./tex/title.aux) (./tex/contentspage.aux)
 (./tex/part1.aux) (./tex/part2.aux) (./tex/part3.aux) (./tex/part4.aux)
 (./tex/bibliography.aux)) ) 
 Here is how much of TeX's memory you used:
- 3881 strings out of 493014
- 64033 string characters out of 6133351
- 129423 words of memory out of 5000000
- 7272 multiletter control sequences out of 15000+600000
- 9306 words of font info for 35 fonts, out of 8000000 for 9000
+ 4589 strings out of 493014
+ 97401 string characters out of 6133351
+ 140310 words of memory out of 5000000
+ 7818 multiletter control sequences out of 15000+600000
+ 16187 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,6n,28p,1137b,229s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,20n,28p,1593b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols
-/msbm10.pfb>
-Output written on aspmi.pdf (7 pages, 1299994 bytes).
+/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmcsc10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmib10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr5.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on aspmi.pdf (40 pages, 17297857 bytes).
 PDF statistics:
- 561 PDF objects out of 1000 (max. 8388607)
- 378 compressed objects within 4 object streams
+ 1990 PDF objects out of 2073 (max. 8388607)
+ 1320 compressed objects within 14 object streams
  0 named destinations out of 1000 (max. 500000)
- 226 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 821 words of extra memory for PDF output out of 10000 (max. 10000000)
 

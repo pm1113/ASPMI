@@ -101,8 +101,9 @@ P(\omega)	&= \sum_{\tau=-\infty}^{\infty}r(\tau)e^{-j\tau\omega} \label{eq:psd_d
 \noindent{}d. The vectors $\textbf{w}$ and $\textbf{n}$ do indeed depend on if the sequence is odd or even. The formula are described in the table below.
 
 \begin{table}[H]
-  \centering
-    \begin{tabular}{|c|c|c|c|c|c|}
+\tabulinesep=0.9mm
+\centering
+    \begin{tabu}{|c|c|c|c|c|c|}
         \hline
         \textbf{Sequence Type} & \textbf{Formula for $\textbf{w}$} & \textbf{Formula for $\textbf{n}$} \\
         \hline
@@ -110,7 +111,7 @@ P(\omega)	&= \sum_{\tau=-\infty}^{\infty}r(\tau)e^{-j\tau\omega} \label{eq:psd_d
         \hline
         \textbf{Odd} & $-\pi+\frac{\pi}{L}:\frac{2\pi}{L-1}:\pi-\frac{\pi}{L}$ & $-\frac{L-1}{2}:1:\frac{L-1}{2}$ \\
         \hline
-    \end{tabular}%
+    \end{tabu}%
   \caption{Formule for vectors $\textbf{w}$ and $\textbf{n}$}
 \end{table}%
 
@@ -216,6 +217,7 @@ P(\omega)	&= \sum_{\tau=-\infty}^{\infty}r(\tau)e^{-j\tau\omega} \label{eq:psd_d
 \caption{Blackman-Tukey Method for Identification of Two Sinusoidal Tones}
 \end{figure}
 
+\newpage
 \subsection{Periodogram-based Methods Applied to Real-World Data}
 
 \noindent{}a. The figure below shows the periodogram, with and without pre-processing, for the sunspot time series. It is evident that the periodograms produced by removing the mean and removing the trend are very similar. These two periodograms are also extremely similar to the original periodogram beyond $f_n=0.2$.

@@ -150,8 +150,8 @@ hold on;
 plot(w_cleaned,pow2db(pxx_cleaned),'LineWidth',line_width,'Color',colors(4,:));
 plot(w_semi_cleaned,pow2db(pxx_semi_cleaned),'LineWidth',line_width,'Color',colors(2,:))
 hold off;
-pranav_plot('Bartlett Periodogram of EEG', 'Frequency (Hz)', 'Power/Frequency (dB/Hz)', {'Original Noisy POz Signal', 'mu=0.001, M=25', 'mu=0.025, M=25'}, [0 60 -140 -90], 1);
-% graph_saving('../report/images/part3/bartlett_cleaned_Poz');
+pranav_plot('Welch Periodogram of EEG', 'Frequency (Hz)', 'Power/Frequency (dB/Hz)', {'Original Noisy POz Signal', 'mu=0.001, M=25', 'mu=0.025, M=25'}, [0 60 -140 -90], 1);
+graph_saving('../report/images/part3/bartlett_cleaned_Poz');
 
 %% Squared Error In Bartlett Periodograms, mu=0.001, M=25
 figure(11)

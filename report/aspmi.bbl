@@ -5,4 +5,9 @@ Monson~H Hayes.
 \newblock {\em Statistical digital signal processing and modeling}.
 \newblock John Wiley \& Sons, 2009.
 
+\bibitem{mandic2004generalized}
+Danilo~P Mandic.
+\newblock A generalized normalized gradient descent algorithm.
+\newblock {\em IEEE signal processing letters}, 11(2):115--118, 2004.
+
 \end{thebibliography}
